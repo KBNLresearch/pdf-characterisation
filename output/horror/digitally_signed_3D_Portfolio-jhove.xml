@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
+ <date>2023-05-11T17:26:02+02:00</date>
+ <repInfo uri="/home/johan/kb/format-corpus/pdfCabinetOfHorrors/digitally_signed_3D_Portfolio.pdf">
+  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <lastModified>2021-09-02T16:51:37+02:00</lastModified>
+  <size>4723857</size>
+  <format>PDF</format>
+  <version>1.7</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>application/pdf</mimeType>
+  <profiles>
+   <profile>Linearized PDF</profile>
+  </profiles>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>0</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>0</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>ViewerPreferences</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>HideToolbar</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>HideMenubar</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>HideWindowUI</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>FitWindow</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>CenterWindow</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>DisplayDocTitle</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>NonFullScreenPageMode</name>
+       <values arity="Scalar" type="String">
+        <value>UseNone</value>
+       </values>
+      </property>
+      <property>
+       <name>Direction</name>
+       <values arity="Scalar" type="String">
+        <value>L2R</value>
+       </values>
+      </property>
+      <property>
+       <name>ViewArea</name>
+       <values arity="Scalar" type="String">
+        <value>CropBox</value>
+       </values>
+      </property>
+      <property>
+       <name>ViewClip</name>
+       <values arity="Scalar" type="String">
+        <value>CropBox</value>
+       </values>
+      </property>
+      <property>
+       <name>PrintArea</name>
+       <values arity="Scalar" type="String">
+        <value>CropBox</value>
+       </values>
+      </property>
+      <property>
+       <name>PageClip</name>
+       <values arity="Scalar" type="String">
+        <value>CropBox</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     <property>
+      <name>DeveloperPrefix</name>
+      <values arity="Scalar" type="String">
+       <value>ADBE</value>
+      </values>
+     </property>
+     <property>
+      <name>BaseVersion</name>
+      <values arity="Scalar" type="String">
+       <value>1.7</value>
+      </values>
+     </property>
+     <property>
+      <name>ExtensionLevel</name>
+      <values arity="Scalar" type="Integer">
+       <value>3</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>FlateDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Type1</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>PSUJFT+MyriadPro-Bold</value>
+        </values>
+       </property>
+       <property>
+        <name>FontSubset</name>
+        <values arity="Scalar" type="Boolean">
+         <value>true</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>120</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>PSUJFT+MyriadPro-Bold</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-163</value>
+          <value>-250</value>
+          <value>1256</value>
+          <value>989</value>
+         </values>
+        </property>
+        <property>
+         <name>FontFile3</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       <property>
+        <name>ToUnicode</name>
+        <values arity="Scalar" type="Boolean">
+         <value>true</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>ZUSRPZ+MyriadPro-Semibold</value>
+        </values>
+       </property>
+       <property>
+        <name>FontSubset</name>
+        <values arity="Scalar" type="Boolean">
+         <value>true</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>119</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>ZUSRPZ+MyriadPro-Semibold</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-161</value>
+          <value>-250</value>
+          <value>1198</value>
+          <value>972</value>
+         </values>
+        </property>
+        <property>
+         <name>FontFile3</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       <property>
+        <name>ToUnicode</name>
+        <values arity="Scalar" type="Boolean">
+         <value>true</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>XMP</name>
+     <values arity="Scalar" type="String">
+      <value>&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c043 52.372728, 2009/01/18-15:08:04        "&gt;
+   &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"&gt;
+         &lt;xmp:ModifyDate&gt;2009-05-12T09:05:50-07:00&lt;/xmp:ModifyDate&gt;
+         &lt;xmp:CreateDate&gt;2009-04-01T16:08:57-07:00&lt;/xmp:CreateDate&gt;
+         &lt;xmp:MetadataDate&gt;2009-05-12T09:05:50-07:00&lt;/xmp:MetadataDate&gt;
+         &lt;xmp:CreatorTool&gt;Adobe Acrobat Pro Extended 9.1.0&lt;/xmp:CreatorTool&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+         &lt;dc:format&gt;application/pdf&lt;/dc:format&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"&gt;
+         &lt;xmpMM:DocumentID&gt;uuid:2d7598db-3b0a-4510-bc0a-4ac1c570a3fa&lt;/xmpMM:DocumentID&gt;
+         &lt;xmpMM:InstanceID&gt;uuid:725cc304-4eab-41ed-82fb-823d7adf7a52&lt;/xmpMM:InstanceID&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"&gt;
+         &lt;pdf:Producer&gt;Adobe Acrobat Pro Extended 9.1.0&lt;/pdf:Producer&gt;
+      &lt;/rdf:Description&gt;
+   &lt;/rdf:RDF&gt;
+&lt;/x:xmpmeta&gt;</value>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      <property>
+       <name>Annotations</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Annotation</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Subtype</name>
+         <values arity="Scalar" type="String">
+          <value>Link</value>
+         </values>
+        </property>
+        <property>
+         <name>Rect</name>
+         <values arity="Array" type="Integer">
+          <value>165</value>
+          <value>39</value>
+          <value>333</value>
+          <value>63</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>

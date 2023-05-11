@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
+ <date>2023-05-11T17:30:38+02:00</date>
+ <repInfo uri="./pdfAcrobatEngineering/multimedia/Binder_6-3DPages.pdf">
+  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <lastModified>2013-07-18T15:45:40+02:00</lastModified>
+  <size>9372926</size>
+  <format>PDF</format>
+  <version>1.6</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>application/pdf</mimeType>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>134</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>4</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     <property>
+      <name>Outlines</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Item</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Title</name>
+        <values arity="Scalar" type="String">
+         <value>Building.pdf</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Item</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Title</name>
+        <values arity="Scalar" type="String">
+         <value>Morpher.pdf</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Item</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Title</name>
+        <values arity="Scalar" type="String">
+         <value>BreakColours.pdf</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Item</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Title</name>
+        <values arity="Scalar" type="String">
+         <value>EngineReduced.pdf</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Item</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Title</name>
+        <values arity="Scalar" type="String">
+         <value>Attacker_OnPageOpen.pdf</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Item</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Title</name>
+        <values arity="Scalar" type="String">
+         <value>AnimArm.pdf</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Creator</name>
+      <values arity="Scalar" type="String">
+       <value>Adobe Acrobat 7.0</value>
+      </values>
+     </property>
+     <property>
+      <name>Producer</name>
+      <values arity="Scalar" type="String">
+       <value>Adobe Acrobat 7.0</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Sat Nov 13 15:44:47 CET 2004</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Sat Nov 13 15:49:07 CET 2004</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0x7415a62a5caf274cb4b4a962001a9f88</value>
+      <value>0x39677331c48a5543a47679ed41250689</value>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>FlateDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>XMP</name>
+     <values arity="Scalar" type="String">
+      <value>&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="3.1-701"&gt;
+   &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:xap="http://ns.adobe.com/xap/1.0/"&gt;
+         &lt;xap:ModifyDate&gt;2004-11-13T14:49:07-08:00&lt;/xap:ModifyDate&gt;
+         &lt;xap:CreateDate&gt;2004-11-13T14:44:47-08:00&lt;/xap:CreateDate&gt;
+         &lt;xap:MetadataDate&gt;2004-11-13T14:49:07-08:00&lt;/xap:MetadataDate&gt;
+         &lt;xap:CreatorTool&gt;Adobe Acrobat 7.0&lt;/xap:CreatorTool&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+         &lt;dc:format&gt;application/pdf&lt;/dc:format&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/"&gt;
+         &lt;xapMM:DocumentID&gt;uuid:407c3c82-c552-4d34-8979-471851d484f6&lt;/xapMM:DocumentID&gt;
+         &lt;xapMM:InstanceID&gt;uuid:f8a1908e-2ce7-4223-ae3a-b243b70a9666&lt;/xapMM:InstanceID&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"&gt;
+         &lt;pdf:Producer&gt;Adobe Acrobat 7.0&lt;/pdf:Producer&gt;
+      &lt;/rdf:Description&gt;
+   &lt;/rdf:RDF&gt;
+&lt;/x:xmpmeta&gt;</value>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      <property>
+       <name>Annotations</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Annotation</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Subtype</name>
+         <values arity="Scalar" type="String">
+          <value>3D</value>
+         </values>
+        </property>
+        <property>
+         <name>Contents</name>
+         <values arity="Scalar" type="String">
+          <value>3D Model</value>
+         </values>
+        </property>
+        <property>
+         <name>Rect</name>
+         <values arity="Array" type="Integer">
+          <value>0</value>
+          <value>0</value>
+          <value>791</value>
+          <value>612</value>
+         </values>
+        </property>
+         <property>
+          <name>Flags</name>
+          <values arity="List" type="String">
+           <value>Print</value>
+           <value>ReadOnly</value>
+          </values>
+         </property>
+         <property>
+          <name>AppearanceDictionary</name>
+          <values arity="Scalar" type="Boolean">
+           <value>true</value>
+          </values>
+         </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+      <property>
+       <name>Page</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Sequence</name>
+        <values arity="Scalar" type="Integer">
+         <value>2</value>
+        </values>
+       </property>
+       <property>
+        <name>Annotations</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Annotation</name>
+         <values arity="List" type="Property">
+         <property>
+          <name>Subtype</name>
+          <values arity="Scalar" type="String">
+           <value>3D</value>
+          </values>
+         </property>
+         <property>
+          <name>Contents</name>
+          <values arity="Scalar" type="String">
+           <value>3D Model</value>
+          </values>
+         </property>
+         <property>
+          <name>Rect</name>
+          <values arity="Array" type="Integer">
+           <value>0</value>
+           <value>0</value>
+           <value>611</value>
+           <value>792</value>
+          </values>
+         </property>
+          <property>
+           <name>Flags</name>
+           <values arity="List" type="String">
+            <value>Print</value>
+            <value>ReadOnly</value>
+           </values>
+          </property>
+          <property>
+           <name>AppearanceDictionary</name>
+           <values arity="Scalar" type="Boolean">
+            <value>true</value>
+           </values>
+          </property>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+       <property>
+        <name>Page</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Sequence</name>
+         <values arity="Scalar" type="Integer">
+          <value>3</value>
+         </values>
+        </property>
+        <property>
+         <name>Annotations</name>
+         <values arity="List" type="Property">
+         <property>
+          <name>Annotation</name>
+          <values arity="List" type="Property">
+          <property>
+           <name>Subtype</name>
+           <values arity="Scalar" type="String">
+            <value>3D</value>
+           </values>
+          </property>
+          <property>
+           <name>Contents</name>
+           <values arity="Scalar" type="String">
+            <value>3D Model</value>
+           </values>
+          </property>
+          <property>
+           <name>Rect</name>
+           <values arity="Array" type="Integer">
+            <value>0</value>
+            <value>0</value>
+            <value>791</value>
+            <value>612</value>
+           </values>
+          </property>
+           <property>
+            <name>Flags</name>
+            <values arity="List" type="String">
+             <value>Print</value>
+             <value>ReadOnly</value>
+            </values>
+           </property>
+           <property>
+            <name>AppearanceDictionary</name>
+            <values arity="Scalar" type="Boolean">
+             <value>true</value>
+            </values>
+           </property>
+          </values>
+         </property>
+         </values>
+        </property>
+        </values>
+       </property>
+        <property>
+         <name>Page</name>
+         <values arity="List" type="Property">
+         <property>
+          <name>Sequence</name>
+          <values arity="Scalar" type="Integer">
+           <value>4</value>
+          </values>
+         </property>
+         <property>
+          <name>Annotations</name>
+          <values arity="List" type="Property">
+          <property>
+           <name>Annotation</name>
+           <values arity="List" type="Property">
+           <property>
+            <name>Subtype</name>
+            <values arity="Scalar" type="String">
+             <value>3D</value>
+            </values>
+           </property>
+           <property>
+            <name>Contents</name>
+            <values arity="Scalar" type="String">
+             <value>3D Model</value>
+            </values>
+           </property>
+           <property>
+            <name>Rect</name>
+            <values arity="Array" type="Integer">
+             <value>0</value>
+             <value>0</value>
+             <value>792</value>
+             <value>611</value>
+            </values>
+           </property>
+            <property>
+             <name>Flags</name>
+             <values arity="List" type="String">
+              <value>Print</value>
+              <value>ReadOnly</value>
+             </values>
+            </property>
+            <property>
+             <name>AppearanceDictionary</name>
+             <values arity="Scalar" type="Boolean">
+              <value>true</value>
+             </values>
+            </property>
+           </values>
+          </property>
+          </values>
+         </property>
+          <property>
+           <name>Rotate</name>
+           <values arity="Scalar" type="Integer">
+            <value>90</value>
+           </values>
+          </property>
+         </values>
+        </property>
+         <property>
+          <name>Page</name>
+          <values arity="List" type="Property">
+          <property>
+           <name>Sequence</name>
+           <values arity="Scalar" type="Integer">
+            <value>5</value>
+           </values>
+          </property>
+          <property>
+           <name>Annotations</name>
+           <values arity="List" type="Property">
+           <property>
+            <name>Annotation</name>
+            <values arity="List" type="Property">
+            <property>
+             <name>Subtype</name>
+             <values arity="Scalar" type="String">
+              <value>3D</value>
+             </values>
+            </property>
+            <property>
+             <name>Contents</name>
+             <values arity="Scalar" type="String">
+              <value>3D Model</value>
+             </values>
+            </property>
+            <property>
+             <name>Rect</name>
+             <values arity="Array" type="Integer">
+              <value>0</value>
+              <value>0</value>
+              <value>791</value>
+              <value>612</value>
+             </values>
+            </property>
+             <property>
+              <name>Flags</name>
+              <values arity="List" type="String">
+               <value>Print</value>
+               <value>ReadOnly</value>
+              </values>
+             </property>
+             <property>
+              <name>AppearanceDictionary</name>
+              <values arity="Scalar" type="Boolean">
+               <value>true</value>
+              </values>
+             </property>
+            </values>
+           </property>
+           </values>
+          </property>
+          </values>
+         </property>
+          <property>
+           <name>Page</name>
+           <values arity="List" type="Property">
+           <property>
+            <name>Sequence</name>
+            <values arity="Scalar" type="Integer">
+             <value>6</value>
+            </values>
+           </property>
+           <property>
+            <name>Annotations</name>
+            <values arity="List" type="Property">
+            <property>
+             <name>Annotation</name>
+             <values arity="List" type="Property">
+             <property>
+              <name>Subtype</name>
+              <values arity="Scalar" type="String">
+               <value>3D</value>
+              </values>
+             </property>
+             <property>
+              <name>Contents</name>
+              <values arity="Scalar" type="String">
+               <value>3D Model</value>
+              </values>
+             </property>
+             <property>
+              <name>Rect</name>
+              <values arity="Array" type="Integer">
+               <value>0</value>
+               <value>0</value>
+               <value>791</value>
+               <value>612</value>
+              </values>
+             </property>
+              <property>
+               <name>Flags</name>
+               <values arity="List" type="String">
+                <value>Print</value>
+                <value>ReadOnly</value>
+               </values>
+              </property>
+              <property>
+               <name>AppearanceDictionary</name>
+               <values arity="Scalar" type="Boolean">
+                <value>true</value>
+               </values>
+              </property>
+             </values>
+            </property>
+            </values>
+           </property>
+           </values>
+          </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+      </jhove>

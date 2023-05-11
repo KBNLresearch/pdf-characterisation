@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="698427">
+        <name>/home/johan/kb/format-corpus/pdfCabinetOfHorrors/balloon_a1b_jp2k.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Title">balloon</entry>
+          <entry key="Producer">ImageMagick 6.8.9-8 Q16 x64 2014-08-26 http://www.imagemagick.org</entry>
+          <entry key="CreationDate">2016-03-04T18:24:38.000Z</entry>
+          <entry key="ModDate">2016-03-04T18:24:38.000Z</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage></xmpPackage>
+        </metadata>
+        <lowLevelInfo>
+          <pdfVersion>1.3</pdfVersion>
+          <indirectObjectsNumber>10</indirectObjectsNumber>
+          <documentId modificationId="¦ji38ˆm6·#x000016ÒÕXqN£7#x000015#x00000E|§ÄzÁ2òNr#x00000C«ž‰" creationId="¥ji38ˆm6·#x000016ÒÕXqN£7#x000015#x00000E|§ÄzÁ2òNr#x00000C«ž‰"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="JPXDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <pages>
+          <page orderNumber="1">
+            <width>2717.000</width>
+            <height>3701.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="2717.000" ury="3701.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="2717.000" ury="3701.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="2717.000" ury="3701.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="2717.000" ury="3701.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="2717.000" ury="3701.000"></artBox>
+            <rotation>0</rotation>
+            <thumbnail id="xobjIndir8"></thumbnail>
+            <resources>
+              <xobjects>
+                <xobject id="xobjIndir6"></xobject>
+              </xobjects>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+          </colorSpaces>
+          <xobjects>
+            <xobject id="xobjIndir8" type="image">
+              <width>78</width>
+              <height>106</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>JPXDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir6" type="image">
+              <width>2717</width>
+              <height>3701</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>JPXDecode</filter>
+              </filters>
+            </xobject>
+          </xobjects>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683818746277" finish="1683818746320">00:00:00.043</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683818746182" finish="1683818746349">00:00:00.167</duration>
+  </batchSummary>
+</report>

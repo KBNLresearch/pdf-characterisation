@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
+ <date>2023-05-11T17:25:42+02:00</date>
+ <repInfo uri="/home/johan/kb/format-corpus/pdfCabinetOfHorrors/text_only_pdfa1b.pdf">
+  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <lastModified>2021-09-02T16:51:37+02:00</lastModified>
+  <size>39513</size>
+  <format>PDF</format>
+  <version>1.4</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>application/pdf</mimeType>
+  <profiles>
+   <profile>Tagged PDF</profile>
+  </profiles>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>29</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>4</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>0</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>OneColumn</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     <property>
+      <name>Language</name>
+      <values arity="Scalar" type="String">
+       <value>EN-GB</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Title</name>
+      <values arity="Scalar" type="String">
+       <value>This is a test document</value>
+      </values>
+     </property>
+     <property>
+      <name>Author</name>
+      <values arity="Scalar" type="String">
+       <value>van der Knijff</value>
+      </values>
+     </property>
+       <property>
+        <name>Creator</name>
+        <values arity="Scalar" type="String">
+         <value>Acrobat PDFMaker 9.1 voor Word</value>
+        </values>
+       </property>
+       <property>
+        <name>Producer</name>
+        <values arity="Scalar" type="String">
+         <value>Acrobat Distiller 9.5.2 (Windows)</value>
+        </values>
+       </property>
+       <property>
+        <name>CreationDate</name>
+        <values arity="Scalar" type="Date">
+         <value>Fri Nov 23 14:23:09 CET 2012</value>
+        </values>
+       </property>
+       <property>
+        <name>ModDate</name>
+        <values arity="Scalar" type="Date">
+         <value>Fri Nov 23 14:23:11 CET 2012</value>
+        </values>
+       </property>
+     </values>
+    </property>
+      <property>
+       <name>ID</name>
+       <values arity="Array" type="String">
+        <value>0x49ce23e38c438c305ee31046740ddc87</value>
+        <value>0x10f9421ba7455c4c99bbb6249ce8ccf8</value>
+       </values>
+      </property>
+      <property>
+       <name>Filters</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>FilterPipeline</name>
+        <values arity="Scalar" type="String">
+         <value>FlateDecode</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Fonts</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>TrueType</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Font</name>
+         <values arity="List" type="Property">
+         <property>
+          <name>BaseFont</name>
+          <values arity="Scalar" type="String">
+           <value>KOPHKN+TimesNewRomanPSMT</value>
+          </values>
+         </property>
+         <property>
+          <name>FontSubset</name>
+          <values arity="Scalar" type="Boolean">
+           <value>true</value>
+          </values>
+         </property>
+         <property>
+          <name>FirstChar</name>
+          <values arity="Scalar" type="Integer">
+           <value>32</value>
+          </values>
+         </property>
+         <property>
+          <name>LastChar</name>
+          <values arity="Scalar" type="Integer">
+           <value>121</value>
+          </values>
+         </property>
+         <property>
+          <name>FontDescriptor</name>
+          <values arity="List" type="Property">
+          <property>
+           <name>FontName</name>
+           <values arity="Scalar" type="String">
+            <value>KOPHKN+TimesNewRomanPSMT</value>
+           </values>
+          </property>
+          <property>
+           <name>Flags</name>
+           <values arity="List" type="String">
+            <value>Serif</value>
+            <value>Nonsymbolic</value>
+           </values>
+          </property>
+          <property>
+           <name>FontBBox</name>
+           <values arity="Array" type="Integer">
+            <value>-568</value>
+            <value>-307</value>
+            <value>2000</value>
+            <value>1007</value>
+           </values>
+          </property>
+          <property>
+           <name>FontFile2</name>
+           <values arity="Scalar" type="Boolean">
+            <value>true</value>
+           </values>
+          </property>
+          </values>
+         </property>
+         <property>
+          <name>Encoding</name>
+          <values arity="Scalar" type="String">
+           <value>WinAnsiEncoding</value>
+          </values>
+         </property>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>XMP</name>
+       <values arity="Scalar" type="String">
+        <value>&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c043 52.372728, 2009/01/18-15:08:04        "&gt;
+   &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"&gt;
+         &lt;pdfaid:part&gt;1&lt;/pdfaid:part&gt;
+         &lt;pdfaid:conformance&gt;B&lt;/pdfaid:conformance&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"&gt;
+         &lt;xmp:CreateDate&gt;2012-11-23T14:23:09+01:00&lt;/xmp:CreateDate&gt;
+         &lt;xmp:CreatorTool&gt;Acrobat PDFMaker 9.1 voor Word&lt;/xmp:CreatorTool&gt;
+         &lt;xmp:ModifyDate&gt;2012-11-23T14:23:11+01:00&lt;/xmp:ModifyDate&gt;
+         &lt;xmp:MetadataDate&gt;2012-11-23T14:23:11+01:00&lt;/xmp:MetadataDate&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"&gt;
+         &lt;pdf:Producer&gt;Acrobat Distiller 9.5.2 (Windows)&lt;/pdf:Producer&gt;
+         &lt;pdf:Keywords/&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+         &lt;dc:format&gt;application/pdf&lt;/dc:format&gt;
+         &lt;dc:creator&gt;
+            &lt;rdf:Seq&gt;
+               &lt;rdf:li&gt;van der Knijff&lt;/rdf:li&gt;
+            &lt;/rdf:Seq&gt;
+         &lt;/dc:creator&gt;
+         &lt;dc:title&gt;
+            &lt;rdf:Alt&gt;
+               &lt;rdf:li xml:lang="x-default"&gt;This is a test document&lt;/rdf:li&gt;
+            &lt;/rdf:Alt&gt;
+         &lt;/dc:title&gt;
+         &lt;dc:description&gt;
+            &lt;rdf:Alt&gt;
+               &lt;rdf:li xml:lang="x-default"/&gt;
+            &lt;/rdf:Alt&gt;
+         &lt;/dc:description&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"&gt;
+         &lt;xmpMM:DocumentID&gt;uuid:788977ca-2293-411f-b3a1-dae3d7d955a3&lt;/xmpMM:DocumentID&gt;
+         &lt;xmpMM:InstanceID&gt;uuid:2adf117d-02ba-4cf8-9c7e-bb52da37e085&lt;/xmpMM:InstanceID&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/"
+            xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#"
+            xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#"&gt;
+         &lt;pdfaExtension:schemas&gt;
+            &lt;rdf:Bag&gt;
+               &lt;rdf:li rdf:parseType="Resource"&gt;
+                  &lt;pdfaSchema:namespaceURI&gt;http://ns.adobe.com/xap/1.0/mm/&lt;/pdfaSchema:namespaceURI&gt;
+                  &lt;pdfaSchema:prefix&gt;xmpMM&lt;/pdfaSchema:prefix&gt;
+                  &lt;pdfaSchema:schema&gt;XMP Media Management Schema&lt;/pdfaSchema:schema&gt;
+                  &lt;pdfaSchema:property&gt;
+                     &lt;rdf:Seq&gt;
+                        &lt;rdf:li rdf:parseType="Resource"&gt;
+                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+                           &lt;pdfaProperty:description&gt;UUID based identifier for specific incarnation of a document&lt;/pdfaProperty:description&gt;
+                           &lt;pdfaProperty:name&gt;InstanceID&lt;/pdfaProperty:name&gt;
+                           &lt;pdfaProperty:valueType&gt;URI&lt;/pdfaProperty:valueType&gt;
+                        &lt;/rdf:li&gt;
+                     &lt;/rdf:Seq&gt;
+                  &lt;/pdfaSchema:property&gt;
+               &lt;/rdf:li&gt;
+               &lt;rdf:li rdf:parseType="Resource"&gt;
+                  &lt;pdfaSchema:namespaceURI&gt;http://www.aiim.org/pdfa/ns/id/&lt;/pdfaSchema:namespaceURI&gt;
+                  &lt;pdfaSchema:prefix&gt;pdfaid&lt;/pdfaSchema:prefix&gt;
+                  &lt;pdfaSchema:schema&gt;PDF/A ID Schema&lt;/pdfaSchema:schema&gt;
+                  &lt;pdfaSchema:property&gt;
+                     &lt;rdf:Seq&gt;
+                        &lt;rdf:li rdf:parseType="Resource"&gt;
+                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+                           &lt;pdfaProperty:description&gt;Part of PDF/A standard&lt;/pdfaProperty:description&gt;
+                           &lt;pdfaProperty:name&gt;part&lt;/pdfaProperty:name&gt;
+                           &lt;pdfaProperty:valueType&gt;Integer&lt;/pdfaProperty:valueType&gt;
+                        &lt;/rdf:li&gt;
+                        &lt;rdf:li rdf:parseType="Resource"&gt;
+                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+                           &lt;pdfaProperty:description&gt;Amendment of PDF/A standard&lt;/pdfaProperty:description&gt;
+                           &lt;pdfaProperty:name&gt;amd&lt;/pdfaProperty:name&gt;
+                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+                        &lt;/rdf:li&gt;
+                        &lt;rdf:li rdf:parseType="Resource"&gt;
+                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+                           &lt;pdfaProperty:description&gt;Conformance level of PDF/A standard&lt;/pdfaProperty:description&gt;
+                           &lt;pdfaProperty:name&gt;conformance&lt;/pdfaProperty:name&gt;
+                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+                        &lt;/rdf:li&gt;
+                     &lt;/rdf:Seq&gt;
+                  &lt;/pdfaSchema:property&gt;
+               &lt;/rdf:li&gt;
+            &lt;/rdf:Bag&gt;
+         &lt;/pdfaExtension:schemas&gt;
+      &lt;/rdf:Description&gt;
+   &lt;/rdf:RDF&gt;
+&lt;/x:xmpmeta&gt;</value>
+       </values>
+      </property>
+      <property>
+       <name>Pages</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Page</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Label</name>
+         <values arity="Scalar" type="String">
+          <value>1</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+  </jhove>

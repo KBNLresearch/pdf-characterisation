@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="9353">
+        <name>/home/johan/kb/format-corpus/pdfCabinetOfHorrors/calistoMTNoFontsEmbedded.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Title">Microsoft Word - calistoMT.doc</entry>
+          <entry key="Author">JKN011</entry>
+          <entry key="Creator">PScript5.dll Version 5.2.2</entry>
+          <entry key="Producer">Acrobat Distiller 7.0 (Windows)</entry>
+          <entry key="CreationDate">2009-11-04T14:27:39.000+01:00</entry>
+          <entry key="ModDate">2009-11-04T14:27:39.000+01:00</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <x:xmpmeta x:xmptk="3.1-701" xmlns:x="adobe:ns:meta/">
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+                  <pdf:Producer>Acrobat Distiller 7.0 (Windows)</pdf:Producer>
+                </rdf:Description>
+                <rdf:Description xmlns:xap="http://ns.adobe.com/xap/1.0/" rdf:about="">
+                  <xap:CreateDate>2009-11-04T14:27:39+01:00</xap:CreateDate>
+                  <xap:CreatorTool>PScript5.dll Version 5.2.2</xap:CreatorTool>
+                  <xap:ModifyDate>2009-11-04T14:27:39+01:00</xap:ModifyDate>
+                </rdf:Description>
+                <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <dc:format>application/pdf</dc:format>
+                  <dc:creator>
+                    <rdf:Seq>
+                      <rdf:li>JKN011</rdf:li>
+                    </rdf:Seq>
+                  </dc:creator>
+                  <dc:title>
+                    <rdf:Alt>
+                      <rdf:li xml:lang="x-default">Microsoft Word - calistoMT.doc</rdf:li>
+                    </rdf:Alt>
+                  </dc:title>
+                </rdf:Description>
+                <rdf:Description xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+                  <xapMM:DocumentID>uuid:ac31fcc2-be1d-4f49-a2a5-8ee3b453faf5</xapMM:DocumentID>
+                  <xapMM:InstanceID>uuid:5b55802f-82ee-456a-b91b-c7e887db05ed</xapMM:InstanceID>
+                </rdf:Description>
+              </rdf:RDF>
+            </x:xmpmeta>
+          </xmpPackage>
+        </metadata>
+        <lowLevelInfo>
+          <pdfVersion>1.4</pdfVersion>
+          <indirectObjectsNumber>16</indirectObjectsNumber>
+          <documentId modificationId="Gñ0Ý&quot;69D¾î;ÓpÓ”ò" creationId="°KﬂX2ü#x000013‹ï¢$ç¢§(æ"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <iccProfiles>
+          <iccProfile id="iccProfileIndir13">
+            <version>2.1</version>
+            <cmmType>Lino</cmmType>
+            <dataColorSpace>RGB </dataColorSpace>
+            <creator>HP  </creator>
+            <creationDate>1998-02-09T06:49:00.000Z</creationDate>
+            <defaultRenderingIntent>Perceptual</defaultRenderingIntent>
+            <copyright>Copyright (c) 1998 Hewlett-Packard Company</copyright>
+            <description>sRGB IEC61966-2.1</description>
+            <deviceModel>sRGB</deviceModel>
+            <deviceManufacturer>IEC </deviceManufacturer>
+          </iccProfile>
+        </iccProfiles>
+        <pages>
+          <page orderNumber="1" label="1">
+            <width>595.000</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir15"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspIndir12"></colorSpace>
+              </colorSpaces>
+              <fonts>
+                <font id="fntIndir10"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <graphicsStates>
+            <graphicsState id="exGStIndir15">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+          </graphicsStates>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+            <colorSpace id="clrspIndir12" family="ICCBased">
+              <alternate id="devrgb"></alternate>
+              <components>3</components>
+              <iccProfile id="iccProfileIndir13"></iccProfile>
+            </colorSpace>
+          </colorSpaces>
+          <fonts>
+            <font id="fntIndir10">
+              <type>TrueType</type>
+              <baseFont>CalistoMT</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>255</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>CalistoMT</fontName>
+                <fontFamily>Calisto MT</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-216.000" llx="-171.000" urx="1051.000" ury="920.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>924.000</ascent>
+                <descent>-229.000</descent>
+                <leading>0.000</leading>
+                <capHeight>687.000</capHeight>
+                <xHeight>-531.000</xHeight>
+                <stemV>78.586</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683818743902" finish="1683818743936">00:00:00.034</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683818743835" finish="1683818743970">00:00:00.135</duration>
+  </batchSummary>
+</report>

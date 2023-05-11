@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="4723857">
+        <name>/home/johan/kb/format-corpus/pdfCabinetOfHorrors/digitally_signed_3D_Portfolio.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Creator">Adobe Acrobat Pro Extended 9.1.0</entry>
+          <entry key="Producer">Adobe Acrobat Pro Extended 9.1.0</entry>
+          <entry key="CreationDate">2009-04-01T16:08:57.000-07:00</entry>
+          <entry key="ModDate">2009-05-12T09:05:50.000-07:00</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <x:xmpmeta x:xmptk="Adobe XMP Core 4.2.1-c043 52.372728, 2009/01/18-15:08:04        " xmlns:x="adobe:ns:meta/">
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+                  <xmp:ModifyDate>2009-05-12T09:05:50-07:00</xmp:ModifyDate>
+                  <xmp:CreateDate>2009-04-01T16:08:57-07:00</xmp:CreateDate>
+                  <xmp:MetadataDate>2009-05-12T09:05:50-07:00</xmp:MetadataDate>
+                  <xmp:CreatorTool>Adobe Acrobat Pro Extended 9.1.0</xmp:CreatorTool>
+                </rdf:Description>
+                <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <dc:format>application/pdf</dc:format>
+                </rdf:Description>
+                <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+                  <xmpMM:DocumentID>uuid:2d7598db-3b0a-4510-bc0a-4ac1c570a3fa</xmpMM:DocumentID>
+                  <xmpMM:InstanceID>uuid:725cc304-4eab-41ed-82fb-823d7adf7a52</xmpMM:InstanceID>
+                </rdf:Description>
+                <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+                  <pdf:Producer>Adobe Acrobat Pro Extended 9.1.0</pdf:Producer>
+                </rdf:Description>
+              </rdf:RDF>
+            </x:xmpmeta>
+          </xmpPackage>
+        </metadata>
+        <lowLevelInfo>
+          <pdfVersion>1.7</pdfVersion>
+          <indirectObjectsNumber>138</indirectObjectsNumber>
+          <documentId modificationId="ZO˘î#x000013BüD¬n¿˝¨J¹" creationId="SÝ8J}ê_A‡åáı½'cü"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="JPXDecode"></filter>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <actions>
+          <action type="URI">
+            <location>Annotation</location>
+          </action>
+        </actions>
+        <embeddedFiles>
+          <embeddedFile id="file1">
+            <fileName>91009276_prod_dev_collab_sb_ue.pdf</fileName>
+            <description>This solution brief highlights the many unique benefits offered by Adobe to help accelerate time to market by streamlining the product development process.</description>
+            <subtype>application/pdf</subtype>
+            <filter>FlateDecode</filter>
+            <creationDate>2009-05-12T09:04:00.000-07:00</creationDate>
+            <modDate>2009-05-11T16:12:05.000Z</modDate>
+            <checkSum>»ﬂ #x000004ñ#x000008¯y„ÎıW^�%#x000007</checkSum>
+            <size>318310</size>
+          </embeddedFile>
+          <embeddedFile id="file2">
+            <fileName>Design of Landing Gear.pdf</fileName>
+            <description>This 3D PDF was automatically created by Adobe® LiveCycle® PDF Generator 3D ES software from a CATIA V5 assembly.
+It includes all the Geometric Dimensions and Tolerance and annotation to better understand how to manufacture this part. It also contains metadata extracted from the PLM and ERP system. This document can be digitally signed once approved.
+</description>
+            <subtype>application/pdf</subtype>
+            <filter>FlateDecode</filter>
+            <creationDate>2009-04-24T09:01:18.000-07:00</creationDate>
+            <modDate>2009-04-16T08:50:37.000Z</modDate>
+            <checkSum>à÷Or¸Ie’xüìßŠ˝	w</checkSum>
+            <size>800405</size>
+          </embeddedFile>
+          <embeddedFile id="file3">
+            <fileName>Landing Gear Project data.pdf</fileName>
+            <description>This page contains all the timelines for this project.</description>
+            <subtype>application/pdf</subtype>
+            <filter>FlateDecode</filter>
+            <creationDate>2009-04-24T09:02:23.000-07:00</creationDate>
+            <modDate>2009-04-24T09:02:09.000Z</modDate>
+            <checkSum>ıG#x00000E¡£¶
+~#x000001ïû§£!M(</checkSum>
+            <size>1321658</size>
+          </embeddedFile>
+          <embeddedFile id="file4">
+            <fileName>Marketing Collateral with 3D.pdf</fileName>
+            <description>This is a sample Marketing PDF that contains 3D design data that can be manipulated.</description>
+            <subtype>application/pdf</subtype>
+            <filter>FlateDecode</filter>
+            <creationDate>2009-04-24T09:02:36.000-07:00</creationDate>
+            <modDate>2009-04-16T08:52:52.000Z</modDate>
+            <checkSum>kòÞX+´W°°½łø„¿úÉ</checkSum>
+            <size>1096384</size>
+          </embeddedFile>
+          <embeddedFile id="file5">
+            <fileName>Technical Specification.pdf</fileName>
+            <description>Technical specification for the Shock Bracket.</description>
+            <subtype>application/pdf</subtype>
+            <filter>FlateDecode</filter>
+            <creationDate>2009-04-24T09:02:47.000-07:00</creationDate>
+            <modDate>2009-04-16T08:52:52.000Z</modDate>
+            <checkSum>#x000014`Âqø/æÞÅ?ŠýÌ	áq</checkSum>
+            <size>18872</size>
+          </embeddedFile>
+        </embeddedFiles>
+        <annotations>
+          <annotation id="annotIndir86">
+            <subType>Link</subType>
+            <rectangle lly="39.146" llx="165.821" urx="333.107" ury="63.110"></rectangle>
+            <width>167.286</width>
+            <height>23.964</height>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+        </annotations>
+        <pages>
+          <page orderNumber="1">
+            <width>504.000</width>
+            <height>360.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="504.000" ury="360.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="504.000" ury="360.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="504.000" ury="360.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="504.000" ury="360.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="504.000" ury="360.000"></artBox>
+            <rotation>0</rotation>
+            <annotations>
+              <annotation id="annotIndir86"></annotation>
+            </annotations>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir95"></graphicsState>
+                <graphicsState id="exGStIndir94"></graphicsState>
+                <graphicsState id="exGStIndir93"></graphicsState>
+                <graphicsState id="exGStIndir96"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspIndir89"></colorSpace>
+                <colorSpace id="clrspIndir92"></colorSpace>
+              </colorSpaces>
+              <shadings>
+                <shading id="shdngIndir108"></shading>
+                <shading id="shdngIndir120"></shading>
+                <shading id="shdngIndir112"></shading>
+                <shading id="shdngIndir113"></shading>
+                <shading id="shdngIndir103"></shading>
+                <shading id="shdngIndir116"></shading>
+                <shading id="shdngIndir117"></shading>
+              </shadings>
+              <xobjects>
+                <xobject id="xobjIndir77"></xobject>
+                <xobject id="xobjIndir82"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir100"></font>
+                <font id="fntIndir98"></font>
+              </fonts>
+              <propertiesDicts>
+                <propertiesDict id="propDir28"></propertiesDict>
+              </propertiesDicts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <graphicsStates>
+            <graphicsState id="exGStIndir94">
+              <transparency>false</transparency>
+              <strokeAdjustment>true</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir93">
+              <transparency>true</transparency>
+              <strokeAdjustment>true</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir96">
+              <transparency>true</transparency>
+              <strokeAdjustment>true</strokeAdjustment>
+              <overprintForStroke>true</overprintForStroke>
+              <overprintForFill>true</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir95">
+              <transparency>false</transparency>
+              <strokeAdjustment>true</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir128">
+              <transparency>false</transparency>
+              <strokeAdjustment>true</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir134">
+              <transparency>false</transparency>
+              <strokeAdjustment>true</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+          </graphicsStates>
+          <colorSpaces>
+            <colorSpace id="devcmyk" family="DeviceCMYK"></colorSpace>
+            <colorSpace id="clrspIndir92" family="DeviceN">
+              <alternate id="devcmyk"></alternate>
+              <colorantNames>
+                <colorantName>Black</colorantName>
+              </colorantNames>
+            </colorSpace>
+            <colorSpace id="clrspIndir89" family="DeviceN">
+              <alternate id="devcmyk"></alternate>
+              <colorantNames>
+                <colorantName>Cyan</colorantName>
+                <colorantName>Magenta</colorantName>
+                <colorantName>Yellow</colorantName>
+              </colorantNames>
+            </colorSpace>
+            <colorSpace id="clrspIndir123" family="Indexed">
+              <base id="devcmyk"></base>
+              <hival>1</hival>
+              <lookup>B9B19EC500000000</lookup>
+            </colorSpace>
+            <colorSpace id="devgray" family="DeviceGray"></colorSpace>
+            <colorSpace id="clrspIndir130" family="Indexed">
+              <base id="devcmyk"></base>
+              <hival>1</hival>
+              <lookup>000000FF00000000</lookup>
+            </colorSpace>
+          </colorSpaces>
+          <shadings>
+            <shading id="shdngIndir120">
+              <shadingType>2</shadingType>
+              <colorSpace id="clrspIndir92"></colorSpace>
+              <antiAlias>false</antiAlias>
+            </shading>
+            <shading id="shdngIndir117">
+              <shadingType>3</shadingType>
+              <colorSpace id="devcmyk"></colorSpace>
+              <bbox lly="0.130" llx="-0.339" urx="0.988" ury="1.457"></bbox>
+              <antiAlias>false</antiAlias>
+            </shading>
+            <shading id="shdngIndir103">
+              <shadingType>2</shadingType>
+              <colorSpace id="clrspIndir89"></colorSpace>
+              <bbox lly="-0.379" llx="0.091" urx="0.851" ury="0.379"></bbox>
+              <antiAlias>false</antiAlias>
+            </shading>
+            <shading id="shdngIndir112">
+              <shadingType>2</shadingType>
+              <colorSpace id="devcmyk"></colorSpace>
+              <bbox lly="-6.339" llx="-0.000" urx="1.000" ury="6.385"></bbox>
+              <antiAlias>false</antiAlias>
+            </shading>
+            <shading id="shdngIndir108">
+              <shadingType>3</shadingType>
+              <colorSpace id="clrspIndir92"></colorSpace>
+              <bbox lly="0.001" llx="-0.024" urx="0.667" ury="0.797"></bbox>
+              <antiAlias>false</antiAlias>
+            </shading>
+            <shading id="shdngIndir116">
+              <shadingType>3</shadingType>
+              <colorSpace id="devcmyk"></colorSpace>
+              <bbox lly="0.130" llx="-0.339" urx="0.988" ury="1.457"></bbox>
+              <antiAlias>false</antiAlias>
+            </shading>
+            <shading id="shdngIndir113">
+              <shadingType>2</shadingType>
+              <colorSpace id="devcmyk"></colorSpace>
+              <bbox lly="-25.673" llx="0.000" urx="1.000" ury="25.672"></bbox>
+              <antiAlias>false</antiAlias>
+            </shading>
+          </shadings>
+          <xobjects>
+            <xobject id="xobjIndir74" type="image">
+              <width>382</width>
+              <height>422</height>
+              <colorSpace id="devgray"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>JPXDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir76" type="image">
+              <width>382</width>
+              <height>422</height>
+              <colorSpace id="clrspIndir123"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <sMask id="xobjIndir74"></sMask>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir79" type="image">
+              <width>348</width>
+              <height>395</height>
+              <colorSpace id="devgray"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>JPXDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir81" type="image">
+              <width>348</width>
+              <height>395</height>
+              <colorSpace id="clrspIndir130"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <sMask id="xobjIndir79"></sMask>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir77" type="form">
+              <bbox lly="342.643" llx="164.077" urx="346.957" ury="140.323"></bbox>
+              <width>182.880</width>
+              <height>-202.320</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <group>
+                <subtype>Transparency</subtype>
+                <colorSpace id="devcmyk"></colorSpace>
+                <isolated>false</isolated>
+                <knockout>false</knockout>
+              </group>
+              <resources>
+                <graphicsStates>
+                  <graphicsState id="exGStIndir128"></graphicsState>
+                </graphicsStates>
+                <colorSpaces>
+                  <colorSpace id="clrspIndir123"></colorSpace>
+                </colorSpaces>
+                <xobjects>
+                  <xobject id="xobjIndir76"></xobject>
+                </xobjects>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir82" type="form">
+              <bbox lly="338.345" llx="170.591" urx="337.392" ury="148.985"></bbox>
+              <width>166.801</width>
+              <height>-189.360</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <group>
+                <subtype>Transparency</subtype>
+                <colorSpace id="devcmyk"></colorSpace>
+                <isolated>false</isolated>
+                <knockout>false</knockout>
+              </group>
+              <resources>
+                <graphicsStates>
+                  <graphicsState id="exGStIndir134"></graphicsState>
+                </graphicsStates>
+                <colorSpaces>
+                  <colorSpace id="clrspIndir130"></colorSpace>
+                </colorSpaces>
+                <xobjects>
+                  <xobject id="xobjIndir81"></xobject>
+                </xobjects>
+              </resources>
+            </xobject>
+          </xobjects>
+          <fonts>
+            <font id="fntIndir98">
+              <type>Type1</type>
+              <baseFont>PSUJFT+MyriadPro-Bold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>120</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>MyriadPro-Bold</fontName>
+                <fontFamily>Myriad Pro</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>700.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-250.000" llx="-163.000" urx="1256.000" ury="989.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>989.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>674.000</capHeight>
+                <xHeight>489.000</xHeight>
+                <stemV>152.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir100">
+              <type>Type1</type>
+              <baseFont>ZUSRPZ+MyriadPro-Semibold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>119</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>MyriadPro-Semibold</fontName>
+                <fontFamily>Myriad Pro Light</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>600.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-250.000" llx="-161.000" urx="1198.000" ury="972.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>972.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>674.000</capHeight>
+                <xHeight>487.000</xHeight>
+                <stemV>124.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+          <propertiesDicts>
+            <propertiesDict id="propDir28"></propertiesDict>
+          </propertiesDicts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683818761582" finish="1683818761681">00:00:00.099</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683818761495" finish="1683818761749">00:00:00.254</duration>
+  </batchSummary>
+</report>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="33411">
+        <name>/home/johan/kb/format-corpus/pdfCabinetOfHorrors/text_only_fontsEmbeddedSubset.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Title">This is a test document</entry>
+          <entry key="Author">van der Knijff</entry>
+          <entry key="Subject"></entry>
+          <entry key="Keywords"></entry>
+          <entry key="Creator">Acrobat PDFMaker 9.1 voor Word</entry>
+          <entry key="Producer">Acrobat Distiller 9.5.2 (Windows)</entry>
+          <entry key="CreationDate">2012-11-23T14:22:20.000+01:00</entry>
+          <entry key="ModDate">2012-11-23T14:22:22.000+01:00</entry>
+          <entry key="Comments"></entry>
+          <entry key="Company">Koninklijke Bibliotheek</entry>
+          <entry key="SourceModified">D:20121123115302</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <x:xmpmeta x:xmptk="Adobe XMP Core 4.2.1-c043 52.372728, 2009/01/18-15:08:04        " xmlns:x="adobe:ns:meta/">
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+                  <xmp:CreateDate>2012-11-23T14:22:20+01:00</xmp:CreateDate>
+                  <xmp:CreatorTool>Acrobat PDFMaker 9.1 voor Word</xmp:CreatorTool>
+                  <xmp:ModifyDate>2012-11-23T14:22:22+01:00</xmp:ModifyDate>
+                  <xmp:MetadataDate>2012-11-23T14:22:22+01:00</xmp:MetadataDate>
+                </rdf:Description>
+                <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+                  <pdf:Producer>Acrobat Distiller 9.5.2 (Windows)</pdf:Producer>
+                  <pdf:Keywords></pdf:Keywords>
+                </rdf:Description>
+                <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <dc:format>application/pdf</dc:format>
+                  <dc:creator>
+                    <rdf:Seq>
+                      <rdf:li>van der Knijff</rdf:li>
+                    </rdf:Seq>
+                  </dc:creator>
+                  <dc:title>
+                    <rdf:Alt>
+                      <rdf:li xml:lang="x-default">This is a test document</rdf:li>
+                    </rdf:Alt>
+                  </dc:title>
+                  <dc:description>
+                    <rdf:Alt>
+                      <rdf:li xml:lang="x-default"></rdf:li>
+                    </rdf:Alt>
+                  </dc:description>
+                </rdf:Description>
+                <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+                  <xmpMM:DocumentID>uuid:a4d2fd67-27eb-46f2-a6aa-6b3271c8d437</xmpMM:DocumentID>
+                  <xmpMM:InstanceID>uuid:c42e4be5-0159-4433-88aa-6d4c5b4f1e39</xmpMM:InstanceID>
+                  <xmpMM:subject>
+                    <rdf:Seq>
+                      <rdf:li>3</rdf:li>
+                    </rdf:Seq>
+                  </xmpMM:subject>
+                </rdf:Description>
+                <rdf:Description xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" rdf:about="">
+                  <pdfx:Company>Koninklijke Bibliotheek</pdfx:Company>
+                  <pdfx:Comments></pdfx:Comments>
+                  <pdfx:SourceModified>D:20121123115302</pdfx:SourceModified>
+                </rdf:Description>
+              </rdf:RDF>
+            </x:xmpmeta>
+          </xmpPackage>
+        </metadata>
+        <lowLevelInfo>
+          <pdfVersion>1.7</pdfVersion>
+          <indirectObjectsNumber>32</indirectObjectsNumber>
+          <documentId modificationId="Q‘ˇ#x000005#x0000040˚HŸ»ŽÕóv¤#x000016" creationId="ÅXûË*[™ùÿ¢¡O˛á£À"></documentId>
+          <tagged>true</tagged>
+          <filters>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <pages>
+          <page orderNumber="1" label="1">
+            <width>612.000</width>
+            <height>792.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir29"></graphicsState>
+              </graphicsStates>
+              <fonts>
+                <font id="fntIndir31"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <graphicsStates>
+            <graphicsState id="exGStIndir29">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+          </graphicsStates>
+          <fonts>
+            <font id="fntIndir31">
+              <type>TrueType</type>
+              <baseFont>KODICC+TimesNewRomanPSMT</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>TimesNewRomanPSMT</fontName>
+                <fontFamily>Times New Roman</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-307.000" llx="-568.000" urx="2000.000" ury="1007.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>891.000</ascent>
+                <descent>-216.000</descent>
+                <leading>0.000</leading>
+                <capHeight>1000.000</capHeight>
+                <xHeight>1000.000</xHeight>
+                <stemV>82.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683818760359" finish="1683818760395">00:00:00.036</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683818760299" finish="1683818760427">00:00:00.128</duration>
+  </batchSummary>
+</report>

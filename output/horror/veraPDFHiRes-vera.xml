@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="65205">
+        <name>/home/johan/kb/format-corpus/pdfCabinetOfHorrors/veraPDFHiRes.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Creator">Adobe Acrobat 11.0.6</entry>
+          <entry key="Producer">Adobe Acrobat 11.0.6 Image Conversion Plug-in</entry>
+          <entry key="CreationDate">2015-07-01T16:56:50.000+02:00</entry>
+          <entry key="ModDate">2015-07-01T16:57:43.000+02:00</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <x:xmpmeta x:xmptk="Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03        " xmlns:x="adobe:ns:meta/">
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#" xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/" rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <xmp:CreateDate>2015-07-01T16:56:50+02:00</xmp:CreateDate>
+                  <xmp:CreatorTool>Adobe Acrobat 11.0.6</xmp:CreatorTool>
+                  <xmp:ModifyDate>2015-07-01T16:57:43+02:00</xmp:ModifyDate>
+                  <xmp:MetadataDate>2015-07-01T16:57:43+02:00</xmp:MetadataDate>
+                  <dc:format>application/pdf</dc:format>
+                  <xmpMM:DocumentID>uuid:3d488eb9-5f0c-454f-bfa8-c7a6486620ef</xmpMM:DocumentID>
+                  <xmpMM:InstanceID>uuid:5fb2d1f9-5f21-41cf-8729-641f971130e7</xmpMM:InstanceID>
+                  <xmpMM:RenditionClass>default</xmpMM:RenditionClass>
+                  <xmpMM:VersionID>1</xmpMM:VersionID>
+                  <xmpMM:History>
+                    <rdf:Seq>
+                      <rdf:li rdf:parseType="Resource">
+                        <stEvt:action>converted</stEvt:action>
+                        <stEvt:instanceID>uuid:b0913a20-6d53-4d33-a3d5-a70b487a99f7</stEvt:instanceID>
+                        <stEvt:parameters>converted to PDF/A-1b</stEvt:parameters>
+                        <stEvt:softwareAgent>Preflight</stEvt:softwareAgent>
+                        <stEvt:when>2015-07-01T16:57:43+02:00</stEvt:when>
+                      </rdf:li>
+                    </rdf:Seq>
+                  </xmpMM:History>
+                  <pdf:Producer>Adobe Acrobat 11.0.6 Image Conversion Plug-in</pdf:Producer>
+                  <pdfaid:part>1</pdfaid:part>
+                  <pdfaid:conformance>B</pdfaid:conformance>
+                  <pdfaExtension:schemas>
+                    <rdf:Bag>
+                      <rdf:li rdf:parseType="Resource">
+                        <pdfaSchema:namespaceURI>http://ns.adobe.com/pdf/1.3/</pdfaSchema:namespaceURI>
+                        <pdfaSchema:prefix>pdf</pdfaSchema:prefix>
+                        <pdfaSchema:schema>Adobe PDF Schema</pdfaSchema:schema>
+                        <pdfaSchema:property>
+                          <rdf:Seq>
+                            <rdf:li rdf:parseType="Resource">
+                              <pdfaProperty:category>internal</pdfaProperty:category>
+                              <pdfaProperty:description>A name object indicating whether the document has been modified to include trapping information</pdfaProperty:description>
+                              <pdfaProperty:name>Trapped</pdfaProperty:name>
+                              <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                            </rdf:li>
+                          </rdf:Seq>
+                        </pdfaSchema:property>
+                      </rdf:li>
+                      <rdf:li rdf:parseType="Resource">
+                        <pdfaSchema:namespaceURI>http://ns.adobe.com/xap/1.0/mm/</pdfaSchema:namespaceURI>
+                        <pdfaSchema:prefix>xmpMM</pdfaSchema:prefix>
+                        <pdfaSchema:schema>XMP Media Management Schema</pdfaSchema:schema>
+                        <pdfaSchema:property>
+                          <rdf:Seq>
+                            <rdf:li rdf:parseType="Resource">
+                              <pdfaProperty:category>internal</pdfaProperty:category>
+                              <pdfaProperty:description>UUID based identifier for specific incarnation of a document</pdfaProperty:description>
+                              <pdfaProperty:name>InstanceID</pdfaProperty:name>
+                              <pdfaProperty:valueType>URI</pdfaProperty:valueType>
+                            </rdf:li>
+                            <rdf:li rdf:parseType="Resource">
+                              <pdfaProperty:category>internal</pdfaProperty:category>
+                              <pdfaProperty:description>The common identifier for all versions and renditions of a document.</pdfaProperty:description>
+                              <pdfaProperty:name>OriginalDocumentID</pdfaProperty:name>
+                              <pdfaProperty:valueType>URI</pdfaProperty:valueType>
+                            </rdf:li>
+                          </rdf:Seq>
+                        </pdfaSchema:property>
+                      </rdf:li>
+                      <rdf:li rdf:parseType="Resource">
+                        <pdfaSchema:namespaceURI>http://www.aiim.org/pdfa/ns/id/</pdfaSchema:namespaceURI>
+                        <pdfaSchema:prefix>pdfaid</pdfaSchema:prefix>
+                        <pdfaSchema:schema>PDF/A ID Schema</pdfaSchema:schema>
+                        <pdfaSchema:property>
+                          <rdf:Seq>
+                            <rdf:li rdf:parseType="Resource">
+                              <pdfaProperty:category>internal</pdfaProperty:category>
+                              <pdfaProperty:description>Part of PDF/A standard</pdfaProperty:description>
+                              <pdfaProperty:name>part</pdfaProperty:name>
+                              <pdfaProperty:valueType>Integer</pdfaProperty:valueType>
+                            </rdf:li>
+                            <rdf:li rdf:parseType="Resource">
+                              <pdfaProperty:category>internal</pdfaProperty:category>
+                              <pdfaProperty:description>Amendment of PDF/A standard</pdfaProperty:description>
+                              <pdfaProperty:name>amd</pdfaProperty:name>
+                              <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                            </rdf:li>
+                            <rdf:li rdf:parseType="Resource">
+                              <pdfaProperty:category>internal</pdfaProperty:category>
+                              <pdfaProperty:description>Conformance level of PDF/A standard</pdfaProperty:description>
+                              <pdfaProperty:name>conformance</pdfaProperty:name>
+                              <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+                            </rdf:li>
+                          </rdf:Seq>
+                        </pdfaSchema:property>
+                      </rdf:li>
+                    </rdf:Bag>
+                  </pdfaExtension:schemas>
+                </rdf:Description>
+              </rdf:RDF>
+            </x:xmpmeta>
+          </xmpPackage>
+        </metadata>
+        <lowLevelInfo>
+          <pdfVersion>1.4</pdfVersion>
+          <indirectObjectsNumber>12</indirectObjectsNumber>
+          <documentId modificationId=".Ÿl+#x000023ñ°O‚⁄”ŒÀ²/Ž" creationId="ÞþÂçñ#x000001oJ©@±a&amp;J#x000005j"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="DCTDecode"></filter>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <iccProfiles>
+          <iccProfile id="iccProfileIndir5">
+            <version>2.1</version>
+            <cmmType>Lino</cmmType>
+            <dataColorSpace>RGB </dataColorSpace>
+            <creator>HP  </creator>
+            <creationDate>1998-02-09T06:49:00.000Z</creationDate>
+            <defaultRenderingIntent>Perceptual</defaultRenderingIntent>
+            <copyright>Copyright (c) 1998 Hewlett-Packard Company</copyright>
+            <description>sRGB IEC61966-2.1</description>
+            <deviceModel>sRGB</deviceModel>
+            <deviceManufacturer>IEC </deviceManufacturer>
+          </iccProfile>
+        </iccProfiles>
+        <outputIntents>
+          <outputIntent>
+            <subtype>GTS_PDFA1</subtype>
+            <outputCondition>sRGB</outputCondition>
+            <outputConditionIdentifier>Custom</outputConditionIdentifier>
+            <registryName></registryName>
+            <info>sRGB IEC61966-2.1</info>
+            <destOutputIntent id="iccProfileIndir5"></destOutputIntent>
+          </outputIntent>
+        </outputIntents>
+        <pages>
+          <page orderNumber="1">
+            <width>580.560</width>
+            <height>294.240</height>
+            <mediaBox lly="0.000" llx="0.000" urx="580.560" ury="294.240"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="580.560" ury="294.240"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="580.560" ury="294.240"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="580.560" ury="294.240"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="580.560" ury="294.240"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <xobjects>
+                <xobject id="xobjIndir11"></xobject>
+              </xobjects>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+          </colorSpaces>
+          <xobjects>
+            <xobject id="xobjIndir11" type="image">
+              <width>2419</width>
+              <height>1226</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+          </xobjects>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683818764218" finish="1683818764260">00:00:00.042</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683818764156" finish="1683818764295">00:00:00.139</duration>
+  </batchSummary>
+</report>

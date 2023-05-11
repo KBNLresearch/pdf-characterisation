@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="15071">
+        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/fonts/notembedded_pm65.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Producer">Acrobat Distiller 4.05 for Windows</entry>
+          <entry key="CreationDate">2000-03-09T12:01:22.000Z</entry>
+          <entry key="ModDate">2001-01-19T09:52:10.000-08:00</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description xmlns="http://www.adobe.com/std/ns/pdf/1.3/" about="" xmlns:pdf="http://www.adobe.com/std/ns/pdf/1.3/">
+                <pdf:CreationDate>2000-03-09T12:01:22Z</pdf:CreationDate>
+                <pdf:Producer>Acrobat Distiller 4.05 for Windows</pdf:Producer>
+                <pdf:ModDate>2000-05-30T11:03:03-07:00</pdf:ModDate>
+              </rdf:Description>
+              <rdf:Description xmlns="http://www.adobe.com/std/ns/xap/1.0/" xmlns:xap="http://www.adobe.com/std/ns/xap/1.0/" about="">
+                <xap:CreateDate>2000-03-09T12:01:22Z</xap:CreateDate>
+                <xap:ModifyDate>2000-05-30T11:03:03-07:00</xap:ModifyDate>
+                <xap:MetadataDate>2000-05-30T11:03:03-07:00</xap:MetadataDate>
+              </rdf:Description>
+            </rdf:RDF>
+          </xmpPackage>
+        </metadata>
+        <signatures>
+          <signature>
+            <filter>Adobe.PPKLite</filter>
+            <subFilter>adbe.x509.rsa_sha1</subFilter>
+            <contents>04818095C3477D3447C5CEA9F33BD0D4D8C9A48759A7CA5E30FE39646F5E7FF3A9F05A4B2068EB2427D7A43CA204B84366227B4EDDC93F99C51130692991BF40E631F4B29E4E57F5853DA9411DE6A4E6A7DAA752A0D16CF6491100D8F1BD75FDB56CC822B3CCE9639ACBCA8680F20D4AD4EA1C8C54C4CFF74C5FD785E900232765DC8D00</contents>
+            <name>jeff moran</name>
+            <signDate>2000-05-30T10:03:03.000-08:00</signDate>
+            <contactInfo>Adobe.PPKLite</contactInfo>
+          </signature>
+        </signatures>
+        <lowLevelInfo>
+          <pdfVersion>1.4</pdfVersion>
+          <indirectObjectsNumber>37</indirectObjectsNumber>
+          <documentId modificationId="	ÚÝ#x000004Ø#x00000Cúÿ·Îÿ•Ý§`¥" creationId="HRﬁﬂ&quot;&lt;x−|˚¶ªÓzó3"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <interactiveFormFields>
+          <interactiveFormField>
+            <fullyQualifiedName>Signature1</fullyQualifiedName>
+            <value>--COSDictionary--</value>
+          </interactiveFormField>
+        </interactiveFormFields>
+        <annotations>
+          <annotation id="annotIndir28">
+            <subType>Widget</subType>
+            <rectangle lly="330.000" llx="409.000" urx="536.000" ury="416.000"></rectangle>
+            <width>127.000</width>
+            <height>86.000</height>
+            <modifiedDate>D:20000530110303-08'00'</modifiedDate>
+            <resources>
+              <xobject id="xobjIndir39"></xobject>
+            </resources>
+            <color red="192.000000" green="192.000000" blue="192.000000"></color>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>true</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+        </annotations>
+        <pages>
+          <page orderNumber="1">
+            <width>612.000</width>
+            <height>792.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="612.000" ury="792.000"></artBox>
+            <rotation>0</rotation>
+            <annotations>
+              <annotation id="annotIndir28"></annotation>
+            </annotations>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir21"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspIndir7"></colorSpace>
+                <colorSpace id="clrspIndir17"></colorSpace>
+              </colorSpaces>
+              <fonts>
+                <font id="fntIndir16"></font>
+                <font id="fntIndir18"></font>
+                <font id="fntIndir8"></font>
+                <font id="fntIndir11"></font>
+                <font id="fntIndir13"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <graphicsStates>
+            <graphicsState id="exGStIndir21">
+              <strokeAdjustment>false</strokeAdjustment>
+            </graphicsState>
+          </graphicsStates>
+          <colorSpaces>
+            <colorSpace id="clrspIndir7" family="CalRGB">
+              <whitePoint x="0.951" y="1.000" z="1.089"></whitePoint>
+              <blackPoint x="0.000" y="0.000" z="0.000"></blackPoint>
+              <gamma red="2.222" green="2.222" blue="2.222"></gamma>
+              <matrix>
+                <element number="0" value="0.412"></element>
+                <element number="1" value="0.213"></element>
+                <element number="2" value="0.019"></element>
+                <element number="3" value="0.358"></element>
+                <element number="4" value="0.715"></element>
+                <element number="5" value="0.119"></element>
+                <element number="6" value="0.180"></element>
+                <element number="7" value="0.072"></element>
+                <element number="8" value="0.951"></element>
+              </matrix>
+            </colorSpace>
+            <colorSpace id="clrspIndir17" family="Separation">
+              <alternate id="clrspIndir7"></alternate>
+              <colorantName>All</colorantName>
+            </colorSpace>
+          </colorSpaces>
+          <xobjects>
+            <xobject id="xobjIndir33" type="form">
+              <bbox lly="0.000" llx="0.000" urx="100.000" ury="100.000"></bbox>
+              <width>100.000</width>
+              <height>100.000</height>
+              <matrix>
+                <element index="1" value="1.270"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.270"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+            </xobject>
+            <xobject id="xobjIndir32" type="form">
+              <bbox lly="0.000" llx="0.000" urx="100.000" ury="100.000"></bbox>
+              <width>100.000</width>
+              <height>100.000</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+            </xobject>
+            <xobject id="xobjIndir37" type="form">
+              <bbox lly="0.000" llx="0.000" urx="127.000" ury="86.000"></bbox>
+              <width>127.000</width>
+              <height>86.000</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <fonts>
+                  <font id="fntIndir35"></font>
+                </fonts>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir38" type="form">
+              <bbox lly="0.000" llx="0.000" urx="127.000" ury="86.000"></bbox>
+              <width>127.000</width>
+              <height>86.000</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir33"></xobject>
+                  <xobject id="xobjIndir32"></xobject>
+                  <xobject id="xobjIndir37"></xobject>
+                </xobjects>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir39" type="form">
+              <bbox lly="0.000" llx="0.000" urx="127.000" ury="86.000"></bbox>
+              <width>127.000</width>
+              <height>86.000</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir38"></xobject>
+                </xobjects>
+              </resources>
+            </xobject>
+          </xobjects>
+          <fonts>
+            <font id="fntIndir35">
+              <type>Type1</type>
+              <baseFont>Helvetica</baseFont>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Helvetica</fontName>
+                <fontFamily>Helvetica</fontFamily>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-225.000" llx="-166.000" urx="1000.000" ury="931.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>718.000</ascent>
+                <descent>-207.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemH>0.000</stemH>
+                <averageWidth>542.771</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>ExtendedRoman</charSet>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir8">
+              <type>TrueType</type>
+              <baseFont>ComicSansMS</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>ComicSansMS</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>true</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-312.000" llx="-93.000" urx="1187.000" ury="1102.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>1102.000</ascent>
+                <descent>-291.000</descent>
+                <leading>0.000</leading>
+                <capHeight>0.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir16">
+              <type>TrueType</type>
+              <baseFont>Haettenschweiler</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Haettenschweiler</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-130.000" llx="-61.000" urx="789.000" ury="921.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>879.000</ascent>
+                <descent>-120.000</descent>
+                <leading>0.000</leading>
+                <capHeight>0.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir11">
+              <type>TrueType</type>
+              <baseFont>Tahoma</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Tahoma</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-207.000" llx="-604.000" urx="1338.000" ury="1034.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>1000.000</ascent>
+                <descent>-206.000</descent>
+                <leading>0.000</leading>
+                <capHeight>0.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir18">
+              <type>TrueType</type>
+              <baseFont>TimesNewRoman</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>120</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>TimesNewRoman</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-307.000" llx="-167.000" urx="1009.000" ury="1007.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>891.000</ascent>
+                <descent>-216.000</descent>
+                <leading>0.000</leading>
+                <capHeight>0.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir13">
+              <type>Type1</type>
+              <baseFont>AdobeCorpID-MyriadRg</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>181</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>AdobeCorpID-MyriadRg</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-250.000" llx="-46.000" urx="1126.000" ury="831.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>715.000</ascent>
+                <descent>-210.000</descent>
+                <leading>0.000</leading>
+                <capHeight>678.000</capHeight>
+                <xHeight>487.000</xHeight>
+                <stemV>88.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683819000306" finish="1683819000382">00:00:00.076</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683819000250" finish="1683819000426">00:00:00.176</duration>
+  </batchSummary>
+</report>

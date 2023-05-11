@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
+ <date>2023-05-11T17:29:54+02:00</date>
+ <repInfo uri="./pdfAcrobatEngineering/fonts/text_images_pdf1.2.pdf">
+  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <lastModified>2013-07-18T16:36:46+02:00</lastModified>
+  <size>654890</size>
+  <format>PDF</format>
+  <version>1.2</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>application/pdf</mimeType>
+  <profiles>
+   <profile>Linearized PDF</profile>
+  </profiles>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>109</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Producer</name>
+      <values arity="Scalar" type="String">
+       <value>Acrobat Distiller 2.1 for Power Macintosh</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Tue Nov 12 12:34:19 CET 1996</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Tue Apr 28 08:27:44 CEST 1998</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0xc40c65f298f7a7c9d7ea73eb74dd7372</value>
+      <value>0xc40c65f298f7a7c9d7ea73eb74dd7372</value>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>FlateDecode</value>
+      </values>
+     </property>
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>CCITTFaxDecode</value>
+      </values>
+     </property>
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>DCTDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Images</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>616</mix:imageWidth>
+         <mix:imageHeight>255</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im1</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>995</mix:imageWidth>
+         <mix:imageHeight>862</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im3</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>498</mix:imageWidth>
+         <mix:imageHeight>428</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im2</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1833</mix:imageWidth>
+         <mix:imageHeight>795</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im5</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>917</mix:imageWidth>
+         <mix:imageHeight>394</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im4</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1005</mix:imageWidth>
+         <mix:imageHeight>1370</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im7</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>502</mix:imageWidth>
+         <mix:imageHeight>680</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im6</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>505</mix:imageWidth>
+         <mix:imageHeight>311</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im10</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1048</mix:imageWidth>
+         <mix:imageHeight>1465</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im9</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>996</mix:imageWidth>
+         <mix:imageHeight>850</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im13</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>524</mix:imageWidth>
+         <mix:imageHeight>704</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im8</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/png</mix:formatName>
+        </mix:FormatDesignation>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>499</mix:imageWidth>
+         <mix:imageHeight>188</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Filter</name>
+       <values arity="Scalar" type="String">
+        <value>FlateDecode</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im14</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1010</mix:imageWidth>
+         <mix:imageHeight>638</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im11</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>498</mix:imageWidth>
+         <mix:imageHeight>416</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im12</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>495</mix:imageWidth>
+         <mix:imageHeight>170</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im17</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>483</mix:imageWidth>
+         <mix:imageHeight>312</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im18</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>483</mix:imageWidth>
+         <mix:imageHeight>254</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im15</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>965</mix:imageWidth>
+         <mix:imageHeight>519</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im16</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1046</mix:imageWidth>
+         <mix:imageHeight>837</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im20</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>498</mix:imageWidth>
+         <mix:imageHeight>204</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im21</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>515</mix:imageWidth>
+         <mix:imageHeight>759</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im22</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1029</mix:imageWidth>
+         <mix:imageHeight>1532</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im23</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>523</mix:imageWidth>
+         <mix:imageHeight>409</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im19</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>518</mix:imageWidth>
+         <mix:imageHeight>174</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im24</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1036</mix:imageWidth>
+         <mix:imageHeight>365</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im25</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>509</mix:imageWidth>
+         <mix:imageHeight>291</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im28</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1017</mix:imageWidth>
+         <mix:imageHeight>612</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im29</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/jpg</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>JPEG</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>501</mix:imageWidth>
+         <mix:imageHeight>390</mix:imageHeight>
+         <mix:PhotometricInterpretation>
+          <mix:colorSpace>RGB</mix:colorSpace>
+         </mix:PhotometricInterpretation>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im26</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Image</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>NisoImageMetadata</name>
+       <values arity="Scalar" type="NISOImageMetadata">
+        <value>
+      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+       <mix:BasicDigitalObjectInformation>
+        <mix:ObjectIdentifier>
+         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+        </mix:ObjectIdentifier>
+        <mix:FormatDesignation>
+         <mix:formatName>image/tiff</mix:formatName>
+        </mix:FormatDesignation>
+        <mix:Compression>
+         <mix:compressionScheme>Group 4 Fax</mix:compressionScheme>
+        </mix:Compression>
+       </mix:BasicDigitalObjectInformation>
+       <mix:BasicImageInformation>
+        <mix:BasicImageCharacteristics>
+         <mix:imageWidth>1002</mix:imageWidth>
+         <mix:imageHeight>846</mix:imageHeight>
+        </mix:BasicImageCharacteristics>
+       </mix:BasicImageInformation>
+       <mix:ImageAssessmentMetadata>
+        <mix:ImageColorEncoding>
+         <mix:BitsPerSample>
+          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+         </mix:BitsPerSample>
+        </mix:ImageColorEncoding>
+       </mix:ImageAssessmentMetadata>
+      </mix:mix>
+        </value>
+       </values>
+      </property>
+      <property>
+       <name>ImageMask</name>
+       <values arity="Scalar" type="Boolean">
+        <value>true</value>
+       </values>
+      </property>
+      <property>
+       <name>Name</name>
+       <values arity="Scalar" type="String">
+        <value>Im27</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Type1</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F16</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Times-BoldItalic</value>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>MacRomanEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F18</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Times-Italic</value>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>MacRomanEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F19</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>MGMHAL+Times-Semibold</value>
+        </values>
+       </property>
+       <property>
+        <name>FontSubset</name>
+        <values arity="Scalar" type="Boolean">
+         <value>true</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>MGMHAL+Times-Semibold</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Serif</value>
+          <value>Nonsymbolic</value>
+          <value>ForceBold</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-167</value>
+          <value>-216</value>
+          <value>1004</value>
+          <value>933</value>
+         </values>
+        </property>
+        <property>
+         <name>FontFile3</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>MacRomanEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F21</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>MFKGKC+Pi1Font</value>
+        </values>
+       </property>
+       <property>
+        <name>FontSubset</name>
+        <values arity="Scalar" type="Boolean">
+         <value>true</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>251</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>MFKGKC+Pi1Font</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Symbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-13</value>
+          <value>-354</value>
+          <value>1013</value>
+          <value>951</value>
+         </values>
+        </property>
+        <property>
+         <name>FontFile3</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>EncodingDictionary</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Differences</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F8</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Times-Bold</value>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>MacRomanEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F19</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Times-Roman</value>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>MacRomanEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F22</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>MKMFAN+Times-RomanSC</value>
+        </values>
+       </property>
+       <property>
+        <name>FontSubset</name>
+        <values arity="Scalar" type="Boolean">
+         <value>true</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>MKMFAN+Times-RomanSC</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Serif</value>
+          <value>Nonsymbolic</value>
+          <value>SmallCap</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-168</value>
+          <value>-218</value>
+          <value>994</value>
+          <value>898</value>
+         </values>
+        </property>
+        <property>
+         <name>FontFile3</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>MacRomanEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>2</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>3</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>4</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>5</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>6</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>7</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>

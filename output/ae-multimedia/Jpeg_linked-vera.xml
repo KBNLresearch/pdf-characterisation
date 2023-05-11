@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="34913">
+        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/Jpeg_linked.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Title">[u_|ùùeZô–ÆBà@vŸ±ˇFIÄAõv*˚K×u{d*o:”õ­˙#x000015.−õ–</entry>
+          <entry key="Author">(WcVÓ¶#x00000Cgð’ÆE³</entry>
+          <entry key="Creator">=MnTÛﬂM\ð’…#x000006î5</entry>
+          <entry key="Producer">:\}VÜ¸X#x000017Ñ‰ÐE©hs”³U#x000010˚‚#x000005ýH-PNŸDd"</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <x:xmpmeta x:xmptk="3.1-701" xmlns:x="adobe:ns:meta/">
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+                  <pdf:Producer>Acrobat Distiller 7.0 (Windows)</pdf:Producer>
+                </rdf:Description>
+                <rdf:Description xmlns:xap="http://ns.adobe.com/xap/1.0/" rdf:about="">
+                  <xap:CreateDate>2005-03-09T23:32:04Z</xap:CreateDate>
+                  <xap:CreatorTool>FrameMaker 7.1</xap:CreatorTool>
+                  <xap:ModifyDate>2005-03-23T21:33:06+02:00</xap:ModifyDate>
+                  <xap:MetadataDate>2005-03-23T21:33:06+02:00</xap:MetadataDate>
+                </rdf:Description>
+                <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <dc:format>application/pdf</dc:format>
+                  <dc:creator>
+                    <rdf:Seq>
+                      <rdf:li>Shlomo Perets</rdf:li>
+                      <rdf:li>MicroType (http://www.microtype.com)</rdf:li>
+                    </rdf:Seq>
+                  </dc:creator>
+                  <dc:title>
+                    <rdf:Alt>
+                      <rdf:li xml:lang="x-default"> JPEG Images Displayed in a Floating Window </rdf:li>
+                    </rdf:Alt>
+                  </dc:title>
+                </rdf:Description>
+                <rdf:Description xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+                  <xapMM:DocumentID>uuid:3174a0a3-5a15-4dc6-86ca-c7a35a8b5d6d</xapMM:DocumentID>
+                  <xapMM:InstanceID>uuid:d76cf81a-bedf-4b46-8282-c78c78e1c228</xapMM:InstanceID>
+                </rdf:Description>
+              </rdf:RDF>
+            </x:xmpmeta>
+          </xmpPackage>
+        </metadata>
+        <documentSecurity>
+          <filter>Standard</filter>
+          <version>4</version>
+          <length>128</length>
+          <ownerKey>72F2AF73FF30C16F4553851A2D803EFEEFEE97A84C0F30989AA40AFDB64E069F</ownerKey>
+          <userKey>783FA7D025770E1EEBADED46A4C27F3900000000000000000000000000000000</userKey>
+          <encryptMetadata>true</encryptMetadata>
+          <printAllowed>true</printAllowed>
+          <printDegradedAllowed>true</printDegradedAllowed>
+          <changesAllowed>false</changesAllowed>
+          <modifyAnnotationsAllowed>false</modifyAnnotationsAllowed>
+          <fillingSigningAllowed>false</fillingSigningAllowed>
+          <documentAssemblyAllowed>false</documentAssemblyAllowed>
+          <extractContentAllowed>false</extractContentAllowed>
+          <extractAccessibilityAllowed>true</extractAccessibilityAllowed>
+        </documentSecurity>
+        <lowLevelInfo>
+          <pdfVersion>1.6</pdfVersion>
+          <indirectObjectsNumber>66</indirectObjectsNumber>
+          <documentId modificationId="A&gt;pÁ¡…¹H⁄ñ¤³««6³" creationId="¢5æ#x000016µ0ž#x000015}Ûà&amp;
+½&quot;t"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <actions>
+          <action type="GoTo">
+            <location>Document</location>
+          </action>
+          <action type="Rendition">
+            <location>Annotation</location>
+          </action>
+          <action type="Named">
+            <location>Annotation</location>
+          </action>
+        </actions>
+        <iccProfiles>
+          <iccProfile id="iccProfileIndir62">
+            <version>2.1</version>
+            <cmmType>Lino</cmmType>
+            <dataColorSpace>RGB </dataColorSpace>
+            <creator>HP  </creator>
+            <creationDate>1998-02-09T06:49:00.000Z</creationDate>
+            <defaultRenderingIntent>Perceptual</defaultRenderingIntent>
+            <copyright>Copyright (c) 1998 Hewlett-Packard Company</copyright>
+            <description>sRGB IEC61966-2.1</description>
+            <deviceModel>sRGB</deviceModel>
+            <deviceManufacturer>IEC </deviceManufacturer>
+          </iccProfile>
+        </iccProfiles>
+        <annotations>
+          <annotation id="annotIndir45">
+            <subType>Screen</subType>
+            <rectangle lly="338.900" llx="99.240" urx="137.340" ury="354.680"></rectangle>
+            <width>38.100</width>
+            <height>15.780</height>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>true</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir46">
+            <subType>Screen</subType>
+            <rectangle lly="294.920" llx="42.000" urx="136.860" ury="310.700"></rectangle>
+            <width>94.860</width>
+            <height>15.780</height>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>true</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir47">
+            <subType>Screen</subType>
+            <rectangle lly="316.940" llx="99.240" urx="137.340" ury="332.660"></rectangle>
+            <width>38.100</width>
+            <height>15.720</height>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>true</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir48">
+            <subType>Screen</subType>
+            <rectangle lly="272.900" llx="42.000" urx="136.860" ury="288.680"></rectangle>
+            <width>94.860</width>
+            <height>15.780</height>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>true</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir49">
+            <subType>Link</subType>
+            <rectangle lly="83.660" llx="332.100" urx="370.440" ury="97.940"></rectangle>
+            <width>38.340</width>
+            <height>14.280</height>
+            <color red="0.000000" green="0.000000" blue="1.000000"></color>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir50">
+            <subType>Link</subType>
+            <rectangle lly="126.920" llx="523.800" urx="567.600" ury="142.640"></rectangle>
+            <width>43.800</width>
+            <height>15.720</height>
+            <color red="0.000000" green="0.000000" blue="1.000000"></color>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir51">
+            <subType>Link</subType>
+            <rectangle lly="83.660" llx="27.600" urx="65.880" ury="97.940"></rectangle>
+            <width>38.280</width>
+            <height>14.280</height>
+            <color red="0.000000" green="0.000000" blue="1.000000"></color>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir2">
+            <subType>Link</subType>
+            <rectangle lly="84.620" llx="332.100" urx="370.440" ury="98.900"></rectangle>
+            <width>38.340</width>
+            <height>14.280</height>
+            <color red="0.000000" green="0.000000" blue="1.000000"></color>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir3">
+            <subType>Link</subType>
+            <rectangle lly="127.460" llx="523.800" urx="567.600" ury="143.600"></rectangle>
+            <width>43.800</width>
+            <height>16.140</height>
+            <color red="0.000000" green="0.000000" blue="1.000000"></color>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir4">
+            <subType>Link</subType>
+            <rectangle lly="84.620" llx="27.600" urx="65.880" ury="98.900"></rectangle>
+            <width>38.280</width>
+            <height>14.280</height>
+            <color red="0.000000" green="0.000000" blue="1.000000"></color>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+        </annotations>
+        <pages>
+          <page orderNumber="1" label="1">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="115.000" llx="0.000" urx="595.220" ury="727.000"></cropBox>
+            <trimBox lly="115.000" llx="0.000" urx="595.220" ury="727.000"></trimBox>
+            <bleedBox lly="115.000" llx="0.000" urx="595.220" ury="727.000"></bleedBox>
+            <artBox lly="115.000" llx="0.000" urx="595.220" ury="727.000"></artBox>
+            <rotation>0</rotation>
+            <thumbnail id="xobjIndir17"></thumbnail>
+            <annotations>
+              <annotation id="annotIndir48"></annotation>
+              <annotation id="annotIndir49"></annotation>
+              <annotation id="annotIndir46"></annotation>
+              <annotation id="annotIndir47"></annotation>
+              <annotation id="annotIndir45"></annotation>
+              <annotation id="annotIndir51"></annotation>
+              <annotation id="annotIndir50"></annotation>
+            </annotations>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir59"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspIndir61"></colorSpace>
+              </colorSpaces>
+              <fonts>
+                <font id="fntIndir54"></font>
+                <font id="fntIndir53"></font>
+                <font id="fntIndir55"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="2" label="2">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="115.000" llx="0.000" urx="595.220" ury="727.000"></cropBox>
+            <trimBox lly="115.000" llx="0.000" urx="595.220" ury="727.000"></trimBox>
+            <bleedBox lly="115.000" llx="0.000" urx="595.220" ury="727.000"></bleedBox>
+            <artBox lly="115.000" llx="0.000" urx="595.220" ury="727.000"></artBox>
+            <rotation>0</rotation>
+            <thumbnail id="xobjIndir18"></thumbnail>
+            <annotations>
+              <annotation id="annotIndir4"></annotation>
+              <annotation id="annotIndir2"></annotation>
+              <annotation id="annotIndir3"></annotation>
+            </annotations>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir59"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspIndir61"></colorSpace>
+              </colorSpaces>
+              <fonts>
+                <font id="fntIndir16"></font>
+                <font id="fntIndir15"></font>
+                <font id="fntIndir54"></font>
+                <font id="fntIndir53"></font>
+                <font id="fntIndir55"></font>
+                <font id="fntIndir14"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <graphicsStates>
+            <graphicsState id="exGStIndir59">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+          </graphicsStates>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+            <colorSpace id="clrspIndir12" family="Indexed">
+              <base id="devrgb"></base>
+              <hival>255</hival>
+              <lookup>0000000000330000660000990000CC0000FF0033000033330033660033990033CC0033FF0066000066330066660066990066CC0066FF0099000099330099660099990099CC0099FF00CC0000CC3300CC6600CC9900CCCC00CCFF00FF0000FF3300FF6600FF9900FFCC00FFFF3300003300333300663300993300CC3300FF3333003333333333663333993333CC3333FF3366003366333366663366993366CC3366FF3399003399333399663399993399CC3399FF33CC0033CC3333CC6633CC9933CCCC33CCFF33FF0033FF3333FF6633FF9933FFCC33FFFF6600006600336600666600996600CC6600FF6633006633336633666633996633CC6633FF6666006666336666666666996666CC6666FF6699006699336699666699996699CC6699FF66CC0066CC3366CC6666CC9966CCCC66CCFF66FF0066FF3366FF6666FF9966FFCC66FFFF9900009900339900669900999900CC9900FF9933009933339933669933999933CC9933FF9966009966339966669966999966CC9966FF9999009999339999669999999999CC9999FF99CC0099CC3399CC6699CC9999CCCC99CCFF99FF0099FF3399FF6699FF9999FFCC99FFFFCC0000CC0033CC0066CC0099CC00CCCC00FFCC3300CC3333CC3366CC3399CC33CCCC33FFCC6600CC6633CC6666CC6699CC66CCCC66FFCC9900CC9933CC9966CC9999CC99CCCC99FFCCCC00CCCC33CCCC66CCCC99CCCCCCCCCCFFCCFF00CCFF33CCFF66CCFF99CCFFCCCCFFFFFF0000FF0033FF0066FF0099FF00CCFF00FFFF3300FF3333FF3366FF3399FF33CCFF33FFFF6600FF6633FF6666FF6699FF66CCFF66FFFF9900FF9933FF9966FF9999FF99CCFF99FFFFCC00FFCC33FFCC66FFCC99FFCCCCFFCCFFFFFF00FFFF33FFFF66FFFF99FFFFCCFFFFFF111111222222444444555555777777888888AAAAAABBBBBBDDDDDDEEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</lookup>
+            </colorSpace>
+            <colorSpace id="clrspIndir61" family="ICCBased">
+              <alternate id="devrgb"></alternate>
+              <components>3</components>
+              <iccProfile id="iccProfileIndir62"></iccProfile>
+            </colorSpace>
+          </colorSpaces>
+          <xobjects>
+            <xobject id="xobjIndir17" type="image">
+              <width>74</width>
+              <height>76</height>
+              <colorSpace id="clrspIndir12"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir18" type="image">
+              <width>74</width>
+              <height>76</height>
+              <colorSpace id="clrspIndir12"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+          </xobjects>
+          <fonts>
+            <font id="fntIndir53">
+              <type>Type1</type>
+              <baseFont>MLEILG+Helvetica-Bold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica-Bold</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>true</forceBold>
+                <fontBBox lly="-228.000" llx="-170.000" urx="1003.000" ury="962.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>718.000</ascent>
+                <descent>-207.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>532.000</xHeight>
+                <stemV>140.000</stemV>
+                <stemH>140.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>5MÛøf@³łIRŸ#x00000Ev,¬ aI‹v`Õçä�ü‹DTó1Ì”~6zFj[”A»KyM7ícÇß#x000001ìè#x00000C¶°HyË÷«dÙ¦,à</charSet>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir54">
+              <type>Type1</type>
+              <baseFont>MLEILH+Helvetica-BoldOblique</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>32</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica-BoldOblique</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>true</forceBold>
+                <fontBBox lly="-228.000" llx="-174.000" urx="1114.000" ury="962.000"></fontBBox>
+                <italicAngle>-12.000</italicAngle>
+                <ascent>718.000</ascent>
+                <descent>-207.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>532.000</xHeight>
+                <stemV>140.000</stemV>
+                <stemH>140.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>¨ŽŠÏø)</charSet>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir55">
+              <type>Type1</type>
+              <baseFont>MLEIMH+Helvetica</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>150</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-225.000" llx="-166.000" urx="1000.000" ury="931.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>718.000</ascent>
+                <descent>-207.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>88.000</stemV>
+                <stemH>88.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>Ÿ[Ùx…ﬂ'ÛÔ`™' aå€#x00000EåÆðkŠ(]­õe¶ð&gt;Ž©A]¥Cê+RÿŠª¯�i‰¼Þë,*Çn
+#x000006Ð#x000005ÿ
+ˆBàm„[îi…ÐÆËââtÿå×#x000003vQÍÒ#x00000F5ž#x00000C³ıûÄñ«Ø#x00000C3á`#x000012êRx#x00000CÍåK?#x000000¯[…é&lt;#x00000E”&lt;Øä83#x000013¯¹#x000006× ]n⁄#x00000Cý(ðJÓ‚ˇ#x000006Û´ˆwïn&lt;i–#x00000FÀØM~Ù2°−ú#x00000E.ðí-±,gçýPµ#x00000EŒZys¢0»w!&lt;˝]i:M#x000005-ïÏ¼;^|X|ñ¥V¦l¡#x000000¾˚</charSet>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir15">
+              <type>TrueType</type>
+              <baseFont>CourierNewPSMT</baseFont>
+              <firstChar>48</firstChar>
+              <lastChar>56</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>CourierNewPSMT</fontName>
+                <fontFamily>*²}ﬁå¯¢¾#x000010\Þ</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-680.000" llx="-21.000" urx="638.000" ury="1021.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>832.000</ascent>
+                <descent>-300.000</descent>
+                <leading>0.000</leading>
+                <capHeight>578.000</capHeight>
+                <xHeight>-578.000</xHeight>
+                <stemV>42.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir14">
+              <type>Type1</type>
+              <baseFont>MLEIOH+StoneSerif</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>150</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>StoneSerif</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-250.000" llx="-201.000" urx="1279.000" ury="941.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>735.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>700.000</capHeight>
+                <xHeight>500.000</xHeight>
+                <stemV>90.000</stemV>
+                <stemH>35.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>—e3,P3QW#x000011#x000015Ö|]#x000014˝Ù¦#x000004­šsÃÝ_ŽÊ%=“W)Š™#x000012ío¦&amp;«#x000003'À’]’)Ênł™{"#x000012ˆÖ¦Ã2ﬂÏłC™S¼¡”łüö#x000006l¤H@ﬂ¹C¶E´ˇ#x000014}#x000006¡H¥2FVêıJþó«›iz’#x000000F'õëã8‹Ê#x000015½TTL˝|ÛhÕéŒAÒ6c&amp;¹S›[1(`‡ûç#x00000F–õ;#x00000Eô#x000002R®þ¸(�´.Œ½}ûÅŠBqÛ#x000006#x000005êýŠ•¦í0¯}Š#x000006äñ˜îV¤#x00000BMN#x000010ð¾¥OùÅz#x000003#x000006</charSet>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir16">
+              <type>Type1</type>
+              <baseFont>MLEIPI+StoneSerif-Bold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>117</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>StoneSerif-Bold</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>true</forceBold>
+                <fontBBox lly="-251.000" llx="-150.000" urx="1464.000" ury="972.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>735.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>700.000</capHeight>
+                <xHeight>500.000</xHeight>
+                <stemV>200.000</stemV>
+                <stemH>38.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>§�aæê#x000004¹¬I¿»3½&amp;.#x000002#x000002¸ﬁVRõnú˙¿¸-Ł|_Ê„#x000014#x000011|ÇN5«Í#x000006€´þB	»
+@ÿ–É É</charSet>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683819047577" finish="1683819047629">00:00:00.052</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683819047489" finish="1683819047682">00:00:00.193</duration>
+  </batchSummary>
+</report>

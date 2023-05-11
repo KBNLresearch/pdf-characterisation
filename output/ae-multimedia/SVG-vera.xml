@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="4603158">
+        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/SVG.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Producer">Photoshop_Album</entry>
+          <entry key="CreationDate">2003-05-04T22:23:27.000+02:00</entry>
+          <entry key="ModDate">2003-06-02T06:17:32.000-04:00</entry>
+          <entry key="companyID">com.adobe</entry>
+          <entry key="sharing">1</entry>
+          <entry key="templateID">corp.adobe.com.templates.dynamic.black.slideshow</entry>
+          <entry key="templateType">slideshow</entry>
+          <entry key="version">1</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <x:xmpmeta x:xmptk="XMP toolkit 2.9.1-13, framework 1.6" xmlns:x="adobe:ns:meta/">
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:iX="http://ns.adobe.com/iX/1.0/">
+                <rdf:Description pdf:Producer="Photoshop_Album" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="uuid:d601b13a-0182-4805-bd09-0dc678c01e3e"></rdf:Description>
+                <rdf:Description pdfx:sharing="1" pdfx:companyID="com.adobe" pdfx:templateType="slideshow" pdfx:version="1" xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/" pdfx:templateID="corp.adobe.com.templates.dynamic.black.slideshow" rdf:about="uuid:d601b13a-0182-4805-bd09-0dc678c01e3e"></rdf:Description>
+                <rdf:Description xmlns:xap="http://ns.adobe.com/xap/1.0/" xap:MetadataDate="2003-06-02T06:17:32-04:00" xap:CreateDate="2003-05-04T22:23:27+02:00" xap:ModifyDate="2003-06-02T06:17:32-04:00" rdf:about="uuid:d601b13a-0182-4805-bd09-0dc678c01e3e"></rdf:Description>
+                <rdf:Description xapMM:DocumentID="uuid:d5ee3d78-e70d-4832-ab4c-6657829425db" xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="uuid:d601b13a-0182-4805-bd09-0dc678c01e3e"></rdf:Description>
+                <rdf:Description dc:format="application/pdf" rdf:about="uuid:d601b13a-0182-4805-bd09-0dc678c01e3e" xmlns:dc="http://purl.org/dc/elements/1.1/"></rdf:Description>
+              </rdf:RDF>
+            </x:xmpmeta>
+          </xmpPackage>
+        </metadata>
+        <lowLevelInfo>
+          <pdfVersion>1.5</pdfVersion>
+          <indirectObjectsNumber>83</indirectObjectsNumber>
+          <documentId modificationId="Æ˜Ù#x00000B/,FOŸ½^ãRñ#x000005Â" creationId=".)-ïµ8GÍµ—îÕı#x000013ł´"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="DCTDecode"></filter>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <actions>
+          <action type="JavaScript">
+            <location>Document</location>
+            <location>Annotation</location>
+          </action>
+          <action type="URI">
+            <location>Annotation</location>
+          </action>
+        </actions>
+        <interactiveFormFields>
+          <interactiveFormField>
+            <fullyQualifiedName>playMsg</fullyQualifiedName>
+          </interactiveFormField>
+          <interactiveFormField>
+            <fullyQualifiedName>pluginMsg</fullyQualifiedName>
+          </interactiveFormField>
+          <interactiveFormField>
+            <fullyQualifiedName>upgradeMsg</fullyQualifiedName>
+          </interactiveFormField>
+          <interactiveFormField>
+            <fullyQualifiedName>playButton</fullyQualifiedName>
+          </interactiveFormField>
+          <interactiveFormField>
+            <fullyQualifiedName>upgradeButton</fullyQualifiedName>
+          </interactiveFormField>
+          <interactiveFormField>
+            <fullyQualifiedName>pluginButton</fullyQualifiedName>
+          </interactiveFormField>
+          <interactiveFormField>
+            <fullyQualifiedName>closeButton</fullyQualifiedName>
+          </interactiveFormField>
+        </interactiveFormFields>
+        <annotations>
+          <annotation id="annotIndir28">
+            <subType>Widget</subType>
+            <rectangle lly="326.594" llx="102.400" urx="606.642" ury="691.200"></rectangle>
+            <width>504.242</width>
+            <height>364.606</height>
+            <resources>
+              <xobject id="xobjIndir37"></xobject>
+            </resources>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir40">
+            <subType>Widget</subType>
+            <rectangle lly="326.594" llx="102.400" urx="606.642" ury="691.200"></rectangle>
+            <width>504.242</width>
+            <height>364.606</height>
+            <resources>
+              <xobject id="xobjIndir43"></xobject>
+            </resources>
+            <invisible>false</invisible>
+            <hidden>true</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir45">
+            <subType>Widget</subType>
+            <rectangle lly="326.594" llx="102.400" urx="606.642" ury="691.200"></rectangle>
+            <width>504.242</width>
+            <height>364.606</height>
+            <resources>
+              <xobject id="xobjIndir48"></xobject>
+            </resources>
+            <invisible>false</invisible>
+            <hidden>true</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir50">
+            <subType>Widget</subType>
+            <rectangle lly="326.594" llx="407.531" urx="588.541" ury="380.897"></rectangle>
+            <width>181.010</width>
+            <height>54.303</height>
+            <resources>
+              <xobject id="xobjIndir57"></xobject>
+            </resources>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir59">
+            <subType>Widget</subType>
+            <rectangle lly="326.594" llx="120.501" urx="301.511" ury="380.897"></rectangle>
+            <width>181.010</width>
+            <height>54.303</height>
+            <resources>
+              <xobject id="xobjIndir64"></xobject>
+            </resources>
+            <invisible>false</invisible>
+            <hidden>true</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir66">
+            <subType>Widget</subType>
+            <rectangle lly="326.594" llx="120.501" urx="301.511" ury="380.897"></rectangle>
+            <width>181.010</width>
+            <height>54.303</height>
+            <resources>
+              <xobject id="xobjIndir67"></xobject>
+            </resources>
+            <invisible>false</invisible>
+            <hidden>true</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+          <annotation id="annotIndir69">
+            <subType>Widget</subType>
+            <rectangle lly="645.947" llx="561.390" urx="597.592" ury="682.149"></rectangle>
+            <width>36.202</width>
+            <height>36.202</height>
+            <resources>
+              <xobject id="xobjIndir76"></xobject>
+            </resources>
+            <invisible>false</invisible>
+            <hidden>false</hidden>
+            <print>false</print>
+            <noZoom>false</noZoom>
+            <noRotate>false</noRotate>
+            <noView>false</noView>
+            <readOnly>false</readOnly>
+            <locked>false</locked>
+            <toggleNoView>false</toggleNoView>
+            <lockedContents>false</lockedContents>
+          </annotation>
+        </annotations>
+        <pages>
+          <page orderNumber="1">
+            <width>1024.000</width>
+            <height>768.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="1024.000" ury="768.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="1024.000" ury="768.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="1024.000" ury="768.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="1024.000" ury="768.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="1024.000" ury="768.000"></artBox>
+            <rotation>0</rotation>
+            <annotations>
+              <annotation id="annotIndir59"></annotation>
+              <annotation id="annotIndir69"></annotation>
+              <annotation id="annotIndir66"></annotation>
+              <annotation id="annotIndir45"></annotation>
+              <annotation id="annotIndir40"></annotation>
+              <annotation id="annotIndir50"></annotation>
+              <annotation id="annotIndir28"></annotation>
+            </annotations>
+            <resources>
+              <xobjects>
+                <xobject id="xobjIndir10"></xobject>
+              </xobjects>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <graphicsStates>
+            <graphicsState id="exGStIndir12">
+              <transparency>true</transparency>
+            </graphicsState>
+            <graphicsState id="exGStIndir8">
+              <transparency>true</transparency>
+            </graphicsState>
+          </graphicsStates>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+            <colorSpace id="devgray" family="DeviceGray"></colorSpace>
+            <colorSpace id="clrspIndir6" family="CalRGB">
+              <whitePoint x="0.951" y="1.000" z="1.089"></whitePoint>
+              <blackPoint x="0.000" y="0.000" z="0.000"></blackPoint>
+              <gamma red="2.200" green="2.200" blue="2.200"></gamma>
+              <matrix>
+                <element number="0" value="0.412"></element>
+                <element number="1" value="0.213"></element>
+                <element number="2" value="0.019"></element>
+                <element number="3" value="0.358"></element>
+                <element number="4" value="0.715"></element>
+                <element number="5" value="0.119"></element>
+                <element number="6" value="0.180"></element>
+                <element number="7" value="0.072"></element>
+                <element number="8" value="0.950"></element>
+              </matrix>
+            </colorSpace>
+          </colorSpaces>
+          <xobjects>
+            <xobject id="xobjIndir33" type="image">
+              <width>780</width>
+              <height>565</height>
+              <colorSpace id="devgray"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir34" type="image">
+              <width>780</width>
+              <height>565</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <sMask id="xobjIndir33"></sMask>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir55" type="image">
+              <width>90</width>
+              <height>90</height>
+              <colorSpace id="devgray"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir56" type="image">
+              <width>90</width>
+              <height>90</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <sMask id="xobjIndir55"></sMask>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir62" type="image">
+              <width>90</width>
+              <height>90</height>
+              <colorSpace id="devgray"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir63" type="image">
+              <width>90</width>
+              <height>90</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <sMask id="xobjIndir62"></sMask>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir74" type="image">
+              <width>80</width>
+              <height>80</height>
+              <colorSpace id="devgray"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir75" type="image">
+              <width>80</width>
+              <height>80</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <sMask id="xobjIndir74"></sMask>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir7" type="image">
+              <width>320</width>
+              <height>240</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>true</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir37" type="form">
+              <bbox lly="326.594" llx="102.400" urx="606.642" ury="691.200"></bbox>
+              <width>504.242</width>
+              <height>364.606</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir34"></xobject>
+                </xobjects>
+                <fonts>
+                  <font id="fntIndir35"></font>
+                </fonts>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir43" type="form">
+              <bbox lly="326.594" llx="102.400" urx="606.642" ury="691.200"></bbox>
+              <width>504.242</width>
+              <height>364.606</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir34"></xobject>
+                </xobjects>
+                <fonts>
+                  <font id="fntIndir35"></font>
+                </fonts>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir48" type="form">
+              <bbox lly="326.594" llx="102.400" urx="606.642" ury="691.200"></bbox>
+              <width>504.242</width>
+              <height>364.606</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir34"></xobject>
+                </xobjects>
+                <fonts>
+                  <font id="fntIndir35"></font>
+                </fonts>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir57" type="form">
+              <bbox lly="326.594" llx="407.531" urx="588.541" ury="380.897"></bbox>
+              <width>181.010</width>
+              <height>54.303</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir56"></xobject>
+                </xobjects>
+                <fonts>
+                  <font id="fntIndir35"></font>
+                </fonts>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir64" type="form">
+              <bbox lly="326.594" llx="120.501" urx="301.511" ury="380.897"></bbox>
+              <width>181.010</width>
+              <height>54.303</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir63"></xobject>
+                </xobjects>
+                <fonts>
+                  <font id="fntIndir35"></font>
+                </fonts>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir67" type="form">
+              <bbox lly="326.594" llx="120.501" urx="301.511" ury="380.897"></bbox>
+              <width>181.010</width>
+              <height>54.303</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir63"></xobject>
+                </xobjects>
+                <fonts>
+                  <font id="fntIndir35"></font>
+                </fonts>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir76" type="form">
+              <bbox lly="645.947" llx="561.390" urx="597.592" ury="682.149"></bbox>
+              <width>36.202</width>
+              <height>36.202</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <xobjects>
+                  <xobject id="xobjIndir75"></xobject>
+                </xobjects>
+                <fonts>
+                  <font id="fntIndir35"></font>
+                </fonts>
+              </resources>
+            </xobject>
+            <xobject id="xobjIndir10" type="form">
+              <bbox lly="0.000" llx="0.000" urx="1024.000" ury="768.000"></bbox>
+              <width>1024.000</width>
+              <height>768.000</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+              <resources>
+                <graphicsStates>
+                  <graphicsState id="exGStIndir8"></graphicsState>
+                  <graphicsState id="exGStIndir12"></graphicsState>
+                </graphicsStates>
+                <colorSpaces>
+                  <colorSpace id="clrspIndir6"></colorSpace>
+                </colorSpaces>
+                <xobjects>
+                  <xobject id="xobjIndir7"></xobject>
+                </xobjects>
+              </resources>
+            </xobject>
+          </xobjects>
+          <fonts>
+            <font id="fntIndir35">
+              <type>Type1</type>
+              <baseFont>ArialMT</baseFont>
+              <firstChar>0</firstChar>
+              <lastChar>255</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>ArialMT</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-250.000" llx="-222.000" urx="1006.000" ury="922.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>922.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>716.000</capHeight>
+                <xHeight>518.000</xHeight>
+                <stemV>88.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683819040488" finish="1683819040545">00:00:00.057</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683819040431" finish="1683819040594">00:00:00.163</duration>
+  </batchSummary>
+</report>

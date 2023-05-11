@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="654890">
+        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/fonts/text_images_pdf1.2.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Producer">Acrobat Distiller 2.1 for Power Macintosh</entry>
+          <entry key="CreationDate">1996-11-12T12:34:19.000Z</entry>
+          <entry key="ModDate">1998-04-28T08:27:44.000Z</entry>
+        </informationDict>
+        <lowLevelInfo>
+          <pdfVersion>1.2</pdfVersion>
+          <indirectObjectsNumber>108</indirectObjectsNumber>
+          <documentId modificationId="Ä#x00000CeòŸ÷§É×êsëtÝsr" creationId="Ä#x00000CeòŸ÷§É×êsëtÝsr"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="DCTDecode"></filter>
+            <filter name="CCITTFaxDecode"></filter>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <pages>
+          <page orderNumber="1">
+            <width>635.000</width>
+            <height>887.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir104"></graphicsState>
+                <graphicsState id="exGStIndir105"></graphicsState>
+                <graphicsState id="exGStIndir102"></graphicsState>
+                <graphicsState id="exGStIndir106"></graphicsState>
+              </graphicsStates>
+              <xobjects>
+                <xobject id="xobjIndir99"></xobject>
+                <xobject id="xobjIndir100"></xobject>
+                <xobject id="xobjIndir101"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir90"></font>
+                <font id="fntIndir81"></font>
+                <font id="fntIndir72"></font>
+                <font id="fntIndir82"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir86"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="2">
+            <width>635.000</width>
+            <height>887.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir9"></graphicsState>
+                <graphicsState id="exGStIndir10"></graphicsState>
+              </graphicsStates>
+              <xobjects>
+                <xobject id="xobjIndir7"></xobject>
+                <xobject id="xobjIndir6"></xobject>
+                <xobject id="xobjIndir5"></xobject>
+                <xobject id="xobjIndir4"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir90"></font>
+                <font id="fntIndir81"></font>
+                <font id="fntIndir72"></font>
+                <font id="fntIndir82"></font>
+                <font id="fntIndir62"></font>
+                <font id="fntIndir87"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="3">
+            <width>635.000</width>
+            <height>887.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir23"></graphicsState>
+                <graphicsState id="exGStIndir22"></graphicsState>
+              </graphicsStates>
+              <xobjects>
+                <xobject id="xobjIndir15"></xobject>
+                <xobject id="xobjIndir14"></xobject>
+                <xobject id="xobjIndir17"></xobject>
+                <xobject id="xobjIndir16"></xobject>
+                <xobject id="xobjIndir19"></xobject>
+                <xobject id="xobjIndir18"></xobject>
+                <xobject id="xobjIndir20"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir90"></font>
+                <font id="fntIndir81"></font>
+                <font id="fntIndir72"></font>
+                <font id="fntIndir82"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="4">
+            <width>635.000</width>
+            <height>887.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir33"></graphicsState>
+                <graphicsState id="exGStIndir32"></graphicsState>
+              </graphicsStates>
+              <xobjects>
+                <xobject id="xobjIndir28"></xobject>
+                <xobject id="xobjIndir27"></xobject>
+                <xobject id="xobjIndir29"></xobject>
+                <xobject id="xobjIndir30"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir90"></font>
+                <font id="fntIndir81"></font>
+                <font id="fntIndir72"></font>
+                <font id="fntIndir82"></font>
+                <font id="fntIndir87"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="5">
+            <width>635.000</width>
+            <height>887.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir44"></graphicsState>
+                <graphicsState id="exGStIndir43"></graphicsState>
+              </graphicsStates>
+              <xobjects>
+                <xobject id="xobjIndir37"></xobject>
+                <xobject id="xobjIndir39"></xobject>
+                <xobject id="xobjIndir38"></xobject>
+                <xobject id="xobjIndir40"></xobject>
+                <xobject id="xobjIndir41"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir90"></font>
+                <font id="fntIndir81"></font>
+                <font id="fntIndir72"></font>
+                <font id="fntIndir82"></font>
+                <font id="fntIndir87"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="6">
+            <width>635.000</width>
+            <height>887.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir56"></graphicsState>
+                <graphicsState id="exGStIndir55"></graphicsState>
+              </graphicsStates>
+              <xobjects>
+                <xobject id="xobjIndir48"></xobject>
+                <xobject id="xobjIndir49"></xobject>
+                <xobject id="xobjIndir51"></xobject>
+                <xobject id="xobjIndir50"></xobject>
+                <xobject id="xobjIndir53"></xobject>
+                <xobject id="xobjIndir52"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir90"></font>
+                <font id="fntIndir81"></font>
+                <font id="fntIndir72"></font>
+                <font id="fntIndir82"></font>
+                <font id="fntIndir62"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir86"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="7">
+            <width>635.000</width>
+            <height>887.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="635.000" ury="887.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir61"></graphicsState>
+              </graphicsStates>
+              <fonts>
+                <font id="fntIndir90"></font>
+                <font id="fntIndir81"></font>
+                <font id="fntIndir72"></font>
+                <font id="fntIndir82"></font>
+                <font id="fntIndir86"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <graphicsStates>
+            <graphicsState id="exGStIndir102">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir105">
+              <strokeAdjustment>true</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir104">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir106">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>true</overprintForStroke>
+              <overprintForFill>true</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir9">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir10">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>true</overprintForStroke>
+              <overprintForFill>true</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir22">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir23">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>true</overprintForStroke>
+              <overprintForFill>true</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir32">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir33">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>true</overprintForStroke>
+              <overprintForFill>true</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir43">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir44">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>true</overprintForStroke>
+              <overprintForFill>true</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir55">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir56">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>true</overprintForStroke>
+              <overprintForFill>true</overprintForFill>
+            </graphicsState>
+            <graphicsState id="exGStIndir61">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+          </graphicsStates>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+          </colorSpaces>
+          <xobjects>
+            <xobject id="xobjIndir99" type="image">
+              <width>616</width>
+              <height>255</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir101" type="image">
+              <width>995</width>
+              <height>862</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir100" type="image">
+              <width>498</width>
+              <height>428</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir5" type="image">
+              <width>1833</width>
+              <height>795</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir4" type="image">
+              <width>917</width>
+              <height>394</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir7" type="image">
+              <width>1005</width>
+              <height>1370</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir6" type="image">
+              <width>502</width>
+              <height>680</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir16" type="image">
+              <width>505</width>
+              <height>311</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir15" type="image">
+              <width>1048</width>
+              <height>1465</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir19" type="image">
+              <width>996</width>
+              <height>850</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir14" type="image">
+              <width>524</width>
+              <height>704</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir20" type="image">
+              <width>499</width>
+              <height>188</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir17" type="image">
+              <width>1010</width>
+              <height>638</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir18" type="image">
+              <width>498</width>
+              <height>416</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir29" type="image">
+              <width>495</width>
+              <height>170</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir30" type="image">
+              <width>483</width>
+              <height>312</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir27" type="image">
+              <width>483</width>
+              <height>254</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir28" type="image">
+              <width>965</width>
+              <height>519</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir38" type="image">
+              <width>1046</width>
+              <height>837</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir39" type="image">
+              <width>498</width>
+              <height>204</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir40" type="image">
+              <width>515</width>
+              <height>759</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir41" type="image">
+              <width>1029</width>
+              <height>1532</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir37" type="image">
+              <width>523</width>
+              <height>409</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir48" type="image">
+              <width>518</width>
+              <height>174</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir49" type="image">
+              <width>1036</width>
+              <height>365</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir52" type="image">
+              <width>509</width>
+              <height>291</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir53" type="image">
+              <width>1017</width>
+              <height>612</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir50" type="image">
+              <width>501</width>
+              <height>390</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir51" type="image">
+              <width>1002</width>
+              <height>846</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>CCITTFaxDecode</filter>
+              </filters>
+            </xobject>
+          </xobjects>
+          <fonts>
+            <font id="fntIndir72">
+              <type>Type1</type>
+              <baseFont>Times-Bold</baseFont>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Times-Bold</fontName>
+                <fontFamily>Times</fontFamily>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-218.000" llx="-168.000" urx="1000.000" ury="935.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>683.000</ascent>
+                <descent>-217.000</descent>
+                <leading>0.000</leading>
+                <capHeight>676.000</capHeight>
+                <xHeight>461.000</xHeight>
+                <stemH>0.000</stemH>
+                <averageWidth>542.229</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>ExtendedRoman</charSet>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir87">
+              <type>Type1</type>
+              <baseFont>MFKGKC+Pi1Font</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>251</lastChar>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Pi1Font</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>true</symbolic>
+                <script>false</script>
+                <nonsymbolic>false</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-354.000" llx="-13.000" urx="1013.000" ury="951.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>712.000</ascent>
+                <descent>-219.000</descent>
+                <leading>0.000</leading>
+                <capHeight>352.000</capHeight>
+                <xHeight>712.000</xHeight>
+                <stemV>51.111</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>/a/two</charSet>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir90">
+              <type>Type1</type>
+              <baseFont>Times-Roman</baseFont>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Times-Roman</fontName>
+                <fontFamily>Times</fontFamily>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-218.000" llx="-168.000" urx="1000.000" ury="898.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>683.000</ascent>
+                <descent>-217.000</descent>
+                <leading>0.000</leading>
+                <capHeight>662.000</capHeight>
+                <xHeight>450.000</xHeight>
+                <stemH>0.000</stemH>
+                <averageWidth>518.060</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>ExtendedRoman</charSet>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir82">
+              <type>Type1</type>
+              <baseFont>Times-Italic</baseFont>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Times-Italic</fontName>
+                <fontFamily>Times</fontFamily>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-217.000" llx="-169.000" urx="1010.000" ury="883.000"></fontBBox>
+                <italicAngle>-15.500</italicAngle>
+                <ascent>683.000</ascent>
+                <descent>-217.000</descent>
+                <leading>0.000</leading>
+                <capHeight>653.000</capHeight>
+                <xHeight>441.000</xHeight>
+                <stemH>0.000</stemH>
+                <averageWidth>511.756</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>ExtendedRoman</charSet>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir81">
+              <type>Type1</type>
+              <baseFont>Times-BoldItalic</baseFont>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Times-BoldItalic</fontName>
+                <fontFamily>Times</fontFamily>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-218.000" llx="-200.000" urx="996.000" ury="921.000"></fontBBox>
+                <italicAngle>-15.000</italicAngle>
+                <ascent>683.000</ascent>
+                <descent>-217.000</descent>
+                <leading>0.000</leading>
+                <capHeight>669.000</capHeight>
+                <xHeight>462.000</xHeight>
+                <stemH>0.000</stemH>
+                <averageWidth>525.978</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>ExtendedRoman</charSet>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir86">
+              <type>Type1</type>
+              <baseFont>MGMHAL+Times-Semibold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>255</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Semibold</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>true</forceBold>
+                <fontBBox lly="-216.000" llx="-167.000" urx="1004.000" ury="933.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>708.000</ascent>
+                <descent>-216.000</descent>
+                <leading>0.000</leading>
+                <capHeight>680.000</capHeight>
+                <xHeight>470.000</xHeight>
+                <stemV>120.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>/o/a/eight/N/B/z/slash/c/p/g/nine/C/O/zero/acute/e/D/P/parenleft/one/space/r/f/d/parenright/two/h/s/F/R/three/i/t/S/G/l/four/j/I/u/U/x/H/five/k/v/comma/J/K/m/w/hyphen/W/T/L/seven/n/y/period/X/M/A/b</charSet>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir62">
+              <type>Type1</type>
+              <baseFont>MKMFAN+Times-RomanSC</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>255</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-RomanSC</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>true</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-218.000" llx="-168.000" urx="994.000" ury="898.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>699.000</ascent>
+                <descent>-205.000</descent>
+                <leading>0.000</leading>
+                <capHeight>662.000</capHeight>
+                <xHeight>486.000</xHeight>
+                <stemV>86.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>/i/v</charSet>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1683818993530" finish="1683818993621">00:00:00.091</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1683818993485" finish="1683818993671">00:00:00.186</duration>
+  </batchSummary>
+</report>

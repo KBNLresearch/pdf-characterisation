@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
+ <date>2023-05-11T17:30:02+02:00</date>
+ <repInfo uri="./pdfAcrobatEngineering/fonts/Type3_WWW-HTML.pdf">
+  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <lastModified>2013-07-18T16:36:09+02:00</lastModified>
+  <size>88263</size>
+  <format>PDF</format>
+  <version>1.2</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>application/pdf</mimeType>
+  <profiles>
+   <profile>Linearized PDF</profile>
+  </profiles>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>255</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Producer</name>
+      <values arity="Scalar" type="String">
+       <value>Acrobat Net Distiller 1.0.2 for Macintosh</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Thu Jan 01 01:00:00 CET 1</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Tue Mar 04 16:23:31 CET 2003</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0x79cc01dba147ae6e50846bcf14b4c681</value>
+      <value>0x6bb3d2ac280e05de398b807072f154e3</value>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>FlateDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Type3</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>T5</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>49</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>116</value>
+        </values>
+       </property>
+       <property>
+        <name>FontBBox</name>
+        <values arity="Array" type="Integer">
+         <value>1</value>
+         <value>-10</value>
+         <value>58</value>
+         <value>34</value>
+        </values>
+       </property>
+       <property>
+        <name>EncodingDictionary</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Differences</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>T7</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>60</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>62</value>
+        </values>
+       </property>
+       <property>
+        <name>FontBBox</name>
+        <values arity="Array" type="Integer">
+         <value>4</value>
+         <value>-2</value>
+         <value>36</value>
+         <value>26</value>
+        </values>
+       </property>
+       <property>
+        <name>EncodingDictionary</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Differences</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>T2</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>11</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>124</value>
+        </values>
+       </property>
+       <property>
+        <name>FontBBox</name>
+        <values arity="Array" type="Integer">
+         <value>-3</value>
+         <value>-13</value>
+         <value>49</value>
+         <value>34</value>
+        </values>
+       </property>
+       <property>
+        <name>EncodingDictionary</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Differences</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>T3</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>65</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>119</value>
+        </values>
+       </property>
+       <property>
+        <name>FontBBox</name>
+        <values arity="Array" type="Integer">
+         <value>1</value>
+         <value>-13</value>
+         <value>73</value>
+         <value>27</value>
+        </values>
+       </property>
+       <property>
+        <name>EncodingDictionary</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Differences</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>T6</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>49</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>54</value>
+        </values>
+       </property>
+       <property>
+        <name>FontBBox</name>
+        <values arity="Array" type="Integer">
+         <value>1</value>
+         <value>0</value>
+         <value>25</value>
+         <value>27</value>
+        </values>
+       </property>
+       <property>
+        <name>EncodingDictionary</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Differences</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>T4</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>45</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>122</value>
+        </values>
+       </property>
+       <property>
+        <name>FontBBox</name>
+        <values arity="Array" type="Integer">
+         <value>1</value>
+         <value>-12</value>
+         <value>57</value>
+         <value>34</value>
+        </values>
+       </property>
+       <property>
+        <name>EncodingDictionary</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Differences</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>T1</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>39</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>118</value>
+        </values>
+       </property>
+       <property>
+        <name>FontBBox</name>
+        <values arity="Array" type="Integer">
+         <value>1</value>
+         <value>-1</value>
+         <value>60</value>
+         <value>49</value>
+        </values>
+       </property>
+       <property>
+        <name>EncodingDictionary</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Differences</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>XMP</name>
+     <values arity="Scalar" type="String">
+      <value>&lt;rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+ xmlns:iX='http://ns.adobe.com/iX/1.0/'&gt;
+
+ &lt;rdf:Description about=''
+  xmlns='http://ns.adobe.com/pdf/1.3/'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'&gt;
+  &lt;pdf:CreationDate&gt;0-01-01T00:00:00Z&lt;/pdf:CreationDate&gt;
+  &lt;pdf:Producer&gt;Acrobat Net Distiller 1.0.2 for Macintosh&lt;/pdf:Producer&gt;
+  &lt;pdf:ModDate&gt;2003-03-04T15:23:31-08:00&lt;/pdf:ModDate&gt;
+ &lt;/rdf:Description&gt;
+
+ &lt;rdf:Description about=''
+  xmlns='http://ns.adobe.com/xap/1.0/'
+  xmlns:xap='http://ns.adobe.com/xap/1.0/'&gt;
+  &lt;xap:CreateDate&gt;0-01-01T00:00:00Z&lt;/xap:CreateDate&gt;
+  &lt;xap:ModifyDate&gt;2003-03-04T15:23:31-08:00&lt;/xap:ModifyDate&gt;
+  &lt;xap:MetadataDate&gt;2003-03-04T15:23:31-08:00&lt;/xap:MetadataDate&gt;
+ &lt;/rdf:Description&gt;
+
+&lt;/rdf:RDF&gt;</value>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>2</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>3</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>4</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>5</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>6</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
+ <date>2023-05-11T17:30:52+02:00</date>
+ <repInfo uri="./pdfAcrobatEngineering/multimedia/remotemovieurl.pdf">
+  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <lastModified>2013-07-18T15:48:04+02:00</lastModified>
+  <size>21055</size>
+  <format>PDF</format>
+  <version>1.4</version>
+  <status>Not well-formed</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <messages>
+   <message offset="1977" severity="error" id="PDF-HUL-120">Annotation dictionary missing required type (S) entry</message>
+  </messages>
+  <mimeType>application/pdf</mimeType>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>36</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Title</name>
+      <values arity="Scalar" type="String">
+       <value>Document</value>
+      </values>
+     </property>
+     <property>
+      <name>Author</name>
+      <values arity="Scalar" type="String">
+       <value>jemoran</value>
+      </values>
+     </property>
+     <property>
+      <name>Creator</name>
+      <values arity="Scalar" type="String">
+       <value>Document - WordPad</value>
+      </values>
+     </property>
+     <property>
+      <name>Producer</name>
+      <values arity="Scalar" type="String">
+       <value>Acrobat PDFWriter 4.05 for Windows NT</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Mon Apr 02 10:40:31 CEST 2001</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Mon Apr 02 11:47:46 CEST 2001</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0xd3f1a1aa0e4db5b14042740fa00e6ae1</value>
+      <value>0x2754ed4ec49345933d3745b2a6133722</value>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>ASCII85Decode FlateDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>TrueType</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F0</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Arial</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>Arial</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-250</value>
+          <value>-212</value>
+          <value>1213</value>
+          <value>1000</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>XMP</name>
+     <values arity="Scalar" type="String">
+      <value>&lt;rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+ xmlns:iX='http://ns.adobe.com/iX/1.0/'&gt;
+
+ &lt;rdf:Description about=''
+  xmlns='http://ns.adobe.com/pdf/1.3/'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'&gt;
+  &lt;pdf:Creator&gt;Document - WordPad&lt;/pdf:Creator&gt;
+  &lt;pdf:CreationDate&gt;2001-04-02T08:40:31Z&lt;/pdf:CreationDate&gt;
+  &lt;pdf:Title&gt;Document&lt;/pdf:Title&gt;
+  &lt;pdf:Author&gt;jemoran&lt;/pdf:Author&gt;
+  &lt;pdf:Producer&gt;Acrobat PDFWriter 4.05 for Windows NT&lt;/pdf:Producer&gt;
+  &lt;pdf:ModDate&gt;2001-04-02T09:47:46-06:00&lt;/pdf:ModDate&gt;
+ &lt;/rdf:Description&gt;
+
+ &lt;rdf:Description about=''
+  xmlns='http://ns.adobe.com/xap/1.0/'
+  xmlns:xap='http://ns.adobe.com/xap/1.0/'&gt;
+  &lt;xap:CreateDate&gt;2001-04-02T08:40:31Z&lt;/xap:CreateDate&gt;
+  &lt;xap:Title&gt;
+   &lt;rdf:Alt&gt;
+    &lt;rdf:li xml:lang='x-default'&gt;Document&lt;/rdf:li&gt;
+   &lt;/rdf:Alt&gt;
+  &lt;/xap:Title&gt;
+  &lt;xap:Author&gt;jemoran&lt;/xap:Author&gt;
+  &lt;xap:ModifyDate&gt;2001-04-02T09:47:46-06:00&lt;/xap:ModifyDate&gt;
+  &lt;xap:MetadataDate&gt;2001-04-02T09:47:46-06:00&lt;/xap:MetadataDate&gt;
+ &lt;/rdf:Description&gt;
+
+ &lt;rdf:Description about=''
+  xmlns='http://purl.org/dc/elements/1.1/'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'&gt;
+  &lt;dc:title&gt;Document&lt;/dc:title&gt;
+  &lt;dc:creator&gt;jemoran&lt;/dc:creator&gt;
+ &lt;/rdf:Description&gt;
+
+&lt;/rdf:RDF&gt;</value>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>
