@@ -33,9 +33,6 @@ def parseCommandLine():
 
 def parseXML(fileIn, sep):
 
-    #print("|File|Actions|Annotations|")
-    #print("|:--|:--|:--|")
-
     tree = ET.parse(fileIn)
     root = tree.getroot()
 
