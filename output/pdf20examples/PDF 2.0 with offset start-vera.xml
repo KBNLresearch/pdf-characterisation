@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="5264">
+        <name>/home/johan/kb/pdf-risks/pdf20examples/PDF 2.0 with offset start.pdf</name>
+      </item>
+      <featuresReport>
+        <metadata>
+          <xmpPackage></xmpPackage>
+        </metadata>
+        <lowLevelInfo>
+          <pdfVersion>2.0</pdfVersion>
+          <indirectObjectsNumber>8</indirectObjectsNumber>
+          <documentId modificationId="ìGeÎ#x000023#x000012ù@#x00000F¼ÿô^ðÕB" creationId="ìGeÎ#x000023#x000012ù@#x00000F¼ÿô^ðÕB"></documentId>
+          <tagged>false</tagged>
+        </lowLevelInfo>
+        <pages>
+          <page orderNumber="1">
+            <width>612.000</width>
+            <height>396.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="612.000" ury="396.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="612.000" ury="396.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="612.000" ury="396.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="612.000" ury="396.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="612.000" ury="396.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <fonts>
+                <font id="fntIndir7"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <fonts>
+            <font id="fntIndir7">
+              <type>Type1</type>
+              <baseFont>Helvetica</baseFont>
+              <firstChar>33</firstChar>
+              <lastChar>126</lastChar>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Helvetica</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-225.000" llx="-166.000" urx="1000.000" ury="931.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>718.000</ascent>
+                <descent>-207.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>88.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>278.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1684331940853" finish="1684331940875">00:00:00.022</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1684331940798" finish="1684331940901">00:00:00.103</duration>
+  </batchSummary>
+</report>

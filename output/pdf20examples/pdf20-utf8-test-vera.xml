@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="13830">
+        <name>/home/johan/kb/pdf-risks/pdf20examples/pdf20-utf8-test.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Title">表ポあA鷗ŒéＢ逍Üßªąñ丂㐀𠀀</entry>
+          <entry key="Author">Peter Wyatt</entry>
+          <entry key="Subject">PDF 2.0 UTF-8 test file</entry>
+          <entry key="Creator">By hand</entry>
+          <entry key="Producer">By hand</entry>
+          <entry key="CreationDate">2021-12-30T13:46:41.000+11:00</entry>
+          <entry key="ModDate">2021-12-30T13:48:24.000+11:00</entry>
+        </informationDict>
+        <lowLevelInfo>
+          <pdfVersion>2.0</pdfVersion>
+          <indirectObjectsNumber>24</indirectObjectsNumber>
+          <documentId modificationId="!ÔY×&quot;Ö#x00000BÛV#x000002ÀŸ»âú$" creationId="°™Õ]º˘1F”ûHﬂ†#x00000Cð4"></documentId>
+          <tagged>true</tagged>
+          <filters>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <outlines>
+          <outline>
+            <title>PDF 2.0 with UTF-8 test file</title>
+            <color red="0.000000" green="0.000000" blue="0.000000"></color>
+            <style bold="false" italic="false"></style>
+          </outline>
+          <outline>
+            <title>‪‪test‪</title>
+            <color red="0.000000" green="0.000000" blue="0.000000"></color>
+            <style bold="false" italic="false"></style>
+          </outline>
+          <outline>
+            <title>🌈️
+</title>
+            <color red="0.000000" green="0.000000" blue="0.000000"></color>
+            <style bold="false" italic="false"></style>
+          </outline>
+        </outlines>
+        <pages>
+          <page orderNumber="1" label="Prefixi">
+            <width>595.320</width>
+            <height>841.920</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.320" ury="841.920"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.320" ury="841.920"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.320" ury="841.920"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.320" ury="841.920"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.320" ury="841.920"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <xobjects>
+                <xobject id="xobjIndir17"></xobject>
+                <xobject id="xobjIndir19"></xobject>
+                <xobject id="xobjIndir18"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir16"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+          </colorSpaces>
+          <xobjects>
+            <xobject id="xobjIndir19" type="image">
+              <width>468</width>
+              <height>234</height>
+              <colorSpace id="devrgb"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir17" type="form">
+              <bbox lly="0.000" llx="0.000" urx="72.000" ury="72.000"></bbox>
+              <width>72.000</width>
+              <height>72.000</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+            </xobject>
+            <xobject id="xobjIndir18" type="form">
+              <bbox lly="0.000" llx="0.000" urx="72.000" ury="72.000"></bbox>
+              <width>72.000</width>
+              <height>72.000</height>
+              <matrix>
+                <element index="1" value="1.000"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="1.000"></element>
+                <element index="5" value="0.000"></element>
+                <element index="6" value="0.000"></element>
+              </matrix>
+            </xobject>
+          </xobjects>
+          <fonts>
+            <font id="fntIndir16">
+              <type>Type1</type>
+              <baseFont>Helvetica</baseFont>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Helvetica</fontName>
+                <fontFamily>Helvetica</fontFamily>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-225.000" llx="-166.000" urx="1000.000" ury="931.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>718.000</ascent>
+                <descent>-207.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemH>0.000</stemH>
+                <averageWidth>542.771</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <charSet>ExtendedRoman</charSet>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1684331939645" finish="1684331939707">00:00:00.062</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1684331939606" finish="1684331939738">00:00:00.132</duration>
+  </batchSummary>
+</report>

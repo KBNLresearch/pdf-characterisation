@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
+ <date>2023-05-17T15:59:02+02:00</date>
+ <repInfo uri="/home/johan/kb/pdf-risks/pdf20examples/PDF%202.0%20via%20incremental%20save.pdf">
+  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <lastModified>2023-05-08T18:15:56+02:00</lastModified>
+  <size>5607</size>
+  <format>PDF</format>
+  <version>2.0</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <messages>
+   <message severity="info" id="PDF-HUL-87">File header gives version as 1.7, but catalog dictionary gives version as 2.0</message>
+  </messages>
+  <mimeType>application/pdf</mimeType>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>10</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>3</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0x15d2e6da9695e5fc3c609cbb33346129</value>
+      <value>0x31c7a8a269e4c59bc3cd7df0dabbf388</value>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Type1</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Helvetica</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>33</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>126</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>Helvetica</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-166</value>
+          <value>-225</value>
+          <value>1000</value>
+          <value>931</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>XMP</name>
+     <values arity="Scalar" type="String">
+      <value>&lt;x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='Insert XMP tool name here.'&gt;
+  &lt;rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'&gt;
+    &lt;rdf:Description rdf:about="" xmlns:pdf="http://ns.adobe.com/pdf/1.3/"&gt;
+      &lt;pdf:Producer&gt;Datalogics - example producer program name here&lt;/pdf:Producer&gt;
+      &lt;pdf:Copyright&gt;Copyright 2017 PDF Association&lt;/pdf:Copyright&gt;
+      &lt;pdf:Keywords&gt;PDF 2.0 sample example&lt;/pdf:Keywords&gt;
+    &lt;/rdf:Description&gt;
+    &lt;rdf:Description rdf:about="" xmlns:xap="http://ns.adobe.com/xap/1.0/"&gt;
+      &lt;xap:CreateDate&gt;2017-05-24T10:30:11Z&lt;/xap:CreateDate&gt;
+      &lt;xap:MetadataDate&gt;2017-07-11T07:55:11Z&lt;/xap:MetadataDate&gt;
+      &lt;xap:ModifyDate&gt;2017-07-11T07:55:11Z&lt;/xap:ModifyDate&gt;
+      &lt;xap:CreatorTool&gt;Datalogics - example creator tool name here&lt;/xap:CreatorTool&gt;
+    &lt;/rdf:Description&gt;
+    &lt;rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+      &lt;dc:format&gt;application/pdf&lt;/dc:format&gt;
+      &lt;dc:title&gt;
+        &lt;rdf:Alt&gt;
+          &lt;rdf:li xml:lang="x-default"&gt;A simple PDF 2.0 example file&lt;/rdf:li&gt;
+        &lt;/rdf:Alt&gt;
+      &lt;/dc:title&gt;
+      &lt;dc:creator&gt;
+        &lt;rdf:Seq&gt;
+          &lt;rdf:li&gt;Datalogics Incorporated&lt;/rdf:li&gt;
+        &lt;/rdf:Seq&gt;
+      &lt;/dc:creator&gt;
+      &lt;dc:description&gt;
+        &lt;rdf:Alt&gt;
+          &lt;rdf:li xml:lang="x-default"&gt;Demonstration of a simple PDF 2.0 file, including comments related to differences from earlier PDF revisions and helpful hints about PDF.&lt;/rdf:li&gt;
+        &lt;/rdf:Alt&gt;
+      &lt;/dc:description&gt;
+      &lt;dc:rights&gt;
+        &lt;rdf:Alt&gt;
+          &lt;rdf:li xml:lang="x-default"&gt;Copyright 2017 PDF Association. Licensed to the public under Creative Commons Attribution-ShareAlike 4.0 International license.&lt;/rdf:li&gt;
+        &lt;/rdf:Alt&gt;
+      &lt;/dc:rights&gt;
+    &lt;/rdf:Description&gt;
+    &lt;rdf:Description rdf:about="" xmlns:xapRights="http://ns.adobe.com/xap/1.0/rights/"&gt;
+      &lt;xapRights:Marked&gt;True&lt;/xapRights:Marked&gt;
+    &lt;/rdf:Description&gt;
+    &lt;rdf:Description rdf:about="" xmlns:cc="http://creativecommons.org/ns#"&gt;
+      &lt;cc:license rdf:resource="https://creativecommons.org/licenses/sa/4.0/" /&gt;
+    &lt;/rdf:Description&gt;
+    &lt;rdf:Description rdf:about="" xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/"&gt;
+      &lt;xapMM:DocumentID&gt;uuid:f6bfd133-7b1c-4229-424c-d63213aa13bf&lt;/xapMM:DocumentID&gt;
+      &lt;xapMM:InstanceID&gt;uuid:2b455fe7-ee70-46aa-9238-685246721fd8&lt;/xapMM:InstanceID&gt;
+    &lt;/rdf:Description&gt;
+  &lt;/rdf:RDF&gt;
+&lt;/x:xmpmeta&gt;</value>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>
