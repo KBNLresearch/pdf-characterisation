@@ -473,13 +473,13 @@ It includes all the Geometric Dimensions and Tolerance and annotation to better 
           </propertiesDicts>
         </documentResources>
       </featuresReport>
-      <duration start="1683818761582" finish="1683818761681">00:00:00.099</duration>
+      <duration start="1684922972793" finish="1684922972872">00:00:00.079</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818761495" finish="1683818761749">00:00:00.254</duration>
+    <duration start="1684922972695" finish="1684922972916">00:00:00.221</duration>
   </batchSummary>
 </report>

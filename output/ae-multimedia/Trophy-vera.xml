@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="2956103">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/Trophy.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/Trophy.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -621,13 +621,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819044294" finish="1683819044381">00:00:00.087</duration>
+      <duration start="1684923288835" finish="1684923288936">00:00:00.101</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819044236" finish="1683819044430">00:00:00.194</duration>
+    <duration start="1684923288767" finish="1684923288987">00:00:00.220</duration>
   </batchSummary>
 </report>

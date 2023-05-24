@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="3420030">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/ScriptEvents.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/ScriptEvents.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -664,13 +664,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819042996" finish="1683819043083">00:00:00.087</duration>
+      <duration start="1684923287567" finish="1684923287653">00:00:00.086</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819042934" finish="1683819043134">00:00:00.200</duration>
+    <duration start="1684923287492" finish="1684923287703">00:00:00.211</duration>
   </batchSummary>
 </report>

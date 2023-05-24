@@ -3516,13 +3516,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683818756513" finish="1683818756651">00:00:00.138</duration>
+      <duration start="1684922967639" finish="1684922967773">00:00:00.134</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818756448" finish="1683818756743">00:00:00.295</duration>
+    <duration start="1684922967575" finish="1684922967876">00:00:00.301</duration>
   </batchSummary>
 </report>

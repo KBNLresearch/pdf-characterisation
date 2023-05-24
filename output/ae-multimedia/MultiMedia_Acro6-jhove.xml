@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
- <date>2023-05-11T17:30:26+02:00</date>
- <repInfo uri="./pdfAcrobatEngineering/multimedia/MultiMedia_Acro6.pdf">
-  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.28.0" date="2023-05-18">
+ <date>2023-05-24T12:14:30+02:00</date>
+ <repInfo uri="/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/MultiMedia_Acro6.pdf">
+  <reportingModule release="1.12.4" date="2023-03-16">PDF-hul</reportingModule>
   <lastModified>2013-07-18T15:47:00+02:00</lastModified>
   <size>98440</size>
   <format>PDF</format>
@@ -129,45 +129,6 @@
        <value>UseOutlines</value>
       </values>
      </property>
-     <property>
-      <name>Outlines</name>
-      <values arity="List" type="Property">
-      <property>
-       <name>Item</name>
-       <values arity="List" type="Property">
-       <property>
-        <name>Title</name>
-        <values arity="Scalar" type="String">
-         <value>&lt;May be encrypted&gt;</value>
-        </values>
-       </property>
-       <property>
-        <name>Destination</name>
-        <values arity="Scalar" type="String">
-         <value>\jÔ˜'ã</value>
-        </values>
-       </property>
-       </values>
-      </property>
-      <property>
-       <name>Item</name>
-       <values arity="List" type="Property">
-       <property>
-        <name>Title</name>
-        <values arity="Scalar" type="String">
-         <value>&lt;May be encrypted&gt;</value>
-        </values>
-       </property>
-       <property>
-        <name>Destination</name>
-        <values arity="Scalar" type="String">
-         <value>LcÀ^Ô€Ê</value>
-        </values>
-       </property>
-       </values>
-      </property>
-      </values>
-     </property>
      </values>
     </property>
     <property>
@@ -251,6 +212,18 @@
      </property>
      <property>
       <name>Producer</name>
+      <values arity="Scalar" type="String">
+       <value>&lt;May be encrypted&gt;</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="String">
+       <value>&lt;May be encrypted&gt;</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
       <values arity="Scalar" type="String">
        <value>&lt;May be encrypted&gt;</value>
       </values>
@@ -547,8 +520,8 @@
       <name>Page</name>
       <values arity="List" type="Property">
       <property>
-       <name>Label</name>
-       <values arity="Scalar" type="String">
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
         <value>1</value>
        </values>
       </property>
@@ -647,8 +620,8 @@
       <name>Page</name>
       <values arity="List" type="Property">
       <property>
-       <name>Label</name>
-       <values arity="Scalar" type="String">
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
         <value>2</value>
        </values>
       </property>

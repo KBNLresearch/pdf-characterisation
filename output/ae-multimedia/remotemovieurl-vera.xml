@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="21055">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/remotemovieurl.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/remotemovieurl.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -309,13 +309,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819051631" finish="1683819051688">00:00:00.057</duration>
+      <duration start="1684923296132" finish="1684923296200">00:00:00.068</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819051563" finish="1683819051731">00:00:00.168</duration>
+    <duration start="1684923296075" finish="1684923296240">00:00:00.165</duration>
   </batchSummary>
 </report>

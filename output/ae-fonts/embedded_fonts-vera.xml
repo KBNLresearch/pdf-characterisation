@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="135119">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/fonts/embedded_fonts.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/fonts/embedded_fonts.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -890,13 +890,13 @@
           <error id="error0">Can not define color type</error>
         </errors>
       </featuresReport>
-      <duration start="1683818989637" finish="1683818989728">00:00:00.091</duration>
+      <duration start="1684923327870" finish="1684923327963">00:00:00.093</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818989577" finish="1683818989783">00:00:00.206</duration>
+    <duration start="1684923327795" finish="1684923328017">00:00:00.222</duration>
   </batchSummary>
 </report>

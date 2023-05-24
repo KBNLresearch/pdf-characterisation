@@ -1,0 +1,26 @@
+|File|Actions (VeraPDF)|Annotations (VeraPDF)|Annotations (JHOVE)|
+|:--|:--|:--|:--|
+|text_only_fontsNotEmbedded.pdf||||
+|text_only_pdfa1b.pdf||||
+|calistoMTNoFontsEmbedded.pdf||||
+|corruptionOneByteMissing.pdf||||
+|balloon_a1b_jp2k.pdf||||
+|javascript.pdf|JavaScript|||
+|fileAttachment.pdf|JavaScript|||
+|embedded_video_quicktime.pdf|Rendition|Screen|Screen|
+|veraPDFHiResWrongObjectID.pdf||||
+|test_fontArialNotEmbedded.pdf||||
+|veraPDFHiResChangedHeight.pdf||||
+|encryption_openpassword.pdf||||
+|webCapture.pdf|GoTo<br>SubmitForm<br>URI|Widget<br>Link||
+|encryption_noprinting.pdf||||
+|encryption_nocopy.pdf||||
+|text_only_fontsEmbeddedSubset.pdf||||
+|digitally_signed_3D_Portfolio.pdf|URI|Link|Link|
+|text_only_fontsEmbeddedAll.pdf||||
+|veraPDFHiRes.pdf||||
+|fileAttachment_fileAttachmentAnnotation.pdf||FileAttachment|FileAttachment|
+|embedded_video_avi.pdf|Rendition|Screen|Screen|
+|externalLink.pdf|Launch|Link|Link|
+|encryption_notextaccess.pdf||||
+|pdf-17-header18.pdf||||

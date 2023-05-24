@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="89002">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/MusicalScore.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/MusicalScore.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -1793,13 +1793,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819023501" finish="1683819023614">00:00:00.113</duration>
+      <duration start="1684923267804" finish="1684923267930">00:00:00.126</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819023441" finish="1683819023682">00:00:00.241</duration>
+    <duration start="1684923267740" finish="1684923267999">00:00:00.259</duration>
   </batchSummary>
 </report>

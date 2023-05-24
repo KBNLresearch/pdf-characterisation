@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="7209">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/fonts/EmbeddedCmap.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/fonts/EmbeddedCmap.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -146,13 +146,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683818990927" finish="1683818990970">00:00:00.043</duration>
+      <duration start="1684923329245" finish="1684923329283">00:00:00.038</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818990871" finish="1683818991003">00:00:00.132</duration>
+    <duration start="1684923329182" finish="1684923329315">00:00:00.133</duration>
   </batchSummary>
 </report>

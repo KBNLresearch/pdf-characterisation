@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
- <date>2023-05-11T17:25:50+02:00</date>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.28.0" date="2023-05-18">
+ <date>2023-05-24T12:09:21+02:00</date>
  <repInfo uri="/home/johan/kb/format-corpus/pdfCabinetOfHorrors/embedded_video_quicktime.pdf">
-  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <reportingModule release="1.12.4" date="2023-03-16">PDF-hul</reportingModule>
   <lastModified>2021-09-02T16:51:37+02:00</lastModified>
   <size>1099685</size>
   <format>PDF</format>

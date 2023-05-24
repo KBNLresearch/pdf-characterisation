@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="378507">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/fonts/embedded_pm65.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/fonts/embedded_pm65.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -284,13 +284,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683818999056" finish="1683818999125">00:00:00.069</duration>
+      <duration start="1684923337174" finish="1684923337241">00:00:00.067</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818999011" finish="1683818999165">00:00:00.154</duration>
+    <duration start="1684923337115" finish="1684923337278">00:00:00.163</duration>
   </batchSummary>
 </report>

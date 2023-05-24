@@ -11,16 +11,16 @@
         <name>/home/johan/kb/format-corpus/pdfCabinetOfHorrors/corruptionOneByteMissing.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1683818745078" finish="1683818745121">00:00:00.043</duration>
+        <duration start="1684922956531" finish="1684922956573">00:00:00.042</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: Pages not found</exceptionMessage>
       </taskResult>
-      <duration start="1683818745078" finish="1683818745121">00:00:00.043</duration>
+      <duration start="1684922956531" finish="1684922956573">00:00:00.042</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="1">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818745067" finish="1683818745133">00:00:00.066</duration>
+    <duration start="1684922956519" finish="1684922956588">00:00:00.069</duration>
   </batchSummary>
 </report>

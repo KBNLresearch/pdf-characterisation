@@ -8,19 +8,19 @@
   <jobs>
     <job>
       <item size="673524">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/gXsummer2004-stream.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/gXsummer2004-stream.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1683819034409" finish="1683819034443">00:00:00.034</duration>
+        <duration start="1684923278668" finish="1684923278735">00:00:00.067</duration>
         <exceptionMessage>Exception: Caught unexpected exception during parsing caused by exception: Destination offset is greater than stream length</exceptionMessage>
       </taskResult>
-      <duration start="1683819034409" finish="1683819034443">00:00:00.034</duration>
+      <duration start="1684923278668" finish="1684923278735">00:00:00.067</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="1">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819034397" finish="1683819034455">00:00:00.058</duration>
+    <duration start="1684923278657" finish="1684923278759">00:00:00.102</duration>
   </batchSummary>
 </report>

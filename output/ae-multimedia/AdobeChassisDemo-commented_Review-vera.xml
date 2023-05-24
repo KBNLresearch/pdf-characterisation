@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="8652944">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/AdobeChassisDemo-commented_Review.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/AdobeChassisDemo-commented_Review.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -735,13 +735,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819020943" finish="1683819021019">00:00:00.076</duration>
+      <duration start="1684923265358" finish="1684923265424">00:00:00.066</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819020875" finish="1683819021071">00:00:00.196</duration>
+    <duration start="1684923265258" finish="1684923265477">00:00:00.219</duration>
   </batchSummary>
 </report>

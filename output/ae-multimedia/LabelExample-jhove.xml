@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
- <date>2023-05-11T17:30:25+02:00</date>
- <repInfo uri="./pdfAcrobatEngineering/multimedia/LabelExample.pdf">
-  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.28.0" date="2023-05-18">
+ <date>2023-05-24T12:14:29+02:00</date>
+ <repInfo uri="/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/LabelExample.pdf">
+  <reportingModule release="1.12.4" date="2023-03-16">PDF-hul</reportingModule>
   <lastModified>2013-07-18T15:45:32+02:00</lastModified>
   <size>259601</size>
   <format>PDF</format>
@@ -141,6 +141,18 @@
        <value>&lt;May be encrypted&gt;</value>
       </values>
      </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="String">
+       <value>&lt;May be encrypted&gt;</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
+      <values arity="Scalar" type="String">
+       <value>&lt;May be encrypted&gt;</value>
+      </values>
+     </property>
      </values>
     </property>
     <property>
@@ -274,14 +286,13 @@
         <property>
          <name>Name</name>
          <values arity="Scalar" type="String">
-          <value>P⁄7 ä äIﬁ
-®ºﬁˇ¨R˚»ÉÔ¶</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>P⁄7 ä äçrÀ~-9˜ È‘ÏÈ_Àé5¼ù{ÑÒâo+:?»Õøª</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -320,7 +331,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>è•7 ä äÜ-Vß.ƒ˝dYnKõ9Vj	V¹W¤Ôiª®ÅÇÄ</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -352,7 +363,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>€ı³ ä äX†R›ˇüF}lÒ²T7úã]ð,ÞYﬂ¹ñIHÔ8Ì¦</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -384,7 +395,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>⁄í ä äM¿+1Ø™¿"Æ[Ý¹VKÖ8ðÌ¢ª®Á{˙â</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -416,7 +427,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>¸”í ä äY3ﬁêﬁ“B‡4Ž.ŽÙêˆæ§ðò;á®É-_¥Ing</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -448,7 +459,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>Hıí ä äž íÎf8h¹žÐ’ô‚Í$Ó™4†ç&lt;°ÕxXa”#o</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -480,7 +491,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>È¡í ä äÏG’Zb£Ù•ÄýkﬂARëhDPé{Il5%HºFŒ*»à</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -512,7 +523,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>Pé ä äÈÝÙ+L³&amp;ð¼¦"ã°Yﬁˆ£.å3ÎRw3­’ÚX</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -544,7 +555,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>Ð˙é ä ä6ÞŠ}sÃ:/6¥¹ıÝr¡ý¹eJ^Ÿ”z¹	Î%O˛»</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -576,7 +587,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>P#é ä äYÆ€!P¹3&lt;¾µt·û9&gt;8«*¥¼˙®…¼¼ï+;^</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -608,8 +619,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>Ð*é ä äLN“^g−
-üž÷Îš•¦Ü&gt;ł«›vjø£÷›5</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -641,8 +651,7 @@
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>P2é ä äüý−˛C”×e‡=§ä
-i}´Vﬁ4¹ßÞ­º|ôâ</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -674,7 +683,7 @@ i}´Vﬁ4¹ßÞ­º|ôâ</value>
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>0Qí ä äš@Oüœ²jázUØØ1łM/ jÌËŒ‡Ç}</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>
@@ -706,7 +715,7 @@ i}´Vﬁ4¹ßÞ­º|ôâ</value>
         <property>
          <name>LastModified</name>
          <values arity="Scalar" type="String">
-          <value>°Xí ä ä(ł˙w€eÙxáUYÃU4%ûßA·¾à˝â−l$ _</value>
+          <value>&lt;May be encrypted&gt;</value>
          </values>
         </property>
         <property>

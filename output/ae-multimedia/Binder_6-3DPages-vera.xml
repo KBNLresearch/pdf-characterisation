@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="9372926">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/Binder_6-3DPages.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/Binder_6-3DPages.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -498,13 +498,13 @@
           </xobjects>
         </documentResources>
       </featuresReport>
-      <duration start="1683819038004" finish="1683819038054">00:00:00.050</duration>
+      <duration start="1684923282465" finish="1684923282520">00:00:00.055</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819037942" finish="1683819038102">00:00:00.160</duration>
+    <duration start="1684923282350" finish="1684923282568">00:00:00.218</duration>
   </batchSummary>
 </report>

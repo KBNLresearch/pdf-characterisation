@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="259601">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/LabelExample.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/LabelExample.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -1379,13 +1379,13 @@ i}´#x000016Vﬁ4¹ß�Þ­º|ô#x000008â</modifiedDate>
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819024884" finish="1683819024955">00:00:00.071</duration>
+      <duration start="1684923269200" finish="1684923269269">00:00:00.069</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819024782" finish="1683819025025">00:00:00.243</duration>
+    <duration start="1684923269082" finish="1684923269333">00:00:00.251</duration>
   </batchSummary>
 </report>

@@ -8,19 +8,19 @@
   <jobs>
     <job>
       <item size="1245">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/AVI+Transitions Demo.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/AVI+Transitions Demo.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1683819027388" finish="1683819027421">00:00:00.033</duration>
+        <duration start="1684923271651" finish="1684923271685">00:00:00.034</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: End of file is reached</exceptionMessage>
       </taskResult>
-      <duration start="1683819027388" finish="1683819027421">00:00:00.033</duration>
+      <duration start="1684923271651" finish="1684923271685">00:00:00.034</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="1">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819027376" finish="1683819027434">00:00:00.058</duration>
+    <duration start="1684923271639" finish="1684923271700">00:00:00.061</duration>
   </batchSummary>
 </report>

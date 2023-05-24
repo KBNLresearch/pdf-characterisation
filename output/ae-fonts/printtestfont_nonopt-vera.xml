@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="756731">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/fonts/printtestfont_nonopt.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/fonts/printtestfont_nonopt.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -317,13 +317,13 @@
           </propertiesDicts>
         </documentResources>
       </featuresReport>
-      <duration start="1683818992127" finish="1683818992186">00:00:00.059</duration>
+      <duration start="1684923330434" finish="1684923330492">00:00:00.058</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818992073" finish="1683818992226">00:00:00.153</duration>
+    <duration start="1684923330359" finish="1684923330533">00:00:00.174</duration>
   </batchSummary>
 </report>

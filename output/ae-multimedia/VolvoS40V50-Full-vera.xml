@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="49868062">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/VolvoS40V50-Full.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/VolvoS40V50-Full.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -6320,13 +6320,13 @@ Nteƒ†5ÇÏr§#x00000Cõˇp</entry>
           </propertiesDicts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819045626" finish="1683819045773">00:00:00.147</duration>
+      <duration start="1684923290260" finish="1684923290475">00:00:00.215</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819045505" finish="1683819045914">00:00:00.409</duration>
+    <duration start="1684923290054" finish="1684923290609">00:00:00.555</duration>
   </batchSummary>
 </report>

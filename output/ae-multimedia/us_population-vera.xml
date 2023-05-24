@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="123367">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/us_population.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/us_population.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -119,13 +119,13 @@
           </xobjects>
         </documentResources>
       </featuresReport>
-      <duration start="1683819039277" finish="1683819039301">00:00:00.024</duration>
+      <duration start="1684923283745" finish="1684923283770">00:00:00.025</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819039221" finish="1683819039341">00:00:00.120</duration>
+    <duration start="1684923283675" finish="1684923283815">00:00:00.140</duration>
   </batchSummary>
 </report>

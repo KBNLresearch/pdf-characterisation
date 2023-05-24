@@ -1855,13 +1855,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683818752631" finish="1683818752733">00:00:00.102</duration>
+      <duration start="1684922963865" finish="1684922963958">00:00:00.093</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818752551" finish="1683818752806">00:00:00.255</duration>
+    <duration start="1684922963786" finish="1684922964029">00:00:00.243</duration>
   </batchSummary>
 </report>

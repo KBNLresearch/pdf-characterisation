@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="8676809">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/3-D_PDF.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/3-D_PDF.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -341,13 +341,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819052954" finish="1683819053036">00:00:00.082</duration>
+      <duration start="1684923297385" finish="1684923297480">00:00:00.095</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819052859" finish="1683819053080">00:00:00.221</duration>
+    <duration start="1684923297292" finish="1684923297522">00:00:00.230</duration>
   </batchSummary>
 </report>

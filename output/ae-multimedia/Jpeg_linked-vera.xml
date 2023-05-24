@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="34913">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/Jpeg_linked.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/Jpeg_linked.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -596,13 +596,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819047577" finish="1683819047629">00:00:00.052</duration>
+      <duration start="1684923292231" finish="1684923292280">00:00:00.049</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819047489" finish="1683819047682">00:00:00.193</duration>
+    <duration start="1684923292139" finish="1684923292335">00:00:00.196</duration>
   </batchSummary>
 </report>

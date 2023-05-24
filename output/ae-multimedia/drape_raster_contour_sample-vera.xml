@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="1000426">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/drape_raster_contour_sample.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/drape_raster_contour_sample.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -362,13 +362,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819050217" finish="1683819050277">00:00:00.060</duration>
+      <duration start="1684923294897" finish="1684923294941">00:00:00.044</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819050151" finish="1683819050323">00:00:00.172</duration>
+    <duration start="1684923294797" finish="1684923294986">00:00:00.189</duration>
   </batchSummary>
 </report>

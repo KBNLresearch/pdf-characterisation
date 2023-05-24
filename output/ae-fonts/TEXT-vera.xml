@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="1801037">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/fonts/TEXT.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/fonts/TEXT.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -5991,13 +5991,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683818996123" finish="1683818996373">00:00:00.250</duration>
+      <duration start="1684923334248" finish="1684923334494">00:00:00.246</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683818996042" finish="1683818996479">00:00:00.437</duration>
+    <duration start="1684923334149" finish="1684923334620">00:00:00.471</duration>
   </batchSummary>
 </report>

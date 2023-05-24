@@ -1,18 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.26.1" date="2022-07-14">
- <date>2023-05-11T17:26:09+02:00</date>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.28.0" date="2023-05-18">
+ <date>2023-05-24T12:09:40+02:00</date>
  <repInfo uri="/home/johan/kb/format-corpus/pdfCabinetOfHorrors/encryption_notextaccess.pdf">
-  <reportingModule release="1.12.3" date="2022-04-22">PDF-hul</reportingModule>
+  <reportingModule release="1.12.4" date="2023-03-16">PDF-hul</reportingModule>
   <lastModified>2021-09-02T16:51:37+02:00</lastModified>
   <size>70599</size>
   <format>PDF</format>
-  <status>Not well-formed</status>
+  <version>1.7</version>
+  <status>Well-Formed and valid</status>
   <sigMatch>
   <module>PDF-hul</module>
   </sigMatch>
-  <messages>
-   <message offset="65395" severity="error" id="PDF-HUL-109">Compression method is invalid or unknown to JHOVE</message>
-  </messages>
   <mimeType>application/pdf</mimeType>
+  <profiles>
+   <profile>Linearized PDF</profile>
+  </profiles>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>0</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>0</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>OneColumn</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     <property>
+      <name>Language</name>
+      <values arity="Scalar" type="String">
+       <value>&lt;May be encrypted&gt;</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Encryption</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>SecurityHandler</name>
+      <values arity="Scalar" type="String">
+       <value>Standard</value>
+      </values>
+     </property>
+     <property>
+      <name>EFF</name>
+      <values arity="Scalar" type="String">
+       <value>Standard</value>
+      </values>
+     </property>
+     <property>
+      <name>Algorithm</name>
+      <values arity="Scalar" type="String">
+       <value>Document-defined</value>
+      </values>
+     </property>
+     <property>
+      <name>KeyLength</name>
+      <values arity="Scalar" type="Integer">
+       <value>128</value>
+      </values>
+     </property>
+     <property>
+      <name>StandardSecurityHandler</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>UserAccess</name>
+       <values arity="List" type="String">
+        <value>Print</value>
+        <value>Modify</value>
+        <value>Add/modify annotations/forms</value>
+        <value>Fill interactive form fields</value>
+        <value>Print high quality</value>
+       </values>
+      </property>
+      <property>
+       <name>Revision</name>
+       <values arity="Scalar" type="Integer">
+        <value>4</value>
+       </values>
+      </property>
+      <property>
+       <name>OwnerString</name>
+       <values arity="Scalar" type="String">
+        <value>0x5f7fa03ad5a40c66c17ed357316ba0f694df97b23399e5e71fe453395e0af04d</value>
+       </values>
+      </property>
+      <property>
+       <name>UserString</name>
+       <values arity="Scalar" type="String">
+        <value>0x32ee03201491d2fd0dcab3f682d4b22b00000000000000000000000000000000</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
  </repInfo>
 </jhove>

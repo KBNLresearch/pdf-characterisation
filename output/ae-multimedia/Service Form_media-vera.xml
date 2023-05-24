@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="38008">
-        <name>/home/johan/kb/pdf-risks/./pdfAcrobatEngineering/multimedia/Service Form_media.pdf</name>
+        <name>/home/johan/kb/pdf-risks/pdfAcrobatEngineering/multimedia/Service Form_media.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -700,13 +700,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1683819036735" finish="1683819036788">00:00:00.053</duration>
+      <duration start="1684923281167" finish="1684923281211">00:00:00.044</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1683819036678" finish="1683819036840">00:00:00.162</duration>
+    <duration start="1684923281109" finish="1684923281274">00:00:00.165</duration>
   </batchSummary>
 </report>
