@@ -32,21 +32,12 @@ if ! [ -d $dirOut ] ; then
     mkdir $dirOut
 fi
 
-# Output tables
-tabActions="$dirOut"/actions.md
-tabAnnots="$dirOut"/annots.md
-tabActionsAnnotsVera="$dirOut"/actions-annots-vera.md
+# Output table
+tabActionsAnnots="$dirOut"/actions-annots.md
 
-# Write headers to output tables
-
-echo "|File|VeraPDF|" > "$tabActions"
-echo "|:--|:--|" >> "$tabActions"
-
-echo "|File|VeraPDF|JHOVE|" > "$tabAnnots"
-echo "|:--|:--|:--|" >> "$tabAnnots"
-
-echo "|File|Actions|Annotations|" > "$tabActionsAnnotsVera"
-echo "|:--|:--|:--|" >> "$tabActionsAnnotsVera"
+# Write headers to output table
+echo "|File|Actions (VeraPDF)|Annotations (VeraPDF)|Annotations (JHOVE)|" > "$tabActionsAnnots"
+echo "|:--|:--|:--|:--|" >> "$tabActionsAnnots"
 
 # **************
 # MAIN PROCESSING LOOP
@@ -74,8 +65,6 @@ while IFS= read -d $'\0' file ; do
     annotsJhove=$(python3 "$instDir"/jhove-annots.py "$outJhove" "<br>")
 
     # Add output of scripts to tables
-    echo "|""$fileNameIn""|""$actionsVera""|" >> "$tabActions"
-    echo "|""$fileNameIn""|""$annotsVera""|""$annotsJhove""|" >> "$tabAnnots"
-    echo "|""$fileNameIn""|""$actionsVera""|""$annotsVera""|" >> "$tabActionsAnnotsVera"
-         
+    echo "|""$fileNameIn""|""$actionsVera""|""$annotsVera""|""$annotsJhove""|" >> "$tabActionsAnnots"
+
 done < <(find $dirIn -type f -regex '.*\.\(pdf\|PDF\)' -print0)
