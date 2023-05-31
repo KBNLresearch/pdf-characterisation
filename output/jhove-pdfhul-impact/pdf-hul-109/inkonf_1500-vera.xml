@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="276766">
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/./testfiles/pdf-hul-109/inkonf_1500.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Title">Microsoft Word - Peracd_rewied_26mar.doc</entry>
+          <entry key="Author">Tatiana</entry>
+          <entry key="Creator">PScript5.dll Version 5.2.2</entry>
+          <entry key="Producer">Acrobat Distiller 8.2.5 (Windows)</entry>
+          <entry key="CreationDate">2011-03-26T18:30:23.000+01:00</entry>
+          <entry key="ModDate">2017-01-25T09:21:59.000+01:00</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <x:xmpmeta x:xmptk="Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03        " xmlns:x="adobe:ns:meta/">
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <xmp:CreatorTool>PScript5.dll Version 5.2.2</xmp:CreatorTool>
+                  <xmp:ModifyDate>2017-01-25T09:21:59+01:00</xmp:ModifyDate>
+                  <xmp:CreateDate>2011-03-26T18:30:23+01:00</xmp:CreateDate>
+                  <xmp:MetadataDate>2017-01-25T09:21:59+01:00</xmp:MetadataDate>
+                  <dc:format>application/pdf</dc:format>
+                  <dc:title>
+                    <rdf:Alt>
+                      <rdf:li xml:lang="x-default">Microsoft Word - Peracd_rewied_26mar.doc</rdf:li>
+                    </rdf:Alt>
+                  </dc:title>
+                  <dc:creator>
+                    <rdf:Seq>
+                      <rdf:li>Tatiana</rdf:li>
+                    </rdf:Seq>
+                  </dc:creator>
+                  <pdf:Producer>Acrobat Distiller 8.2.5 (Windows)</pdf:Producer>
+                  <xmpMM:DocumentID>uuid:b726c03d-185c-4a03-8494-7f05d1bf7a97</xmpMM:DocumentID>
+                  <xmpMM:InstanceID>uuid:7a9eb0c5-7e63-4504-9836-7cfcf89bdbb5</xmpMM:InstanceID>
+                </rdf:Description>
+              </rdf:RDF>
+            </x:xmpmeta>
+          </xmpPackage>
+        </metadata>
+        <documentSecurity>
+          <filter>Standard</filter>
+          <version>2</version>
+          <length>128</length>
+          <ownerKey>2C40307EFFFA9322A40651981D554839578D3A5649EEAF093E177DE92641A51E</ownerKey>
+          <userKey>4FBA1C6077E35110C9EA917FCB0DD59100000000000000000000000000000000</userKey>
+          <encryptMetadata>true</encryptMetadata>
+          <printAllowed>true</printAllowed>
+          <printDegradedAllowed>true</printDegradedAllowed>
+          <changesAllowed>false</changesAllowed>
+          <modifyAnnotationsAllowed>false</modifyAnnotationsAllowed>
+          <fillingSigningAllowed>false</fillingSigningAllowed>
+          <documentAssemblyAllowed>false</documentAssemblyAllowed>
+          <extractContentAllowed>false</extractContentAllowed>
+          <extractAccessibilityAllowed>true</extractAccessibilityAllowed>
+        </documentSecurity>
+        <lowLevelInfo>
+          <pdfVersion>1.5</pdfVersion>
+          <indirectObjectsNumber>90</indirectObjectsNumber>
+          <documentId modificationId="v‰í.Ì¤f@‚ÜÙau	¹
+" creationId="§Ç¥Üá´MXkÇŁ8üFE'"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="DCTDecode"></filter>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <iccProfiles>
+          <iccProfile id="iccProfileIndir35">
+            <version>2.1</version>
+            <cmmType>Lino</cmmType>
+            <dataColorSpace>RGB </dataColorSpace>
+            <creator>HP  </creator>
+            <creationDate>1998-02-09T06:49:00.000Z</creationDate>
+            <defaultRenderingIntent>Perceptual</defaultRenderingIntent>
+            <copyright>Copyright (c) 1998 Hewlett-Packard Company</copyright>
+            <description>sRGB IEC61966-2.1</description>
+            <deviceModel>sRGB</deviceModel>
+            <deviceManufacturer>IEC </deviceManufacturer>
+          </iccProfile>
+        </iccProfiles>
+        <pages>
+          <page orderNumber="1" label="1">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir83"></graphicsState>
+              </graphicsStates>
+              <fonts>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir89"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="2" label="2">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir83"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspDir7"></colorSpace>
+                <colorSpace id="clrspIndir62"></colorSpace>
+              </colorSpaces>
+              <patterns>
+                <pattern id="ptrnIndir6"></pattern>
+                <pattern id="ptrnIndir7"></pattern>
+                <pattern id="ptrnIndir4"></pattern>
+              </patterns>
+              <fonts>
+                <font id="fntIndir61"></font>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir64"></font>
+                <font id="fntIndir89"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="3" label="3">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir83"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspIndir62"></colorSpace>
+              </colorSpaces>
+              <xobjects>
+                <xobject id="xobjIndir13"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir61"></font>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir65"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir89"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="4" label="4">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir83"></graphicsState>
+              </graphicsStates>
+              <fonts>
+                <font id="fntIndir61"></font>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir67"></font>
+                <font id="fntIndir89"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="5" label="5">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir83"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspIndir62"></colorSpace>
+              </colorSpaces>
+              <fonts>
+                <font id="fntIndir61"></font>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir67"></font>
+                <font id="fntIndir89"></font>
+                <font id="fntIndir68"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="6" label="6">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir83"></graphicsState>
+              </graphicsStates>
+              <fonts>
+                <font id="fntIndir61"></font>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir67"></font>
+                <font id="fntIndir89"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="7" label="7">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir83"></graphicsState>
+              </graphicsStates>
+              <colorSpaces>
+                <colorSpace id="clrspIndir62"></colorSpace>
+              </colorSpaces>
+              <xobjects>
+                <xobject id="xobjIndir29"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir61"></font>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir67"></font>
+                <font id="fntIndir89"></font>
+                <font id="fntIndir69"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="8" label="8">
+            <width>595.220</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.220" ury="842.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <graphicsStates>
+                <graphicsState id="exGStIndir83"></graphicsState>
+              </graphicsStates>
+              <fonts>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir87"></font>
+                <font id="fntIndir89"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <graphicsStates>
+            <graphicsState id="exGStIndir83">
+              <strokeAdjustment>false</strokeAdjustment>
+              <overprintForStroke>false</overprintForStroke>
+              <overprintForFill>false</overprintForFill>
+            </graphicsState>
+          </graphicsStates>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+            <colorSpace id="clrspIndir62" family="ICCBased">
+              <alternate id="devrgb"></alternate>
+              <components>3</components>
+              <iccProfile id="iccProfileIndir35"></iccProfile>
+            </colorSpace>
+            <colorSpace id="clrspDir7" family="Pattern"></colorSpace>
+          </colorSpaces>
+          <patterns>
+            <pattern id="ptrnIndir4" type="tiling">
+              <paintType>1</paintType>
+              <tilingType>1</tilingType>
+              <width>1.000</width>
+              <height>1.000</height>
+              <bbox lly="0.000" llx="0.000" urx="1.000" ury="1.000"></bbox>
+              <xStep>1.000</xStep>
+              <yStep>1.000</yStep>
+              <matrix>
+                <element index="1" value="0.960"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="-0.960"></element>
+                <element index="5" value="151.320"></element>
+                <element index="6" value="216.270"></element>
+              </matrix>
+              <resources>
+                <graphicsStates>
+                  <graphicsState id="exGStIndir83"></graphicsState>
+                </graphicsStates>
+                <colorSpaces>
+                  <colorSpace id="clrspIndir62"></colorSpace>
+                </colorSpaces>
+                <xobjects>
+                  <xobject id="xobjIndir3"></xobject>
+                </xobjects>
+              </resources>
+            </pattern>
+            <pattern id="ptrnIndir6" type="tiling">
+              <paintType>1</paintType>
+              <tilingType>1</tilingType>
+              <width>1.000</width>
+              <height>1.000</height>
+              <bbox lly="0.000" llx="0.000" urx="1.000" ury="1.000"></bbox>
+              <xStep>1.000</xStep>
+              <yStep>1.000</yStep>
+              <matrix>
+                <element index="1" value="0.960"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="-0.960"></element>
+                <element index="5" value="151.320"></element>
+                <element index="6" value="216.270"></element>
+              </matrix>
+              <resources>
+                <graphicsStates>
+                  <graphicsState id="exGStIndir83"></graphicsState>
+                </graphicsStates>
+                <colorSpaces>
+                  <colorSpace id="clrspIndir62"></colorSpace>
+                </colorSpaces>
+                <xobjects>
+                  <xobject id="xobjIndir5"></xobject>
+                </xobjects>
+              </resources>
+            </pattern>
+            <pattern id="ptrnIndir7" type="tiling">
+              <paintType>2</paintType>
+              <tilingType>1</tilingType>
+              <width>8.000</width>
+              <height>8.000</height>
+              <bbox lly="0.000" llx="0.000" urx="8.000" ury="8.000"></bbox>
+              <xStep>8.000</xStep>
+              <yStep>8.000</yStep>
+              <matrix>
+                <element index="1" value="0.240"></element>
+                <element index="2" value="0.000"></element>
+                <element index="3" value="0.000"></element>
+                <element index="4" value="0.240"></element>
+                <element index="5" value="1374.840"></element>
+                <element index="6" value="2666.190"></element>
+              </matrix>
+            </pattern>
+          </patterns>
+          <xobjects>
+            <xobject id="xobjIndir3" type="image">
+              <width>8</width>
+              <height>8</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+            </xobject>
+            <xobject id="xobjIndir5" type="image">
+              <width>8</width>
+              <height>8</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+            </xobject>
+            <xobject id="xobjIndir13" type="image">
+              <width>502</width>
+              <height>244</height>
+              <colorSpace id="clrspIndir62"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir29" type="image">
+              <width>546</width>
+              <height>515</height>
+              <colorSpace id="clrspIndir62"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+          </xobjects>
+          <fonts>
+            <font id="fntIndir85">
+              <type>TrueType</type>
+              <baseFont>TimesNewRomanPSMT</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>247</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>TimesNewRomanPSMT</fontName>
+                <fontFamily>Times New Roman</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-307.000" llx="-568.000" urx="2000.000" ury="1007.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>891.000</ascent>
+                <descent>-216.000</descent>
+                <leading>0.000</leading>
+                <capHeight>656.000</capHeight>
+                <xHeight>-546.000</xHeight>
+                <stemV>82.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir87">
+              <type>TrueType</type>
+              <baseFont>ArialMT</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>ArialMT</fontName>
+                <fontFamily>Arial</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-325.000" llx="-665.000" urx="2000.000" ury="1006.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>905.000</ascent>
+                <descent>-211.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>515.000</xHeight>
+                <stemV>88.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir89">
+              <type>TrueType</type>
+              <baseFont>BLEANE+TimesNewRomanPS-ItalicMT</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>122</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>TimesNewRomanPS-ItalicMT</fontName>
+                <fontFamily>Times New Roman</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-307.000" llx="-498.000" urx="1120.000" ury="1023.000"></fontBBox>
+                <italicAngle>-15.000</italicAngle>
+                <ascent>891.000</ascent>
+                <descent>-216.000</descent>
+                <leading>0.000</leading>
+                <capHeight>656.000</capHeight>
+                <xHeight>-546.000</xHeight>
+                <stemV>71.742</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir60">
+              <type>CIDFontType2</type>
+              <baseFont>BLECFM+SymbolMT</baseFont>
+              <defaultWidth>1000</defaultWidth>
+              <cidSystemInfo>
+                <registry>Adobe</registry>
+                <ordering>Identity</ordering>
+                <supplement>0</supplement>
+              </cidSystemInfo>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>SymbolMT</fontName>
+                <fontFamily>Symbol</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>true</symbolic>
+                <script>false</script>
+                <nonsymbolic>false</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-220.000" llx="0.000" urx="1113.000" ury="1005.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>1005.000</ascent>
+                <descent>-219.000</descent>
+                <leading>0.000</leading>
+                <capHeight>0.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir61">
+              <type>Type0</type>
+              <baseFont>BLECFM+SymbolMT</baseFont>
+              <descendantFonts>
+                <descendantFont id="fntIndir60"></descendantFont>
+              </descendantFonts>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>SymbolMT</fontName>
+                <fontFamily>Symbol</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>true</symbolic>
+                <script>false</script>
+                <nonsymbolic>false</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-220.000" llx="0.000" urx="1113.000" ury="1005.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>1005.000</ascent>
+                <descent>-219.000</descent>
+                <leading>0.000</leading>
+                <capHeight>0.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir64">
+              <type>TrueType</type>
+              <baseFont>Arial-BoldMT</baseFont>
+              <firstChar>45</firstChar>
+              <lastChar>79</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Arial-BoldMT</fontName>
+                <fontFamily>Arial</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>700.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-376.000" llx="-628.000" urx="2000.000" ury="1010.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>905.000</ascent>
+                <descent>-211.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>515.000</xHeight>
+                <stemV>138.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir50">
+              <type>CIDFontType2</type>
+              <baseFont>BLEAND+TimesNewRomanPS-ItalicMT</baseFont>
+              <defaultWidth>1000</defaultWidth>
+              <cidSystemInfo>
+                <registry>Adobe</registry>
+                <ordering>Identity</ordering>
+                <supplement>0</supplement>
+              </cidSystemInfo>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>TimesNewRomanPS-ItalicMT</fontName>
+                <fontFamily>Times New Roman</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>true</symbolic>
+                <script>false</script>
+                <nonsymbolic>false</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-307.000" llx="-498.000" urx="1120.000" ury="1023.000"></fontBBox>
+                <italicAngle>-15.000</italicAngle>
+                <ascent>891.000</ascent>
+                <descent>-216.000</descent>
+                <leading>0.000</leading>
+                <capHeight>656.000</capHeight>
+                <xHeight>-546.000</xHeight>
+                <stemV>71.742</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir65">
+              <type>Type0</type>
+              <baseFont>BLEAND+TimesNewRomanPS-ItalicMT</baseFont>
+              <descendantFonts>
+                <descendantFont id="fntIndir50"></descendantFont>
+              </descendantFonts>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>TimesNewRomanPS-ItalicMT</fontName>
+                <fontFamily>Times New Roman</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>true</serif>
+                <symbolic>true</symbolic>
+                <script>false</script>
+                <nonsymbolic>false</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-307.000" llx="-498.000" urx="1120.000" ury="1023.000"></fontBBox>
+                <italicAngle>-15.000</italicAngle>
+                <ascent>891.000</ascent>
+                <descent>-216.000</descent>
+                <leading>0.000</leading>
+                <capHeight>656.000</capHeight>
+                <xHeight>-546.000</xHeight>
+                <stemV>71.742</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir67">
+              <type>TrueType</type>
+              <baseFont>Arial-ItalicMT</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>120</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>false</subset>
+                <fontName>Arial-ItalicMT</fontName>
+                <fontFamily>Arial</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-325.000" llx="-517.000" urx="1082.000" ury="998.000"></fontBBox>
+                <italicAngle>-15.000</italicAngle>
+                <ascent>905.000</ascent>
+                <descent>-211.000</descent>
+                <leading>0.000</leading>
+                <capHeight>718.000</capHeight>
+                <xHeight>515.000</xHeight>
+                <stemV>85.863</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>false</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir68">
+              <type>TrueType</type>
+              <baseFont>BLEIMK+GreekC</baseFont>
+              <firstChar>68</firstChar>
+              <lastChar>68</lastChar>
+              <encoding>WinAnsiEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>GreekC</fontName>
+                <fontFamily>GreekC</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-245.000" llx="-13.000" urx="891.000" ury="894.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-244.000</descent>
+                <leading>0.000</leading>
+                <capHeight>750.000</capHeight>
+                <xHeight>1000.000</xHeight>
+                <stemV>159.797</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir57">
+              <type>CIDFontType2</type>
+              <baseFont>BLEPFD+Calibri</baseFont>
+              <defaultWidth>1000</defaultWidth>
+              <cidSystemInfo>
+                <registry>Adobe</registry>
+                <ordering>Identity</ordering>
+                <supplement>0</supplement>
+              </cidSystemInfo>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Calibri</fontName>
+                <fontFamily>Calibri</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>true</symbolic>
+                <script>false</script>
+                <nonsymbolic>false</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-194.000" llx="-476.000" urx="1214.000" ury="952.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>625.000</capHeight>
+                <xHeight>-531.000</xHeight>
+                <stemV>80.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir69">
+              <type>Type0</type>
+              <baseFont>BLEPFD+Calibri</baseFont>
+              <descendantFonts>
+                <descendantFont id="fntIndir57"></descendantFont>
+              </descendantFonts>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Calibri</fontName>
+                <fontFamily>Calibri</fontFamily>
+                <fontStretch>Normal</fontStretch>
+                <fontWeight>400.000</fontWeight>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>true</symbolic>
+                <script>false</script>
+                <nonsymbolic>false</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-194.000" llx="-476.000" urx="1214.000" ury="952.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>625.000</capHeight>
+                <xHeight>-531.000</xHeight>
+                <stemV>80.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1685543680989" finish="1685543681068">00:00:00.079</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1685543680890" finish="1685543681124">00:00:00.234</duration>
+  </batchSummary>
+</report>

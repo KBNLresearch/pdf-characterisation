@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="10523">
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/./testfiles/pdf-hul-133/102_A-vectorized.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Author">   -- to be completed --    </entry>
+          <entry key="Creator">   -- to be completed --    </entry>
+          <entry key="Producer">   -- to be completed --    </entry>
+        </informationDict>
+        <lowLevelInfo>
+          <pdfVersion>1.5</pdfVersion>
+          <indirectObjectsNumber>6</indirectObjectsNumber>
+          <tagged>false</tagged>
+        </lowLevelInfo>
+        <pages>
+          <page orderNumber="1">
+            <width>595.000</width>
+            <height>842.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="595.000" ury="842.000"></artBox>
+            <rotation>0</rotation>
+          </page>
+        </pages>
+      </featuresReport>
+      <duration start="1685543696220" finish="1685543696236">00:00:00.016</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1685543696178" finish="1685543696268">00:00:00.090</duration>
+  </batchSummary>
+</report>

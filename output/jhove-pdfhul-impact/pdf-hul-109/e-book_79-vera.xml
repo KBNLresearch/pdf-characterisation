@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="3489971">
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/./testfiles/pdf-hul-109/e-book_79.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Producer">Mac OS X 10.9.5 Quartz PDFContext</entry>
+          <entry key="CreationDate">2017-01-21T12:15:54.000Z</entry>
+          <entry key="ModDate">2017-01-23T12:15:06.000+01:00</entry>
+        </informationDict>
+        <metadata>
+          <xmpPackage>
+            <x:xmpmeta x:xmptk="Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03        " xmlns:x="adobe:ns:meta/">
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                  <xmp:CreateDate>2017-01-21T12:15:54Z</xmp:CreateDate>
+                  <xmp:ModifyDate>2017-01-23T12:15:06+01:00</xmp:ModifyDate>
+                  <xmp:MetadataDate>2017-01-23T12:15:06+01:00</xmp:MetadataDate>
+                  <pdf:Producer>Mac OS X 10.9.5 Quartz PDFContext</pdf:Producer>
+                  <dc:format>application/pdf</dc:format>
+                  <xmpMM:DocumentID>uuid:783c03ed-a93f-4673-8144-eab39d5af14e</xmpMM:DocumentID>
+                  <xmpMM:InstanceID>uuid:75945c91-eb0f-485f-b012-6a87ce01fab0</xmpMM:InstanceID>
+                </rdf:Description>
+              </rdf:RDF>
+            </x:xmpmeta>
+          </xmpPackage>
+        </metadata>
+        <documentSecurity>
+          <filter>Standard</filter>
+          <version>1</version>
+          <length>40</length>
+          <ownerKey>2055C756C72E1AD702608E8196ACAD447AD32D17CFF583235F6DD15FED7DAB67</ownerKey>
+          <userKey>4CAA7D17EBA61FF24F2F9C8E390001F597E0D20F5106204128952A6976A72A64</userKey>
+          <encryptMetadata>true</encryptMetadata>
+          <printAllowed>true</printAllowed>
+          <printDegradedAllowed>true</printDegradedAllowed>
+          <changesAllowed>true</changesAllowed>
+          <modifyAnnotationsAllowed>true</modifyAnnotationsAllowed>
+          <fillingSigningAllowed>true</fillingSigningAllowed>
+          <documentAssemblyAllowed>true</documentAssemblyAllowed>
+          <extractContentAllowed>true</extractContentAllowed>
+          <extractAccessibilityAllowed>true</extractAccessibilityAllowed>
+        </documentSecurity>
+        <lowLevelInfo>
+          <pdfVersion>1.3</pdfVersion>
+          <indirectObjectsNumber>120</indirectObjectsNumber>
+          <documentId modificationId="a5¤ªv#x000015ÆFš#x000010ªÜ#x000006#x00000FGJ" creationId="…#x00000ByÉÆŁŸ#x000007r^•#x000003zòeÈ"></documentId>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="DCTDecode"></filter>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <iccProfiles>
+          <iccProfile id="iccProfileIndir101">
+            <version>2.1</version>
+            <cmmType>Lino</cmmType>
+            <dataColorSpace>RGB </dataColorSpace>
+            <creator>HP  </creator>
+            <creationDate>1998-02-09T06:49:00.000Z</creationDate>
+            <defaultRenderingIntent>Perceptual</defaultRenderingIntent>
+            <copyright>Copyright (c) 1998 Hewlett-Packard Company</copyright>
+            <description>sRGB IEC61966-2.1</description>
+            <deviceModel>sRGB</deviceModel>
+            <deviceManufacturer>IEC </deviceManufacturer>
+          </iccProfile>
+          <iccProfile id="iccProfileIndir102">
+            <version>2.0</version>
+            <cmmType>appl</cmmType>
+            <dataColorSpace>GRAY</dataColorSpace>
+            <creator>appl</creator>
+            <creationDate>2012-08-23T15:46:15.000Z</creationDate>
+            <defaultRenderingIntent>Perceptual</defaultRenderingIntent>
+            <copyright>Copyright Apple Inc., 2012</copyright>
+            <description>Generic Gray Gamma 2.2 Profile</description>
+            <deviceManufacturer>none</deviceManufacturer>
+          </iccProfile>
+        </iccProfiles>
+        <pages>
+          <page orderNumber="1">
+            <width>1147.920</width>
+            <height>736.800</height>
+            <mediaBox lly="0.000" llx="0.000" urx="1147.920" ury="736.800"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="1147.920" ury="736.800"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="1147.920" ury="736.800"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="1147.920" ury="736.800"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="1147.920" ury="736.800"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <colorSpaces>
+                <colorSpace id="clrspIndir113"></colorSpace>
+                <colorSpace id="clrspIndir112"></colorSpace>
+              </colorSpaces>
+              <xobjects>
+                <xobject id="xobjIndir108"></xobject>
+                <xobject id="xobjIndir109"></xobject>
+                <xobject id="xobjIndir106"></xobject>
+                <xobject id="xobjIndir107"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir119"></font>
+                <font id="fntIndir115"></font>
+                <font id="fntIndir117"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="2">
+            <width>1149.120</width>
+            <height>739.200</height>
+            <mediaBox lly="0.000" llx="0.000" urx="1149.120" ury="739.200"></mediaBox>
+            <cropBox lly="1.200" llx="0.480" urx="1148.400" ury="738.000"></cropBox>
+            <trimBox lly="1.200" llx="0.480" urx="1148.400" ury="738.000"></trimBox>
+            <bleedBox lly="1.200" llx="0.480" urx="1148.400" ury="738.000"></bleedBox>
+            <artBox lly="1.200" llx="0.480" urx="1148.400" ury="738.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <colorSpaces>
+                <colorSpace id="clrspIndir113"></colorSpace>
+                <colorSpace id="clrspIndir112"></colorSpace>
+              </colorSpaces>
+              <xobjects>
+                <xobject id="xobjIndir8"></xobject>
+                <xobject id="xobjIndir11"></xobject>
+                <xobject id="xobjIndir10"></xobject>
+                <xobject id="xobjIndir12"></xobject>
+                <xobject id="xobjIndir9"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir70"></font>
+                <font id="fntIndir72"></font>
+                <font id="fntIndir71"></font>
+                <font id="fntIndir74"></font>
+                <font id="fntIndir73"></font>
+                <font id="fntIndir69"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="3">
+            <width>1149.120</width>
+            <height>739.200</height>
+            <mediaBox lly="0.000" llx="0.000" urx="1149.120" ury="739.200"></mediaBox>
+            <cropBox lly="1.200" llx="0.480" urx="1148.400" ury="738.000"></cropBox>
+            <trimBox lly="1.200" llx="0.480" urx="1148.400" ury="738.000"></trimBox>
+            <bleedBox lly="1.200" llx="0.480" urx="1148.400" ury="738.000"></bleedBox>
+            <artBox lly="1.200" llx="0.480" urx="1148.400" ury="738.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <colorSpaces>
+                <colorSpace id="clrspIndir113"></colorSpace>
+                <colorSpace id="clrspIndir112"></colorSpace>
+              </colorSpaces>
+              <xobjects>
+                <xobject id="xobjIndir21"></xobject>
+                <xobject id="xobjIndir19"></xobject>
+                <xobject id="xobjIndir20"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir76"></font>
+                <font id="fntIndir75"></font>
+                <font id="fntIndir77"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="4">
+            <width>1149.360</width>
+            <height>738.960</height>
+            <mediaBox lly="0.000" llx="0.000" urx="1149.360" ury="738.960"></mediaBox>
+            <cropBox lly="1.200" llx="0.720" urx="1148.640" ury="738.000"></cropBox>
+            <trimBox lly="1.200" llx="0.720" urx="1148.640" ury="738.000"></trimBox>
+            <bleedBox lly="1.200" llx="0.720" urx="1148.640" ury="738.000"></bleedBox>
+            <artBox lly="1.200" llx="0.720" urx="1148.640" ury="738.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <colorSpaces>
+                <colorSpace id="clrspIndir113"></colorSpace>
+                <colorSpace id="clrspIndir112"></colorSpace>
+              </colorSpaces>
+              <xobjects>
+                <xobject id="xobjIndir28"></xobject>
+                <xobject id="xobjIndir27"></xobject>
+                <xobject id="xobjIndir29"></xobject>
+                <xobject id="xobjIndir30"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir78"></font>
+                <font id="fntIndir79"></font>
+              </fonts>
+            </resources>
+          </page>
+          <page orderNumber="5">
+            <width>1150.560</width>
+            <height>741.360</height>
+            <mediaBox lly="0.000" llx="0.000" urx="1150.560" ury="741.360"></mediaBox>
+            <cropBox lly="2.400" llx="1.200" urx="1149.120" ury="739.200"></cropBox>
+            <trimBox lly="2.400" llx="1.200" urx="1149.120" ury="739.200"></trimBox>
+            <bleedBox lly="2.400" llx="1.200" urx="1149.120" ury="739.200"></bleedBox>
+            <artBox lly="2.400" llx="1.200" urx="1149.120" ury="739.200"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <colorSpaces>
+                <colorSpace id="clrspIndir112"></colorSpace>
+              </colorSpaces>
+              <xobjects>
+                <xobject id="xobjIndir39"></xobject>
+                <xobject id="xobjIndir40"></xobject>
+                <xobject id="xobjIndir41"></xobject>
+              </xobjects>
+              <fonts>
+                <font id="fntIndir81"></font>
+                <font id="fntIndir80"></font>
+                <font id="fntIndir83"></font>
+                <font id="fntIndir82"></font>
+                <font id="fntIndir85"></font>
+                <font id="fntIndir84"></font>
+              </fonts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <colorSpaces>
+            <colorSpace id="devrgb" family="DeviceRGB"></colorSpace>
+            <colorSpace id="clrspIndir112" family="ICCBased">
+              <alternate id="devrgb"></alternate>
+              <components>3</components>
+              <iccProfile id="iccProfileIndir101"></iccProfile>
+            </colorSpace>
+            <colorSpace id="devgray" family="DeviceGray"></colorSpace>
+            <colorSpace id="clrspIndir113" family="ICCBased">
+              <alternate id="devgray"></alternate>
+              <components>1</components>
+              <iccProfile id="iccProfileIndir102"></iccProfile>
+            </colorSpace>
+          </colorSpaces>
+          <xobjects>
+            <xobject id="xobjIndir109" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir106" type="image">
+              <width>3189</width>
+              <height>2047</height>
+              <colorSpace id="clrspIndir112"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir108" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir107" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir8" type="image">
+              <width>3990</width>
+              <height>2567</height>
+              <colorSpace id="clrspIndir112"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir10" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir9" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir12" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir11" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir19" type="image">
+              <width>3990</width>
+              <height>2567</height>
+              <colorSpace id="clrspIndir112"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir20" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir21" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir27" type="image">
+              <width>3991</width>
+              <height>2566</height>
+              <colorSpace id="clrspIndir112"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir28" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir29" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir30" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir39" type="image">
+              <width>3196</width>
+              <height>2060</height>
+              <colorSpace id="clrspIndir112"></colorSpace>
+              <bitsPerComponent>8</bitsPerComponent>
+              <imageMask>false</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>DCTDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir40" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+            <xobject id="xobjIndir41" type="image">
+              <width>1</width>
+              <height>1</height>
+              <bitsPerComponent>1</bitsPerComponent>
+              <imageMask>true</imageMask>
+              <interpolate>false</interpolate>
+              <filters>
+                <filter>FlateDecode</filter>
+              </filters>
+            </xobject>
+          </xobjects>
+          <fonts>
+            <font id="fntIndir115">
+              <type>TrueType</type>
+              <baseFont>ULZFDS+Times-Roman</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>56</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Roman</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-428.000" llx="-203.000" urx="1700.000" ury="1272.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>676.000</capHeight>
+                <xHeight>461.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1721.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir119">
+              <type>TrueType</type>
+              <baseFont>DPGJXD+Helvetica-Oblique</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica-Oblique</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-933.000" urx="1571.000" ury="1138.000"></fontBBox>
+                <italicAngle>-6.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir117">
+              <type>TrueType</type>
+              <baseFont>FQNXLM+Helvetica</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>122</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-951.000" urx="1445.000" ury="1122.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir72">
+              <type>TrueType</type>
+              <baseFont>FEHRZW+Helvetica</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>225</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-951.000" urx="1445.000" ury="1122.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir73">
+              <type>TrueType</type>
+              <baseFont>XJJQII+Times-Roman</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>126</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Roman</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-428.000" llx="-203.000" urx="1700.000" ury="1272.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>676.000</capHeight>
+                <xHeight>461.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1721.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir69">
+              <type>TrueType</type>
+              <baseFont>EJKQLW+Times-Bold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>111</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Bold</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-407.000" llx="-228.000" urx="1778.000" ury="1295.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>693.000</capHeight>
+                <xHeight>474.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1803.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir74">
+              <type>TrueType</type>
+              <baseFont>GZRWHX+Helvetica-Oblique</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica-Oblique</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-933.000" urx="1571.000" ury="1138.000"></fontBBox>
+                <italicAngle>-6.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir71">
+              <type>TrueType</type>
+              <baseFont>SLQDOU+Times-Italic</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>73</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Italic</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-413.000" llx="-296.000" urx="1661.000" ury="1205.000"></fontBBox>
+                <italicAngle>-7.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>667.000</capHeight>
+                <xHeight>454.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1610.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir70">
+              <type>TrueType</type>
+              <baseFont>GNQTGO+Helvetica-Bold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>116</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica-Bold</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-1018.000" urx="1436.000" ury="1159.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>720.000</capHeight>
+                <xHeight>532.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>479.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir77">
+              <type>TrueType</type>
+              <baseFont>ETNTVR+Helvetica-Oblique</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>110</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica-Oblique</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-933.000" urx="1571.000" ury="1138.000"></fontBBox>
+                <italicAngle>-6.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir76">
+              <type>TrueType</type>
+              <baseFont>JVPSXN+Helvetica</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>122</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-951.000" urx="1445.000" ury="1122.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir75">
+              <type>TrueType</type>
+              <baseFont>PXKXTR+Times-Roman</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>57</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Roman</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-428.000" llx="-203.000" urx="1700.000" ury="1272.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>676.000</capHeight>
+                <xHeight>461.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1721.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir79">
+              <type>TrueType</type>
+              <baseFont>GLSBDI+Helvetica</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>122</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-951.000" urx="1445.000" ury="1122.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir78">
+              <type>TrueType</type>
+              <baseFont>WAVCSZ+Times-Roman</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>57</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Roman</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-428.000" llx="-203.000" urx="1700.000" ury="1272.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>676.000</capHeight>
+                <xHeight>461.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1721.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir81">
+              <type>TrueType</type>
+              <baseFont>ANVQDB+Helvetica-Oblique</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica-Oblique</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-933.000" urx="1571.000" ury="1138.000"></fontBBox>
+                <italicAngle>-6.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir82">
+              <type>TrueType</type>
+              <baseFont>ABYMON+Helvetica-Bold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>121</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica-Bold</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-1018.000" urx="1436.000" ury="1159.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>720.000</capHeight>
+                <xHeight>532.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>479.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir85">
+              <type>TrueType</type>
+              <baseFont>EYHMER+Times-Bold</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>108</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Bold</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-407.000" llx="-228.000" urx="1778.000" ury="1295.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>693.000</capHeight>
+                <xHeight>474.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1803.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir80">
+              <type>TrueType</type>
+              <baseFont>VIWUNX+Helvetica</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>225</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Helvetica</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-481.000" llx="-951.000" urx="1445.000" ury="1122.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>770.000</ascent>
+                <descent>-230.000</descent>
+                <leading>0.000</leading>
+                <capHeight>717.000</capHeight>
+                <xHeight>523.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>-441.000</averageWidth>
+                <maxWidth>1500.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir84">
+              <type>TrueType</type>
+              <baseFont>DNZUFK+Times-Roman</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>49</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Roman</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-428.000" llx="-203.000" urx="1700.000" ury="1272.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>676.000</capHeight>
+                <xHeight>461.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1721.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir83">
+              <type>TrueType</type>
+              <baseFont>SLQDOU+Times-Italic</baseFont>
+              <firstChar>32</firstChar>
+              <lastChar>73</lastChar>
+              <encoding>MacRomanEncoding</encoding>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>Times-Italic</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>true</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-413.000" llx="-296.000" urx="1661.000" ury="1205.000"></fontBBox>
+                <italicAngle>-7.000</italicAngle>
+                <ascent>750.000</ascent>
+                <descent>-250.000</descent>
+                <leading>0.000</leading>
+                <capHeight>667.000</capHeight>
+                <xHeight>454.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>1610.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1685543682302" finish="1685543682373">00:00:00.071</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1685543682220" finish="1685543682432">00:00:00.212</duration>
+  </batchSummary>
+</report>

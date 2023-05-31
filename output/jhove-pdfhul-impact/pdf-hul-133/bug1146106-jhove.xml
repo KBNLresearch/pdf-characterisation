@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.28.0" date="2023-05-18">
+ <date>2023-05-31T16:34:55+02:00</date>
+ <repInfo uri="./testfiles/pdf-hul-133/bug1146106.pdf">
+  <reportingModule release="1.12.4" date="2023-03-16">PDF-hul</reportingModule>
+  <lastModified>2023-05-31T16:02:42+02:00</lastModified>
+  <size>4517</size>
+  <format>PDF</format>
+  <version>1.6</version>
+  <status>Well-Formed, but not valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <messages>
+   <message offset="4004" severity="error" id="PDF-HUL-133">Improperly formed date</message>
+  </messages>
+  <mimeType>application/pdf</mimeType>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>21</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>0</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>ViewerPreferences</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>HideToolbar</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>HideMenubar</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>HideWindowUI</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>FitWindow</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>CenterWindow</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>DisplayDocTitle</name>
+       <values arity="Scalar" type="Boolean">
+        <value>false</value>
+       </values>
+      </property>
+      <property>
+       <name>NonFullScreenPageMode</name>
+       <values arity="Scalar" type="String">
+        <value>UseNone</value>
+       </values>
+      </property>
+      <property>
+       <name>Direction</name>
+       <values arity="Scalar" type="String">
+        <value>L2R</value>
+       </values>
+      </property>
+      <property>
+       <name>ViewArea</name>
+       <values arity="Scalar" type="String">
+        <value>CropBox</value>
+       </values>
+      </property>
+      <property>
+       <name>ViewClip</name>
+       <values arity="Scalar" type="String">
+        <value>CropBox</value>
+       </values>
+      </property>
+      <property>
+       <name>PrintArea</name>
+       <values arity="Scalar" type="String">
+        <value>CropBox</value>
+       </values>
+      </property>
+      <property>
+       <name>PageClip</name>
+       <values arity="Scalar" type="String">
+        <value>CropBox</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Creator</name>
+      <values arity="Scalar" type="String">
+       <value>Esri ArcMap 10.2.2.3552</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>FlateDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Type0</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>SBDGDD+OCHAIconsBounded</value>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>Identity-H</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>CIDFontType0</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>SBDGDD+OCHAIconsBounded</value>
+        </values>
+       </property>
+       <property>
+        <name>CIDSystemInfo</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>Registry</name>
+         <values arity="Scalar" type="String">
+          <value>Adobe</value>
+         </values>
+        </property>
+        <property>
+         <name>Registry</name>
+         <values arity="Scalar" type="String">
+          <value>Identity</value>
+         </values>
+        </property>
+        <property>
+         <name>Supplement</name>
+         <values arity="Scalar" type="Integer">
+          <value>0</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>SBDGDD+OCHAIconsBounded</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-1</value>
+          <value>-33</value>
+          <value>513</value>
+          <value>481</value>
+         </values>
+        </property>
+        <property>
+         <name>FontFile3</name>
+         <values arity="Scalar" type="Boolean">
+          <value>true</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      <property>
+       <name>Viewports</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Viewport</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>BBox</name>
+         <values arity="Array" type="Integer">
+          <value>0</value>
+          <value>522</value>
+          <value>715</value>
+          <value>0</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>

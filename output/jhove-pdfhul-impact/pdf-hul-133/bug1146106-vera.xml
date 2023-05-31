@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="4517">
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/./testfiles/pdf-hul-133/bug1146106.pdf</name>
+      </item>
+      <featuresReport>
+        <informationDict>
+          <entry key="Creator">Esri ArcMap 10.2.2.3552</entry>
+          <entry key="CreationDate">2015-03-21T16:29:54.000Z</entry>
+        </informationDict>
+        <lowLevelInfo>
+          <pdfVersion>1.6</pdfVersion>
+          <indirectObjectsNumber>20</indirectObjectsNumber>
+          <tagged>false</tagged>
+          <filters>
+            <filter name="FlateDecode"></filter>
+          </filters>
+        </lowLevelInfo>
+        <pages>
+          <page orderNumber="1">
+            <width>715.209</width>
+            <height>522.000</height>
+            <mediaBox lly="0.000" llx="0.000" urx="715.209" ury="522.000"></mediaBox>
+            <cropBox lly="0.000" llx="0.000" urx="715.209" ury="522.000"></cropBox>
+            <trimBox lly="0.000" llx="0.000" urx="715.209" ury="522.000"></trimBox>
+            <bleedBox lly="0.000" llx="0.000" urx="715.209" ury="522.000"></bleedBox>
+            <artBox lly="0.000" llx="0.000" urx="715.209" ury="522.000"></artBox>
+            <rotation>0</rotation>
+            <resources>
+              <fonts>
+                <font id="fntIndir9"></font>
+              </fonts>
+              <propertiesDicts>
+                <propertiesDict id="propIndir11"></propertiesDict>
+                <propertiesDict id="propIndir12"></propertiesDict>
+              </propertiesDicts>
+            </resources>
+          </page>
+        </pages>
+        <documentResources>
+          <fonts>
+            <font id="fntIndir7">
+              <type>CIDFontType0</type>
+              <baseFont>SBDGDD+OCHAIconsBounded</baseFont>
+              <defaultWidth>1000</defaultWidth>
+              <cidSystemInfo>
+                <registry>Adobe</registry>
+                <ordering>Identity</ordering>
+                <supplement>0</supplement>
+              </cidSystemInfo>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>OCHAIconsBounded</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-33.000" llx="-1.000" urx="513.000" ury="481.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>480.000</ascent>
+                <descent>-32.000</descent>
+                <leading>0.000</leading>
+                <capHeight>481.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+            <font id="fntIndir9">
+              <type>Type0</type>
+              <baseFont>SBDGDD+OCHAIconsBounded</baseFont>
+              <descendantFonts>
+                <descendantFont id="fntIndir7"></descendantFont>
+              </descendantFonts>
+              <fontDescriptor>
+                <subset>true</subset>
+                <fontName>OCHAIconsBounded</fontName>
+                <fixedPitch>false</fixedPitch>
+                <serif>false</serif>
+                <symbolic>false</symbolic>
+                <script>false</script>
+                <nonsymbolic>true</nonsymbolic>
+                <italic>false</italic>
+                <allCap>false</allCap>
+                <smallCap>false</smallCap>
+                <forceBold>false</forceBold>
+                <fontBBox lly="-33.000" llx="-1.000" urx="513.000" ury="481.000"></fontBBox>
+                <italicAngle>0.000</italicAngle>
+                <ascent>480.000</ascent>
+                <descent>-32.000</descent>
+                <leading>0.000</leading>
+                <capHeight>481.000</capHeight>
+                <xHeight>0.000</xHeight>
+                <stemV>0.000</stemV>
+                <stemH>0.000</stemH>
+                <averageWidth>0.000</averageWidth>
+                <maxWidth>0.000</maxWidth>
+                <missingWidth>0.000</missingWidth>
+                <embedded>true</embedded>
+              </fontDescriptor>
+            </font>
+          </fonts>
+          <propertiesDicts>
+            <propertiesDict id="propIndir12">
+              <type>OCG</type>
+            </propertiesDict>
+            <propertiesDict id="propIndir11">
+              <type>OCG</type>
+            </propertiesDict>
+          </propertiesDicts>
+        </documentResources>
+      </featuresReport>
+      <duration start="1685543695009" finish="1685543695045">00:00:00.036</duration>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="0">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1685543694972" finish="1685543695080">00:00:00.108</duration>
+  </batchSummary>
+</report>

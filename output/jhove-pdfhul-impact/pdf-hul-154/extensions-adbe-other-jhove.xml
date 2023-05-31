@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.28.0" date="2023-05-18">
+ <date>2023-05-31T16:38:28+02:00</date>
+ <repInfo uri="./testfiles/pdf-hul-154/extensions-adbe-other.pdf">
+  <reportingModule release="1.12.4" date="2023-03-16">PDF-hul</reportingModule>
+  <lastModified>2023-05-31T16:07:53+02:00</lastModified>
+  <size>1129</size>
+  <format>PDF</format>
+  <version>1.7</version>
+  <status>Not well-formed</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <messages>
+   <message subMessage="Potato" severity="info" id="PDF-HUL-154">Unknown Developer Prefix:</message>
+   <message severity="error" id="PDF-HUL-156">Extension can't be defined as an indirect reference</message>
+   <message severity="info" id="PDF-HUL-87">File header gives version as 1.7, but catalog dictionary gives version as 3.142</message>
+  </messages>
+  <mimeType>application/pdf</mimeType>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>9</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>0</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     <property>
+      <name>DeveloperPrefix</name>
+      <values arity="Scalar" type="String">
+       <value>ADBE</value>
+      </values>
+     </property>
+     <property>
+      <name>ExtensionLevel</name>
+      <values arity="Scalar" type="Integer">
+       <value>16059</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0x484577389048fa45fc00a1f5b434efa5</value>
+      <value>0x484577389048fa45fc00a1f5b434efa5</value>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Type1</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F1</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Helvetica</value>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+ </repInfo>
+</jhove>
