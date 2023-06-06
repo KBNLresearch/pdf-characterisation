@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="3489971">
-        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/./testfiles/pdf-hul-109/e-book_79.pdf</name>
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/testfiles/pdf-hul-109/e-book_79.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -1100,13 +1100,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1685543682302" finish="1685543682373">00:00:00.071</duration>
+      <duration start="1686057195076" finish="1686057195147">00:00:00.071</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1685543682220" finish="1685543682432">00:00:00.212</duration>
+    <duration start="1686057194945" finish="1686057195209">00:00:00.264</duration>
   </batchSummary>
 </report>

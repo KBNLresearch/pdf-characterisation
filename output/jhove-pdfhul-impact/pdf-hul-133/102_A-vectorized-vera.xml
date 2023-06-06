@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="10523">
-        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/./testfiles/pdf-hul-133/102_A-vectorized.pdf</name>
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/testfiles/pdf-hul-133/102_A-vectorized.pdf</name>
       </item>
       <featuresReport>
         <informationDict>
@@ -34,13 +34,13 @@
           </page>
         </pages>
       </featuresReport>
-      <duration start="1685543696220" finish="1685543696236">00:00:00.016</duration>
+      <duration start="1686057205945" finish="1686057205968">00:00:00.023</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1685543696178" finish="1685543696268">00:00:00.090</duration>
+    <duration start="1686057205876" finish="1686057205994">00:00:00.118</duration>
   </batchSummary>
 </report>

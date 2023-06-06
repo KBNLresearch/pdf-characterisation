@@ -8,7 +8,7 @@
   <jobs>
     <job>
       <item size="1129">
-        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/./testfiles/pdf-hul-154/extensions-adbe-other.pdf</name>
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/testfiles/pdf-hul-154/extensions-adbe-other.pdf</name>
       </item>
       <featuresReport>
         <lowLevelInfo>
@@ -71,13 +71,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1685543907726" finish="1685543907780">00:00:00.054</duration>
+      <duration start="1686057227296" finish="1686057227339">00:00:00.043</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1685543907686" finish="1685543907808">00:00:00.122</duration>
+    <duration start="1686057227195" finish="1686057227375">00:00:00.180</duration>
   </batchSummary>
 </report>

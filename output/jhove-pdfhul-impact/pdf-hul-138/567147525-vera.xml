@@ -8,19 +8,22 @@
   <jobs>
     <job>
       <item size="186489">
-        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/./testfiles/pdf-hul-138/567147525.pdf</name>
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/testfiles/pdf-hul-138/567147525.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1685543879997" finish="1685543880035">00:00:00.038</duration>
+        <duration start="1686057218936" finish="1686057218988">00:00:00.052</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetXRefInfo(...)startxref validation failed</exceptionMessage>
       </taskResult>
-      <duration start="1685543879997" finish="1685543880035">00:00:00.038</duration>
+      <duration start="1686057218936" finish="1686057218988">00:00:00.052</duration>
+      <logs logsCount="1">
+        <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/testfiles/pdf-hul-138/567147525.pdf doesn't appear to be a valid PDF.</logMessage>
+      </logs>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="1">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1685543879986" finish="1685543880048">00:00:00.062</duration>
+    <duration start="1686057218902" finish="1686057219007">00:00:00.105</duration>
   </batchSummary>
 </report>
