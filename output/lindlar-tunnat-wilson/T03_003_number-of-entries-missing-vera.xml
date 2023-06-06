@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="635">
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T03_003_number-of-entries-missing.pdf</name>
+      </item>
+      <taskResult type="PARSE" isExecuted="true" isSuccess="false">
+        <duration start="1686058695056" finish="1686058695125">00:00:00.069</duration>
+        <exceptionMessage>Exception: Couldn't parse stream caused by exception: End of file is reached</exceptionMessage>
+      </taskResult>
+      <duration start="1686058695056" finish="1686058695125">00:00:00.069</duration>
+      <logs logsCount="4">
+        <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T03_003_number-of-entries-missing.pdf doesn't appear to be a valid PDF.</logMessage>
+        <logMessage occurrences="3" level="WARNING">Incorrect end of line in cross-reference table.</logMessage>
+      </logs>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="1">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="1">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1686058695019" finish="1686058695148">00:00:00.129</duration>
+  </batchSummary>
+</report>

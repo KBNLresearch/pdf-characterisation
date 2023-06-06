@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report>
+  <buildInformation>
+    <releaseDetails id="core" version="1.22.2" buildDate="2022-09-14T13:46:00+02:00"></releaseDetails>
+    <releaseDetails id="validation-model" version="1.22.2" buildDate="2022-09-14T13:47:00+02:00"></releaseDetails>
+    <releaseDetails id="gui" version="1.22.3" buildDate="2022-09-14T14:50:00+02:00"></releaseDetails>
+  </buildInformation>
+  <jobs>
+    <job>
+      <item size="618">
+        <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-03_012_page-object-resources-missing.pdf</name>
+      </item>
+      <taskResult type="PARSE" isExecuted="true" isSuccess="false">
+        <duration start="1686058726201" finish="1686058726231">00:00:00.030</duration>
+        <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetXRefSection(...)can not locate xref table</exceptionMessage>
+      </taskResult>
+      <duration start="1686058726201" finish="1686058726231">00:00:00.030</duration>
+      <logs logsCount="1">
+        <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-03_012_page-object-resources-missing.pdf doesn't appear to be a valid PDF.</logMessage>
+      </logs>
+    </job>
+  </jobs>
+  <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="1">
+    <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
+    <featureReports failedJobs="1">1</featureReports>
+    <repairReports failedJobs="0">0</repairReports>
+    <duration start="1686058726171" finish="1686058726250">00:00:00.079</duration>
+  </batchSummary>
+</report>
