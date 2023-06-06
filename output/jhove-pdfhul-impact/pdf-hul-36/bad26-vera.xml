@@ -70,13 +70,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1686057174258" finish="1686057174317">00:00:00.059</duration>
+      <duration start="1686065942096" finish="1686065942142">00:00:00.046</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686057174187" finish="1686057174345">00:00:00.158</duration>
+    <duration start="1686065942040" finish="1686065942168">00:00:00.128</duration>
   </batchSummary>
 </report>

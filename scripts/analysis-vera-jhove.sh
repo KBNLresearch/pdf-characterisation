@@ -39,11 +39,11 @@ tabActionsAnnots="$dirOut"/actions-annots.md
 echo "|File|Actions (VeraPDF)|Annotations (VeraPDF)|Annotations (JHOVE)|" > "$tabActionsAnnots"
 echo "|:--|:--|:--|:--|" >> "$tabActionsAnnots"
 
-# VeraPDF errors/warnings CSV
-veraErrorsWarnings="$dirOut"/vera-errors-warnings.csv
+# JHOVE/VeraPDF  validation status,errors/warnings CSV
+statusErrorsWarnings="$dirOut"/jhove-vera-status-errors-warnings.csv
 
 # Write header
-echo "File,parseErrors,errors,warnings" > "$veraErrorsWarnings"
+echo "File,statusJHOVE,parseErrorsVera,warningsVera" > "$statusErrorsWarnings"
 
 # **************
 # MAIN PROCESSING LOOP
@@ -61,18 +61,19 @@ while IFS= read -d $'\0' file ; do
     outJhove="$dirOut""/""$baseName"-jhove.xml
 
     # Run VeraPDF and JHOVE
-    "$veraPDF" --off --addlogs --extract "$file" > "$outVera"
-    "$jhove" -m PDF-hul -h XML -i "$file" -o "$outJhove"
+    #"$veraPDF" --off --addlogs --extract "$file" > "$outVera"
+    #"$jhove" -m PDF-hul -h XML -i "$file" -o "$outJhove"
 
     # Run analysis scripts that extract actions and annotations from
     # VeraPDF and Jhove output
     actionsVera=$(python3 "$instDir"/vera-actions.py "$outVera" "<br>")
     annotsVera=$(python3 "$instDir"/vera-annots.py "$outVera" "<br>")
     annotsJhove=$(python3 "$instDir"/jhove-annots.py "$outJhove" "<br>")
+    statusJhove=$(python3 "$instDir"/jhove-validation-status.py "$outJhove")
     errorsWarningsVera=$(python3 "$instDir"/vera-errors-warnings.py "$outVera" ",")
 
     # Add output of scripts to tables
     echo "|""$fileNameIn""|""$actionsVera""|""$annotsVera""|""$annotsJhove""|" >> "$tabActionsAnnots"
-    echo "$fileNameIn"","$errorsWarningsVera >> "$veraErrorsWarnings"
+    echo "$fileNameIn"","\"$statusJhove\"","$errorsWarningsVera >> "$statusErrorsWarnings"
 
 done < <(find $dirIn -type f -regex '.*\.\(pdf\|PDF\)' -print0)

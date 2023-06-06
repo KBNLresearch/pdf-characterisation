@@ -863,13 +863,13 @@
           </fonts>
         </documentResources>
       </featuresReport>
-      <duration start="1686057193739" finish="1686057193813">00:00:00.074</duration>
+      <duration start="1686065965182" finish="1686065965251">00:00:00.069</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686057193588" finish="1686057193871">00:00:00.283</duration>
+    <duration start="1686065965085" finish="1686065965300">00:00:00.215</duration>
   </batchSummary>
 </report>

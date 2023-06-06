@@ -71,7 +71,7 @@ def parseXML(fileIn, sep):
         except:
                 pass
 
-        outStr = str(parseErrors) + sep + str(errors) + sep + str(warnings)
+        outStr = str(parseErrors) + sep + str(warnings)
 
     return outStr
     

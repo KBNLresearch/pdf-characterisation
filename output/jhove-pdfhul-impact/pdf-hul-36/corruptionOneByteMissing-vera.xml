@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/testfiles/pdf-hul-36/corruptionOneByteMissing.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686057172480" finish="1686057172539">00:00:00.059</duration>
+        <duration start="1686065940863" finish="1686065940900">00:00:00.037</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: Pages not found</exceptionMessage>
       </taskResult>
-      <duration start="1686057172480" finish="1686057172539">00:00:00.059</duration>
+      <duration start="1686065940863" finish="1686065940900">00:00:00.037</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/testfiles/pdf-hul-36/corruptionOneByteMissing.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686057172441" finish="1686057172558">00:00:00.117</duration>
+    <duration start="1686065940832" finish="1686065940927">00:00:00.095</duration>
   </batchSummary>
 </report>
