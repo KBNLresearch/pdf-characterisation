@@ -39,6 +39,12 @@ tabActionsAnnots="$dirOut"/actions-annots.md
 echo "|File|Actions (VeraPDF)|Annotations (VeraPDF)|Annotations (JHOVE)|" > "$tabActionsAnnots"
 echo "|:--|:--|:--|:--|" >> "$tabActionsAnnots"
 
+# VeraPDF errors/warnings CSV
+veraErrorsWarnings="$dirOut"/vera-errors-warnings.csv
+
+# Write header
+echo "File,parseErrors,errors,warnings" > "$veraErrorsWarnings"
+
 # **************
 # MAIN PROCESSING LOOP
 # **************
@@ -63,8 +69,10 @@ while IFS= read -d $'\0' file ; do
     actionsVera=$(python3 "$instDir"/vera-actions.py "$outVera" "<br>")
     annotsVera=$(python3 "$instDir"/vera-annots.py "$outVera" "<br>")
     annotsJhove=$(python3 "$instDir"/jhove-annots.py "$outJhove" "<br>")
+    errorsWarningsVera=$(python3 "$instDir"/vera-errors-warnings.py "$outVera" ",")
 
     # Add output of scripts to tables
     echo "|""$fileNameIn""|""$actionsVera""|""$annotsVera""|""$annotsJhove""|" >> "$tabActionsAnnots"
+    echo "$fileNameIn"","$errorsWarningsVera >> "$veraErrorsWarnings"
 
 done < <(find $dirIn -type f -regex '.*\.\(pdf\|PDF\)' -print0)
