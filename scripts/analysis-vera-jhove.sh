@@ -55,7 +55,7 @@ while IFS= read -d $'\0' file ; do
     outJhove="$dirOut""/""$baseName"-jhove.xml
 
     # Run VeraPDF and JHOVE
-    "$veraPDF" --off --extract "$file" > "$outVera"
+    "$veraPDF" --off --addlogs --extract "$file" > "$outVera"
     "$jhove" -m PDF-hul -h XML -i "$file" -o "$outJhove"
 
     # Run analysis scripts that extract actions and annotations from
