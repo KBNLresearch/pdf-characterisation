@@ -12,7 +12,8 @@ from tabulate import tabulate
 """
 This script runs both JHOVE and VeraPDF on all files with a .pdf extension,
 and then extracts information that allows for a comparison between JHOVE
-validation status and VeraPDF parse errors and logged warnings.
+validation status and VeraPDF parse errors and logged warnings. Results are
+summarised in Markdown formatted tables.
 """
 
 # Create parser
@@ -28,7 +29,13 @@ def parseCommandLine():
     parser.add_argument('dirOut',
                         action="store",
                         type=str,
-                        help="output directory")
+                        help="output directory"),
+    parser.add_argument('--existingoutput', '-e',
+                        action="store_true",
+                        dest="existingOutputFlag",
+                        default=False,
+                        help="don't run JHOVE and VeraPDF, but use existing output")
+
     # Parse arguments
     args = parser.parse_args()
 
@@ -75,6 +82,7 @@ def runVeraPDF(veraPDFBin, fileIn, fileOut):
     p = sub.Popen(args, stdout=sub.PIPE, stderr=sub.PIPE, shell=False)
     output, errors = p.communicate()
 
+    # Write output (stdout) to file
     with open(fileOut, 'wb') as f:
         f.write(output)
 
@@ -139,9 +147,7 @@ def getVeraPDFResults(fileIn):
     except:
             pass
 
-
     return parseErrors, logWarnings
-
 
 
 def dfToMarkdown(dataframe, headers='keys'):
@@ -151,23 +157,25 @@ def dfToMarkdown(dataframe, headers='keys'):
 
 
 def main():
+    """Main processing loop"""
+
+    # Locations of JHOVE and VeraPDF
+    jhoveBin = os.path.abspath("/home/johan/jhove/jhove")
+    veraPDFBin = os.path.abspath("/home/johan/verapdf/verapdf")
 
     # User input
     args = parseCommandLine()   
     dirIn = os.path.abspath(args.dirIn)
     dirOut = os.path.abspath(args.dirOut)
+    existingOutputFlag = args.existingOutputFlag
 
     # Check if input directory exists
     if not os.path.isdir(dirIn):
         errorExit("input directory does not exist")
 
-    # Create output directory if it doesn't exist alread
+    # Create output directory if it doesn't exist already
     if not os.path.isdir(dirOut):
         os.makedirs(dirOut)
-
-    # Locations of JHOVE and VeraPDF
-    jhoveBin = os.path.abspath("/home/johan/jhove/jhove")
-    veraPDFBin = os.path.abspath("/home/johan/verapdf/verapdf")
 
     # Create dictionary that will contain extracted data
     dataDict = {
@@ -180,7 +188,7 @@ def main():
     # Create list of all files with .pdf extension in dirIn
     pdfsIn = glob.glob(dirIn + '/*.pdf')
 
-    # Process all files    
+    # Process all files, and add results to dictionary
     for pdfIn in pdfsIn:
 
         # Strip path to get file name
@@ -192,17 +200,24 @@ def main():
         outJhove = os.path.join(dirOut, baseName + "-jhove.xml")
         outVeraPDF = os.path.join(dirOut, baseName + "-vera.xml")
 
-        # Run JHOVE and VeraPDF
-        runJhove(jhoveBin, pdfIn, outJhove)
-        runVeraPDF(veraPDFBin, pdfIn, outVeraPDF)
+        if not existingOutputFlag:
+            # Run JHOVE and VeraPDF
+            runJhove(jhoveBin, pdfIn, outJhove)
+            runVeraPDF(veraPDFBin, pdfIn, outVeraPDF)
 
         # Get JHOVE validation status from output file
-        jhoveStatus = getJhoveResults(outJhove)
+        try:
+            jhoveStatus = getJhoveResults(outJhove)
+        except FileNotFoundError:
+             errorExit("JHOVE output files not found, try running without --existingoutput option")
 
         # Get Boolean flags that indicate parse errors or log warnings
         # in VeraPDF output file
-        veraParseErrors, veraLogWarnings = getVeraPDFResults(outVeraPDF)
-
+        try:
+            veraParseErrors, veraLogWarnings = getVeraPDFResults(outVeraPDF)
+        except FileNotFoundError:
+             errorExit("VeraPDF output files not found, try running without --existingoutput option")
+    
         dataDict["fileName"].append(fileName)
         dataDict["jhoveStatus"].append(jhoveStatus)
         dataDict["veraParseErrors"].append(veraParseErrors)
