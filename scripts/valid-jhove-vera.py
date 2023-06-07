@@ -79,6 +79,77 @@ def runVeraPDF(veraPDFBin, fileIn, fileOut):
         f.write(output)
 
 
+def getJhoveResults(fileIn):
+
+    """
+    Return validation status from JHOVE output
+    """
+
+    tree = ET.parse(fileIn)
+    root = tree.getroot()
+
+    repInfo = root.find(".//{http://schema.openpreservation.org/ois/xml/ns/jhove}repInfo")
+
+    statusElt = repInfo.find(".//{http://schema.openpreservation.org/ois/xml/ns/jhove}status")
+    status = statusElt.text
+
+    return status
+
+
+def getVeraPDFResults(fileIn):
+
+    """
+    Return two Boolean flags that indicate if VeraPDF output contains any parse errors
+    or logged warnings 
+    """
+
+    tree = ET.parse(fileIn)
+    root = tree.getroot()
+
+    job = root.find(".//job")
+        
+    parseErrors = False
+    logErrors = False # Don't think these are even a thing in VeraPDF?
+    logWarnings = False
+
+    try:
+        taskResults = job.findall(".//taskResult")
+
+        for taskResult in taskResults:
+            type = taskResult.get("type")
+            if type == "PARSE":
+                isSuccess = taskResult.get("isSuccess")
+                if isSuccess == "false":
+                    #exceptionMessage = taskResult.find(".//exceptionMessage")
+                    #exceptionMessageText = exceptionMessage.text
+                    parseErrors = True
+                    break
+    except:
+            pass
+
+    try:
+        logMessages = job.findall(".//logs/logMessage")
+
+        for logMessage in logMessages:
+            level = logMessage.get("level")
+            if level == "WARNING":
+                    logWarnings = True
+            if level == "ERROR":
+                    logErrors = True
+    except:
+            pass
+
+
+    return parseErrors, logWarnings
+
+
+
+def dfToMarkdown(dataframe, headers='keys'):
+    """Convert Pandas Data Frame to Markdown table with optionally custom headers"""
+    mdOut = dataframe.pipe(tabulate, headers=headers, tablefmt='pipe')
+    return mdOut
+
+
 def main():
 
     # User input
@@ -98,9 +169,18 @@ def main():
     jhoveBin = os.path.abspath("/home/johan/jhove/jhove")
     veraPDFBin = os.path.abspath("/home/johan/verapdf/verapdf")
 
+    # Create dictionary that will contain extracted data
+    dataDict = {
+                "fileName": [],
+                "jhoveStatus": [],
+                "veraParseErrors": [],
+                "veraLogWarnings": []
+    }
+
     # Create list of all files with .pdf extension in dirIn
     pdfsIn = glob.glob(dirIn + '/*.pdf')
-    
+
+    # Process all files    
     for pdfIn in pdfsIn:
 
         # Strip path to get file name
@@ -116,7 +196,31 @@ def main():
         runJhove(jhoveBin, pdfIn, outJhove)
         runVeraPDF(veraPDFBin, pdfIn, outVeraPDF)
 
+        # Get JHOVE validation status from output file
+        jhoveStatus = getJhoveResults(outJhove)
 
+        # Get Boolean flags that indicate parse errors or log warnings
+        # in VeraPDF output file
+        veraParseErrors, veraLogWarnings = getVeraPDFResults(outVeraPDF)
+
+        dataDict["fileName"].append(fileName)
+        dataDict["jhoveStatus"].append(jhoveStatus)
+        dataDict["veraParseErrors"].append(veraParseErrors)
+        dataDict["veraLogWarnings"].append(veraLogWarnings)
+
+    # Convert dictionary to dataframe
+    df = pd.DataFrame(dataDict)
+
+    # Create contingency tables
+    contTabParseErrors = pd.crosstab(index=df['jhoveStatus'], columns=df['veraParseErrors'], margins=True)
+    contTabWarnings = pd.crosstab(index=df['jhoveStatus'], columns=df['veraLogWarnings'], margins=True)
+
+    # Convert to Markdown
+    outStr = dfToMarkdown(contTabParseErrors, headers=['JHOVE status', 'No VeraPDF parse errors', 'VeraPDF parse errors', 'All'])
+    outStr += "\n\n"
+    outStr += dfToMarkdown(contTabWarnings, headers=['JHOVE status', 'No VeraPDF warnings', 'VeraPDF warnings', 'All'])
+
+    print(outStr)
 
 if __name__ == "__main__":
     main()
