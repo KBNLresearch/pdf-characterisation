@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T04_009_trailer-no-opening-brackets.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686058736796" finish="1686058736828">00:00:00.032</duration>
+        <duration start="1686156477629" finish="1686156477673">00:00:00.044</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: Trailer is empty or has invalid type</exceptionMessage>
       </taskResult>
-      <duration start="1686058736796" finish="1686058736828">00:00:00.032</duration>
+      <duration start="1686156477629" finish="1686156477673">00:00:00.044</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T04_009_trailer-no-opening-brackets.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686058736764" finish="1686058736847">00:00:00.083</duration>
+    <duration start="1686156477595" finish="1686156477693">00:00:00.098</duration>
   </batchSummary>
 </report>

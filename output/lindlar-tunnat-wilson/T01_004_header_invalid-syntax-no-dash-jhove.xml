@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.28.0" date="2023-05-18">
- <date>2023-06-06T15:38:50+02:00</date>
+ <date>2023-06-07T18:47:50+02:00</date>
  <repInfo uri="/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T01_004_header_invalid-syntax-no-dash.pdf">
   <reportingModule release="1.12.4" date="2023-03-16">PDF-hul</reportingModule>
   <lastModified>2018-12-05T17:26:53+01:00</lastModified>

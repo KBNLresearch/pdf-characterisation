@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T03_004_number-of-entries-too-many.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686058769578" finish="1686058769622">00:00:00.044</duration>
+        <duration start="1686156508220" finish="1686156508260">00:00:00.040</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: Pages not found</exceptionMessage>
       </taskResult>
-      <duration start="1686058769578" finish="1686058769622">00:00:00.044</duration>
+      <duration start="1686156508220" finish="1686156508260">00:00:00.040</duration>
       <logs logsCount="4">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T03_004_number-of-entries-too-many.pdf doesn't appear to be a valid PDF.</logMessage>
         <logMessage occurrences="3" level="WARNING">Incorrect end of line in cross-reference table.</logMessage>
@@ -25,6 +25,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686058769537" finish="1686058769647">00:00:00.110</duration>
+    <duration start="1686156508184" finish="1686156508292">00:00:00.108</duration>
   </batchSummary>
 </report>

@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-02_007_page-tree-wrong-count.pdf</name>
       </item>
       <taskResult type="EXTRACT_FEATURES" isExecuted="true" isSuccess="false">
-        <duration start="1686058770849" finish="1686058770920">00:00:00.071</duration>
+        <duration start="1686156509354" finish="1686156509418">00:00:00.064</duration>
         <exceptionMessage>Exception: Exception caught when extracting features of item caused by exception: Invalid page tree</exceptionMessage>
       </taskResult>
-      <duration start="1686058770849" finish="1686058770920">00:00:00.071</duration>
+      <duration start="1686156509354" finish="1686156509418">00:00:00.064</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">Exception caught when extracting features of item</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686058770764" finish="1686058770943">00:00:00.179</duration>
+    <duration start="1686156509298" finish="1686156509438">00:00:00.140</duration>
   </batchSummary>
 </report>

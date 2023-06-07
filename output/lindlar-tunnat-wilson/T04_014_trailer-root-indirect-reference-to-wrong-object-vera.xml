@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T04_014_trailer-root-indirect-reference-to-wrong-object.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686058760568" finish="1686058760605">00:00:00.037</duration>
+        <duration start="1686156499975" finish="1686156500028">00:00:00.053</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: Pages not found</exceptionMessage>
       </taskResult>
-      <duration start="1686058760568" finish="1686058760605">00:00:00.037</duration>
+      <duration start="1686156499975" finish="1686156500028">00:00:00.053</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T04_014_trailer-root-indirect-reference-to-wrong-object.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686058760535" finish="1686058760637">00:00:00.102</duration>
+    <duration start="1686156499940" finish="1686156500051">00:00:00.111</duration>
   </batchSummary>
 </report>
