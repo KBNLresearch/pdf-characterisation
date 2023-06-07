@@ -216,11 +216,23 @@ def main():
     contTabWarnings = pd.crosstab(index=df['jhoveStatus'], columns=df['veraLogWarnings'], margins=True)
 
     # Convert to Markdown
-    outStr = dfToMarkdown(contTabParseErrors, headers=['JHOVE status', 'No VeraPDF parse errors', 'VeraPDF parse errors', 'All'])
-    outStr += "\n\n"
-    outStr += dfToMarkdown(contTabWarnings, headers=['JHOVE status', 'No VeraPDF warnings', 'VeraPDF warnings', 'All'])
+    dataMD = dfToMarkdown(df)
+    contTabParseErrorsMd = dfToMarkdown(contTabParseErrors, headers=['JHOVE status', 'No VeraPDF parse errors', 'VeraPDF parse errors', 'All'])
+    contTabWarningsMd = dfToMarkdown(contTabWarnings, headers=['JHOVE status', 'No VeraPDF warnings', 'VeraPDF warnings', 'All'])
 
-    print(outStr)
+    # Write Markdown tables to files
+    fData = os.path.join(dirOut, "data.md")
+    fContTabParseErrors = os.path.join(dirOut, "cont-jhove-parserr.md")
+    fcontTabWarnings = os.path.join(dirOut, "cont-jhove-warn.md")
+
+    with open(fData, 'w') as f:
+        f.write(dataMD)
+
+    with open(fContTabParseErrors, 'w') as f:
+        f.write(contTabParseErrorsMd)
+
+    with open(fcontTabWarnings, 'w') as f:
+        f.write(contTabWarningsMd)
 
 if __name__ == "__main__":
     main()
