@@ -14,7 +14,21 @@ This script runs both JHOVE and VeraPDF on all files with a .pdf extension,
 and then extracts information that allows for a comparison between JHOVE
 validation status and VeraPDF parse errors and logged warnings. Results are
 summarised in Markdown formatted tables.
+
+Python requirements:
+
+- Pandas (https://pypi.org/project/pandas/)
+- Tabulate https://pypi.org/project/tabulate/)
+
+Other requirements:
+
+- JHOVE (tested with v. 1.28.0)
+- veraPDF (tested with v. 1.22.3)
 """
+
+# Locations of JHOVE and VeraPDF
+jhoveBin = os.path.abspath("/home/johan/jhove/jhove")
+veraPDFBin = os.path.abspath("/home/johan/verapdf/verapdf")
 
 # Create parser
 parser = argparse.ArgumentParser()
@@ -158,10 +172,6 @@ def dfToMarkdown(dataframe, headers='keys'):
 
 def main():
     """Main processing loop"""
-
-    # Locations of JHOVE and VeraPDF
-    jhoveBin = os.path.abspath("/home/johan/jhove/jhove")
-    veraPDFBin = os.path.abspath("/home/johan/verapdf/verapdf")
 
     # User input
     args = parseCommandLine()   
