@@ -259,5 +259,6 @@ def main():
     with open(fcontTabWarnings, 'w') as f:
         f.write(contTabWarningsMd)
 
+
 if __name__ == "__main__":
     main()
