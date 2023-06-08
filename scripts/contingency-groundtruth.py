@@ -57,7 +57,10 @@ def main():
     df = pd.read_csv(fileIn)
 
     # Replace JHOVE "Unknown" value with 'Not well-formed' (only 1 record)
-    df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown', 'Not well-formed'], 0)
+    df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown'], 'Not well-formed')
+    ## Test - does reducing no of categories the results?
+    #df['jhoveStatus'] = df['jhoveStatus'].replace(['Well-Formed, but not valid'], 'Not well-formed')
+    #df['jhoveStatus'] = df['jhoveStatus'].replace(['Well-Formed, but not valid'], 'Well-Formed and valid')
 
     # Simple contingency tables
     contTabJHOVE = pd.crosstab(index=df['jhoveStatus'], columns=df['rendersInAcrobat'], margins=True)
