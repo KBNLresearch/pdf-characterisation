@@ -56,6 +56,9 @@ def main():
     fileIn = "/home/johan/kb/pdf-risks/jhove-validation-errors/lindlar-tunnat-wilson-jhove-vera-rendering.csv"
     df = pd.read_csv(fileIn)
 
+    # Replace JHOVE "Unknown" value with 'Not well-formed' (only 1 record)
+    df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown', 'Not well-formed'], 0)
+
     # Simple contingency tables
     contTabJHOVE = pd.crosstab(index=df['jhoveStatus'], columns=df['rendersInAcrobat'], margins=True)
     contTabVeraParseErrors = pd.crosstab(index=df['veraParseErrors'], columns=df['rendersInAcrobat'], margins=True)
