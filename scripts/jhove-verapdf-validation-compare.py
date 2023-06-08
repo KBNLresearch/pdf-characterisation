@@ -228,6 +228,7 @@ def main():
         except FileNotFoundError:
              errorExit("VeraPDF output files not found, try running without --existingoutput option")
     
+        # Updata data dictionary
         dataDict["fileName"].append(fileName)
         dataDict["jhoveStatus"].append(jhoveStatus)
         dataDict["veraParseErrors"].append(veraParseErrors)
@@ -258,6 +259,10 @@ def main():
 
     with open(fcontTabWarnings, 'w') as f:
         f.write(contTabWarningsMd)
+
+     # Write all data to a CSV file
+    csvOut = os.path.join(dirOut, "data.csv")
+    df.to_csv(csvOut, encoding='utf-8', index=False)
 
 
 if __name__ == "__main__":
