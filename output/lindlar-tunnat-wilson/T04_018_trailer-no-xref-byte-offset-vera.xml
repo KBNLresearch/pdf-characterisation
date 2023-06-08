@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T04_018_trailer-no-xref-byte-offset.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686156514814" finish="1686156514847">00:00:00.033</duration>
+        <duration start="1686234593964" finish="1686234594009">00:00:00.045</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetXRefInfo(...)startxref validation failed</exceptionMessage>
       </taskResult>
-      <duration start="1686156514814" finish="1686156514847">00:00:00.033</duration>
+      <duration start="1686234593964" finish="1686234594009">00:00:00.045</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T04_018_trailer-no-xref-byte-offset.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686156514779" finish="1686156514892">00:00:00.113</duration>
+    <duration start="1686234593886" finish="1686234594036">00:00:00.150</duration>
   </batchSummary>
 </report>

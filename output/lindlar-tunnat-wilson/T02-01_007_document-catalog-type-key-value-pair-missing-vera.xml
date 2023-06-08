@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-01_007_document-catalog-type-key-value-pair-missing.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686156498884" finish="1686156498932">00:00:00.048</duration>
+        <duration start="1686234575977" finish="1686234576015">00:00:00.038</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetXRefSection(...)can not locate xref table</exceptionMessage>
       </taskResult>
-      <duration start="1686156498884" finish="1686156498932">00:00:00.048</duration>
+      <duration start="1686234575977" finish="1686234576015">00:00:00.038</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-01_007_document-catalog-type-key-value-pair-missing.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686156498850" finish="1686156498952">00:00:00.102</duration>
+    <duration start="1686234575916" finish="1686234576036">00:00:00.120</duration>
   </batchSummary>
 </report>

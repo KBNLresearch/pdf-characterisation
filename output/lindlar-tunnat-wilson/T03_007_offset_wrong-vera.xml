@@ -29,13 +29,13 @@
           </page>
         </pages>
       </featuresReport>
-      <duration start="1686156449837" finish="1686156449854">00:00:00.017</duration>
+      <duration start="1686234528090" finish="1686234528122">00:00:00.032</duration>
     </job>
   </jobs>
   <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="0">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686156449774" finish="1686156449878">00:00:00.104</duration>
+    <duration start="1686234528036" finish="1686234528144">00:00:00.108</duration>
   </batchSummary>
 </report>

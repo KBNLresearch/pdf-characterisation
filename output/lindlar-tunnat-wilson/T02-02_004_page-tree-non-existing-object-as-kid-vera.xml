@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-02_004_page-tree-non-existing-object-as-kid.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686156510456" finish="1686156510492">00:00:00.036</duration>
+        <duration start="1686234588873" finish="1686234588910">00:00:00.037</duration>
         <exceptionMessage>Exception: Caught unexpected exception during parsing caused by exception: PDPageTreeBranch::UpdateFromObject()unknown type of page tree node</exceptionMessage>
       </taskResult>
-      <duration start="1686156510456" finish="1686156510492">00:00:00.036</duration>
+      <duration start="1686234588873" finish="1686234588910">00:00:00.037</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-02_004_page-tree-non-existing-object-as-kid.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686156510421" finish="1686156510525">00:00:00.104</duration>
+    <duration start="1686234588842" finish="1686234588952">00:00:00.110</duration>
   </batchSummary>
 </report>

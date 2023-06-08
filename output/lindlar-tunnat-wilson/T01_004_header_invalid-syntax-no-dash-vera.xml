@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T01_004_header_invalid-syntax-no-dash.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686156470969" finish="1686156471011">00:00:00.042</duration>
+        <duration start="1686234548587" finish="1686234548619">00:00:00.032</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetXRefSection(...)can not locate xref table</exceptionMessage>
       </taskResult>
-      <duration start="1686156470969" finish="1686156471011">00:00:00.042</duration>
+      <duration start="1686234548587" finish="1686234548619">00:00:00.032</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T01_004_header_invalid-syntax-no-dash.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686156470934" finish="1686156471030">00:00:00.096</duration>
+    <duration start="1686234548555" finish="1686234548644">00:00:00.089</duration>
   </batchSummary>
 </report>

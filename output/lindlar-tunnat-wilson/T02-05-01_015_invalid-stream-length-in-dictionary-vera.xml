@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-05-01_015_invalid-stream-length-in-dictionary.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686156507136" finish="1686156507179">00:00:00.043</duration>
+        <duration start="1686234585281" finish="1686234585346">00:00:00.065</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetXRefSection(...)can not locate xref table</exceptionMessage>
       </taskResult>
-      <duration start="1686156507136" finish="1686156507179">00:00:00.043</duration>
+      <duration start="1686234585281" finish="1686234585346">00:00:00.065</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-05-01_015_invalid-stream-length-in-dictionary.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686156507101" finish="1686156507199">00:00:00.098</duration>
+    <duration start="1686234585232" finish="1686234585370">00:00:00.138</duration>
   </batchSummary>
 </report>
