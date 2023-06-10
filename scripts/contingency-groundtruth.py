@@ -79,11 +79,13 @@ def main():
         f.write(contTabVeraWarningsMd)
 
     # Calculate corrected Cramer's V as a measure of association between JHOVE/VeraPDF
-    # output and rendering results
+    # output and rendering results.
     # Note: since these are essentially ordinal data, more powerful measures such as
     # Kendall Tau and Somers' D, but these don't work if one of the variables is
-    # dichotomic. 
-  
+    # dichotomic.
+    # p-values are calculated from Chi squared test.
+    # See: https://towardsdatascience.com/contingency-tables-chi-squared-and-cramers-v-ada4f93ec3fd
+      
     cVJhove, pJhove = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
     cVVeraErrors, pVeraErrors = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
     cVVeraWarnings, pVeraWarnings = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
