@@ -20,7 +20,7 @@ def dfToMarkdown(dataframe, headers='keys'):
     return mdOut
 
 
-def cramersVThresh(var1, var2):
+def cramersVCorr(var1, var2):
     """
     Prints the degrees of freedom, effect size thresholds, and Cramer's V value.
     
@@ -68,7 +68,6 @@ def cramersVCorr(var1, var2):
     """
     confusion_matrix = pd.crosstab(var1, var2)
     chi2, p, dof, expected = stats.chi2_contingency(confusion_matrix)
-    #n = confusion_matrix.sum()
     n = confusion_matrix.sum().sum()
     phi2 = chi2/n
     r,k = confusion_matrix.shape
@@ -83,33 +82,50 @@ def main():
     repoRoot = os.path.dirname(scriptPath)
     print(repoRoot)
     fileIn = os.path.join(repoRoot, "misc/lindlar-tunnat-wilson/lindlar-tunnat-wilson-jhove-vera-rendering.csv")
+    #fileIn = os.path.join(repoRoot, "misc/lindlar-tunnat-wilson/jhove-vera-rendering-test.csv")
+
     df = pd.read_csv(fileIn)
 
     # Replace JHOVE "Unknown" value with 'Not well-formed' (only 1 record)
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown'], 'Not well-formed')
 
     # Simple contingency tables
-    contTabJHOVE = pd.crosstab(index=df['jhoveStatus'], columns=df['rendersInAcrobat'], margins=True)
-    contTabVeraParseErrors = pd.crosstab(index=df['veraParseErrors'], columns=df['rendersInAcrobat'], margins=True)
-    contTabVeraWarnings = pd.crosstab(index=df['veraLogWarnings'], columns=df['rendersInAcrobat'], margins=True)
+    #contTabJHOVE = pd.crosstab(index=df['jhoveStatus'], columns=df['rendersInAcrobat'], margins=True, normalize='index')
+    contTabJHOVE = pd.crosstab(index=df['rendersInAcrobat'], columns=df['jhoveStatus'], margins=True)
+    #contTabVeraParseErrors = pd.crosstab(index=df['veraParseErrors'], columns=df['rendersInAcrobat'], margins=True, normalize='index')
+    contTabVeraParseErrors = pd.crosstab(index=df['rendersInAcrobat'], columns=df['veraParseErrors'], margins=True)
+    #contTabVeraWarnings = pd.crosstab(index=df['veraLogWarnings'], columns=df['rendersInAcrobat'], margins=True, normalize='index')
+    contTabVeraWarnings = pd.crosstab(index=df['rendersInAcrobat'], columns=df['veraLogWarnings'], margins=True)
 
     # Change order of JHOVE/VeraPDF and rendering metrics so we go from "worst" to "best"
     jhove_index = ['Not well-formed', 'Well-Formed, but not valid', 'Well-Formed and valid', 'All']
     vera_index = [True, False, 'All']
     render_index = ['No', 'YesWithIssues', 'Yes', 'All']
 
-    contTabJHOVE = contTabJHOVE.reindex(jhove_index)
-    contTabJHOVE = contTabJHOVE.reindex(columns=render_index)
+    #contTabJHOVE = contTabJHOVE.reindex(jhove_index)
+    #contTabJHOVE = contTabJHOVE.reindex(columns=render_index)
 
-    contTabVeraParseErrors = contTabVeraParseErrors.reindex(vera_index)
-    contTabVeraParseErrors = contTabVeraParseErrors.reindex(columns=render_index)
+    contTabJHOVE = contTabJHOVE.reindex(render_index)
+    contTabJHOVE = contTabJHOVE.reindex(columns=jhove_index)
 
-    contTabVeraWarnings = contTabVeraWarnings.reindex(vera_index)
-    contTabVeraWarnings = contTabVeraWarnings.reindex(columns=render_index)
+    #contTabVeraParseErrors = contTabVeraParseErrors.reindex(vera_index)
+    #contTabVeraParseErrors = contTabVeraParseErrors.reindex(columns=render_index)
 
-    contTabJHOVEMd = dfToMarkdown(contTabJHOVE, headers=['JHOVE status', 'Does not render', 'Renders with issues', 'Renders OK', 'All'])
-    contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors, headers=['Results in VeraPDF parse errors', 'Does not render', 'Renders with issues', 'Renders OK', 'All'])
-    contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings, headers=['Results in VeraPDF warnings', 'Does not render', 'Renders with issues', 'Renders OK', 'All'])
+    contTabVeraParseErrors = contTabVeraParseErrors.reindex(render_index)
+    contTabVeraParseErrors = contTabVeraParseErrors.reindex(columns=vera_index)
+
+    #contTabVeraWarnings = contTabVeraWarnings.reindex(vera_index)
+    #contTabVeraWarnings = contTabVeraWarnings.reindex(columns=render_index)
+
+    contTabVeraWarnings = contTabVeraWarnings.reindex(render_index)
+    contTabVeraWarnings = contTabVeraWarnings.reindex(columns=vera_index)
+
+    #contTabJHOVEMd = dfToMarkdown(contTabJHOVE, headers=['JHOVE status', 'Does not render', 'Renders with issues', 'Renders normally', 'All'])
+    contTabJHOVEMd = dfToMarkdown(contTabJHOVE)
+    #contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors, headers=['Results in VeraPDF parse errors', 'Does not render', 'Renders with issues', 'Renders normally', 'All'])
+    contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors)
+    #contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings, headers=['Results in VeraPDF warnings', 'Does not render', 'Renders with issues', 'Renders normally', 'All'])
+    contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings)
     
     with open("jhove-rendering.md", 'w') as f:
         f.write(contTabJHOVEMd)
@@ -184,7 +200,7 @@ def main():
     ## Additional tests to see if reducing no. of JHOVE categories influences the results
 
     # Save original dataframe state
-    dfTemp = df.copy()
+    #dfTemp = df.copy()
 
     print()
     print("As original, but lumping JHOVE's 'Well-Formed, but not valid' and 'Not well-formed' values")
