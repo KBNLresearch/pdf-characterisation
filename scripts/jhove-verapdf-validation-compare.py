@@ -241,10 +241,20 @@ def main():
     contTabParseErrors = pd.crosstab(index=df['jhoveStatus'], columns=df['veraParseErrors'], margins=True)
     contTabWarnings = pd.crosstab(index=df['jhoveStatus'], columns=df['veraLogWarnings'], margins=True)
 
+    # Change order of JHOVE/VeraPDF output values so we go from "worst" to "best"
+    jhove_index = ['Not well-formed', 'Well-Formed, but not valid', 'Well-Formed and valid', 'All']
+    vera_index = [True, False, 'All']
+
+    contTabParseErrors = contTabParseErrors.reindex(jhove_index)
+    contTabParseErrors = contTabParseErrors.reindex(columns=vera_index)
+
+    contTabWarnings = contTabWarnings.reindex(jhove_index)
+    contTabWarnings = contTabWarnings.reindex(columns=vera_index)
+
     # Convert to Markdown
     dataMD = dfToMarkdown(df)
-    contTabParseErrorsMd = dfToMarkdown(contTabParseErrors, headers=['JHOVE status', 'No VeraPDF parse errors', 'VeraPDF parse errors', 'All'])
-    contTabWarningsMd = dfToMarkdown(contTabWarnings, headers=['JHOVE status', 'No VeraPDF warnings', 'VeraPDF warnings', 'All'])
+    contTabParseErrorsMd = dfToMarkdown(contTabParseErrors, headers=['JHOVE status', 'VeraPDF parse errors', 'No VeraPDF parse errors', 'All'])
+    contTabWarningsMd = dfToMarkdown(contTabWarnings, headers=['JHOVE status', 'VeraPDF warnings', 'No VeraPDF warnings', 'All'])
 
     # Write Markdown tables to files
     fData = os.path.join(dirOut, "data.md")

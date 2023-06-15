@@ -1,7 +1,6 @@
-| JHOVE status               |   No VeraPDF parse errors |   VeraPDF parse errors |   All |
-|:---------------------------|--------------------------:|-----------------------:|------:|
-| Not well-formed            |                         7 |                     61 |    68 |
-| Unknown                    |                         0 |                      1 |     1 |
-| Well-Formed and valid      |                         9 |                      4 |    13 |
-| Well-Formed, but not valid |                         4 |                      2 |     6 |
-| All                        |                        20 |                     68 |    88 |
+| JHOVE status               |   VeraPDF parse errors |   No VeraPDF parse errors |   All |
+|:---------------------------|-----------------------:|--------------------------:|------:|
+| Not well-formed            |                     61 |                         7 |    68 |
+| Well-Formed, but not valid |                      2 |                         4 |     6 |
+| Well-Formed and valid      |                      4 |                         9 |    13 |
+| All                        |                     68 |                        20 |    88 |

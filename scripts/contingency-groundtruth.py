@@ -88,7 +88,6 @@ def main():
     # Replace JHOVE "Unknown" value with 'Not well-formed' (only 1 record)
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown'], 'Not well-formed')
 
-
     # Simple contingency tables
     contTabJHOVE = pd.crosstab(index=df['jhoveStatus'], columns=df['rendersInAcrobat'], margins=True)
     contTabVeraParseErrors = pd.crosstab(index=df['veraParseErrors'], columns=df['rendersInAcrobat'], margins=True)
@@ -96,7 +95,7 @@ def main():
 
     # Change order of JHOVE/VeraPDF and rendering metrics so we go from "worst" to "best"
     jhove_index = ['Not well-formed', 'Well-Formed, but not valid', 'Well-Formed and valid', 'All']
-    vera_index = [False, True, 'All']
+    vera_index = [True, False, 'All']
     render_index = ['No', 'YesWithIssues', 'Yes', 'All']
 
     contTabJHOVE = contTabJHOVE.reindex(jhove_index)
