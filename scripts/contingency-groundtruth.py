@@ -1,5 +1,7 @@
 #! /usr/bin/env python3
 
+import os
+import sys
 import argparse
 import pandas as pd
 import math
@@ -77,7 +79,10 @@ def cramersVCorr(var1, var2):
     return V, p
 
 def main():
-    fileIn = "/home/johan/kb/pdf-risks/jhove-validation-errors/lindlar-tunnat-wilson-jhove-vera-rendering.csv"
+    scriptPath = os.path.split(os.path.realpath(__file__))[0]
+    repoRoot = os.path.dirname(scriptPath)
+    print(repoRoot)
+    fileIn = os.path.join(repoRoot, "misc/lindlar-tunnat-wilson/lindlar-tunnat-wilson-jhove-vera-rendering.csv")
     df = pd.read_csv(fileIn)
 
     # Replace JHOVE "Unknown" value with 'Not well-formed' (only 1 record)
