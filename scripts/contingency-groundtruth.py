@@ -88,15 +88,30 @@ def main():
     # Replace JHOVE "Unknown" value with 'Not well-formed' (only 1 record)
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown'], 'Not well-formed')
 
+
     # Simple contingency tables
     contTabJHOVE = pd.crosstab(index=df['jhoveStatus'], columns=df['rendersInAcrobat'], margins=True)
     contTabVeraParseErrors = pd.crosstab(index=df['veraParseErrors'], columns=df['rendersInAcrobat'], margins=True)
     contTabVeraWarnings = pd.crosstab(index=df['veraLogWarnings'], columns=df['rendersInAcrobat'], margins=True)
 
-    contTabJHOVEMd = dfToMarkdown(contTabJHOVE, headers=['JHOVE status', "Doesn't render", 'Renders', 'Renders with issues', 'All'])
-    contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors, headers=['Results in VeraPDF parse errors', "Doesn't render", 'Renders', 'Renders with issues', 'All'])
-    contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings, headers=['Results in VeraPDF warnings', "Doesn't render", 'Renders', 'Renders with issues', 'All'])
+    # Change order of JHOVE/VeraPDF and rendering metrics so we go from "worst" to "best"
+    jhove_index = ['Not well-formed', 'Well-Formed, but not valid', 'Well-Formed and valid', 'All']
+    vera_index = [False, True, 'All']
+    render_index = ['No', 'YesWithIssues', 'Yes', 'All']
 
+    contTabJHOVE = contTabJHOVE.reindex(jhove_index)
+    contTabJHOVE = contTabJHOVE.reindex(columns=render_index)
+
+    contTabVeraParseErrors = contTabVeraParseErrors.reindex(vera_index)
+    contTabVeraParseErrors = contTabVeraParseErrors.reindex(columns=render_index)
+
+    contTabVeraWarnings = contTabVeraWarnings.reindex(vera_index)
+    contTabVeraWarnings = contTabVeraWarnings.reindex(columns=render_index)
+
+    contTabJHOVEMd = dfToMarkdown(contTabJHOVE, headers=['JHOVE status', 'Does not render', 'Renders with issues', 'Renders OK', 'All'])
+    contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors, headers=['Results in VeraPDF parse errors', 'Does not render', 'Renders with issues', 'Renders OK', 'All'])
+    contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings, headers=['Results in VeraPDF warnings', 'Does not render', 'Renders with issues', 'Renders OK', 'All'])
+    
     with open("jhove-rendering.md", 'w') as f:
         f.write(contTabJHOVEMd)
     with open("vera-parserr-rendering.md", 'w') as f:
