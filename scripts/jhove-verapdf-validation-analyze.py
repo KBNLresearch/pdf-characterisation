@@ -43,7 +43,7 @@ def cramersVCorr(var1, var2):
     rcorr = r - ((r-1)**2)/(n-1)
     kcorr = k - ((k-1)**2)/(n-1)
     V = np.sqrt(phi2corr / min( (kcorr-1), (rcorr-1)))
-    return V, p
+    return V, p, dof
 
 
 def main():
@@ -109,138 +109,162 @@ def main():
     with open("vera-warn-rendering.md", 'w') as f:
         f.write(contTabVeraWarningsMd)
 
-    # Calculate corrected Cramer's V as a measure of association between JHOVE validation
-    # status and VeraPDF parsec errors and warnings/.
+    # Express associations between JHOVE / VeraPDF metrics and with rendering outcomes using 
+    # corrected Cramer's V statistic.
     # Note: since these are essentially ordinal data, more powerful measures such as
     # Kendall Tau and Somers' D, but these don't work if one of the variables is
     # dichotomic.
     # p-values are calculated from Chi squared test.
     # See: https://towardsdatascience.com/contingency-tables-chi-squared-and-cramers-v-ada4f93ec3fd
- 
-    cVJhoveVeraErr, pJhoveVeraErr = cramersVCorr(df['jhoveStatus'], df['veraParseErrors'])
-    cVJhoveVeraWarn, pJhoveVeraWarn = cramersVCorr(df['jhoveStatus'], df['veraLogWarnings'])
-  
-    print()
-    print("Cramer's V - JHOVE validation status vs VeraPDF parse errors and warnings")
-    print("-------------------------------------------")
-    print("Cramer's V (JHOVE - Vera Errors): " + str(cVJhoveVeraErr) + " (p=" + str(("{:.5f}".format(round(pJhoveVeraErr, 5)))) + ")")
-    print("Cramer's V (JHOVE - Vera Warnings): " + str(cVJhoveVeraWarn) + " (p=" + str(("{:.5f}".format(round(pJhoveVeraWarn, 5)))) + ")")
+
+    # Create dataframe for Cramer's V reporting
+    dfV = pd.DataFrame({'desc': [], 'V': [], 'p': [], 'dof': []})
+
+    ## ***********************************************************************
+    ## JHOVE vs VeraPDF metrics
+    ## ***********************************************************************
+
+    desc = "JHOVE status vs VeraPDF parse errors"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['veraParseErrors'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
+
+    desc = "JHOVE status vs VeraPDF warnings"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['veraLogWarnings'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
     # Save original dataframe state
     dfTemp = df.copy()
 
-    print()
-    print("As original, but lumping JHOVE's 'Well-Formed, but not valid' and 'Not well-formed' values")
-    print("-------------------------------------------")
+    ## ***********************************************************************
+    ## Test effect of lumping JHOVE status classes
+    ## ***********************************************************************
+
+    # Lump JHOVE's 'Well-Formed, but not valid' and 'Not well-formed' classes"
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Well-Formed, but not valid'], 'Not well-formed')
 
-    cVJhoveVeraErr, pJhoveVeraErr = cramersVCorr(df['jhoveStatus'], df['veraParseErrors'])
-    cVJhoveVeraWarn, pJhoveVeraWarn = cramersVCorr(df['jhoveStatus'], df['veraLogWarnings'])
+    desc = "JHOVE status vs VeraPDF parse errors (lumping JHOVE's 'Well-Formed, but not valid' and 'Not well-formed' classes)"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['veraParseErrors'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
-    print("Cramer's V (JHOVE - Vera Errors): " + str(cVJhoveVeraErr) + " (p=" + str(("{:.5f}".format(round(pJhoveVeraErr, 5)))) + ")")
-    print("Cramer's V (JHOVE - Vera Warnings): " + str(cVJhoveVeraWarn) + " (p=" + str(("{:.5f}".format(round(pJhoveVeraWarn, 5)))) + ")")
+    desc = "JHOVE status vs VeraPDF warnings (lumping JHOVE's 'Well-Formed, but not valid' and 'Not well-formed' classes)"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['veraLogWarnings'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
     # Revert dataframe to original state
     df = dfTemp.copy()
 
-    print()
-    print("As original, but lumping JHOVE's 'Well-Formed, but not valid' and 'Well-Formed and valid'")
-    print("-------------------------------------------")
+    # Lump JHOVE's 'Well-Formed, but not valid' and 'Well-Formed and valid'
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Well-Formed, but not valid'], 'Well-Formed and valid')
 
-    cVJhoveVeraErr, pJhoveVeraErr = cramersVCorr(df['jhoveStatus'], df['veraParseErrors'])
-    cVJhoveVeraWarn, pJhoveVeraWarn = cramersVCorr(df['jhoveStatus'], df['veraLogWarnings'])
+    desc = "JHOVE status vs VeraPDF parse errors (lumping JHOVE's 'Well-Formed, but not valid' and 'Well-Formed and valid' classes)"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['veraParseErrors'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
-    print("Cramer's V (JHOVE - Vera Errors): " + str(cVJhoveVeraErr) + " (p=" + str(("{:.5f}".format(round(pJhoveVeraErr, 5)))) + ")")
-    print("Cramer's V (JHOVE - Vera Warnings): " + str(cVJhoveVeraWarn) + " (p=" + str(("{:.5f}".format(round(pJhoveVeraWarn, 5)))) + ")")
+    desc = "JHOVE status vs VeraPDF warnings (lumping JHOVE's 'Well-Formed, but not valid' and 'Well-Formed and valid' classes)"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['veraLogWarnings'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
     # Revert dataframe to original state
     df = dfTemp.copy()
 
-    # Calculate corrected Cramer's V as a measure of association between JHOVE/VeraPDF
-    # output and rendering results.
+    ## ***********************************************************************
+    ## JHOVE/VeraPDF metrics vs rendering results
+    ## ***********************************************************************
 
-    cVJhove, pJhove = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
-    cVVeraErrors, pVeraErrors = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
-    cVVeraWarnings, pVeraWarnings = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
+    desc = 'JHOVE status vs rendering'
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
-    print()
-    print("Cramer's V - JHOVE validation status and VeraPDF parse errors and warnings vs rendering")
-    print("-------------------------------------------")
+    desc = 'VeraPDF parse errors vs rendering'
+    V, p, dof = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
-    print("Cramer's V (JHOVE): " + str(cVJhove) + " (p=" + str(("{:.5f}".format(round(pJhove, 5)))) + ")")
-    print("Cramer's V (Vera Errors): " + str(cVVeraErrors) + " (p=" + str(("{:.5f}".format(round(pVeraErrors, 5)))) + ")")
-    print("Cramer's V (Vera Warnings): " + str(cVVeraWarnings) + " (p=" + str(("{:.5f}".format(round(pVeraWarnings, 5)))) + ")")
+    desc = 'VeraPDF parse warnings vs rendering'
+    V, p, dof = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
-    ## Additional tests to see if reducing no. of JHOVE categories influences the results
+    ## ***********************************************************************
+    ## Test effect of lumping JHOVE status classes
+    ## ***********************************************************************
 
-    # Save original dataframe state
-    #dfTemp = df.copy()
-
-    print()
-    print("As original, but lumping JHOVE's 'Well-Formed, but not valid' and 'Not well-formed' values")
-    print("-------------------------------------------")
+    # Lump JHOVE's 'Well-Formed, but not valid' and 'Not well-formed' classes
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Well-Formed, but not valid'], 'Not well-formed')
 
-    cVJhove, pJhove = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
-    cVVeraErrors, pVeraErrors = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
-    cVVeraWarnings, pVeraWarnings = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
-
-    print("Cramer's V (JHOVE): " + str(cVJhove) + " (p=" + str(("{:.5f}".format(round(pJhove, 5)))) + ")")
-    print("Cramer's V (Vera Errors): " + str(cVVeraErrors) + " (p=" + str(("{:.5f}".format(round(pVeraErrors, 5)))) + ")")
-    print("Cramer's V (Vera Warnings): " + str(cVVeraWarnings) + " (p=" + str(("{:.5f}".format(round(pVeraWarnings, 5)))) + ")")
+    desc = "JHOVE status vs rendering (lumping JHOVE's 'Well-Formed, but not valid' and 'Not well-formed' classes)"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
     # Revert dataframe to original state
     df = dfTemp.copy()
 
-    print()
-    print("As original, but lumping JHOVE's 'Well-Formed, but not valid' and 'Well-Formed and valid'")
-    print("-------------------------------------------")
+    # Lump JHOVE's 'Well-Formed, but not valid' and 'Well-Formed and valid' classes
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Well-Formed, but not valid'], 'Well-Formed and valid')
 
-    cVJhove, pJhove = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
-    cVVeraErrors, pVeraErrors = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
-    cVVeraWarnings, pVeraWarnings = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
-
-    print("Cramer's V (JHOVE): " + str(cVJhove) + " (p=" + str(("{:.5f}".format(round(pJhove, 5)))) + ")")
-    print("Cramer's V (Vera Errors): " + str(cVVeraErrors) + " (p=" + str(("{:.5f}".format(round(pVeraErrors, 5)))) + ")")
-    print("Cramer's V (Vera Warnings): " + str(cVVeraWarnings) + " (p=" + str(("{:.5f}".format(round(pVeraWarnings, 5)))) + ")")
+    desc = "JHOVE status vs rendering (lumping JHOVE's 'Well-Formed, but not valid' and 'Well-Formed and valid' classes)"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
     # Revert dataframe to original state
     df = dfTemp.copy()
 
-    ## Additional tests to see if reducing no. of rendering categories influences the results
+    ## ***********************************************************************
+    ## Test effect of lumping rendering classes
+    ## ***********************************************************************
 
-    print()
-    print("As original, but lumping 'Yes' and 'YesWithIssues' rendering values")
-    print("-------------------------------------------")
-
+    # Lump 'Yes' and 'YesWithIssues' rendering classes
     df['rendersInAcrobat'] = df['rendersInAcrobat'].replace(['YesWithIssues'], 'Yes')
 
-    cVJhove, pJhove = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
-    cVVeraErrors, pVeraErrors = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
-    cVVeraWarnings, pVeraWarnings = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
+    desc = "JHOVE status vs rendering (lumping 'Yes' and 'YesWithIssues' rendering classes)"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
-    print("Cramer's V (JHOVE): " + str(cVJhove) + " (p=" + str(("{:.5f}".format(round(pJhove, 5)))) + ")")
-    print("Cramer's V (Vera Errors): " + str(cVVeraErrors) + " (p=" + str(("{:.5f}".format(round(pVeraErrors, 5)))) + ")")
-    print("Cramer's V (Vera Warnings): " + str(cVVeraWarnings) + " (p=" + str(("{:.5f}".format(round(pVeraWarnings, 5)))) + ")")
+    desc = "VeraPDF parse errors vs rendering (lumping 'Yes' and 'YesWithIssues' rendering classes)"
+    V, p, dof = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
+
+    desc = "VeraPDF parse warnings vs rendering (lumping 'Yes' and 'YesWithIssues' rendering classes)"
+    V, p, dof = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
     # Revert dataframe to original state
     df = dfTemp.copy()
 
-    print()
-    print("As original, but lumping 'No' and 'YesWithIssues' rendering values")
-    print("-------------------------------------------")
-
+    # Lump 'No' and 'YesWithIssues' rendering classes
     df['rendersInAcrobat'] = df['rendersInAcrobat'].replace(['YesWithIssues'], 'No')
 
-    cVJhove, pJhove = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
-    cVVeraErrors, pVeraErrors = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
-    cVVeraWarnings, pVeraWarnings = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
+    desc = "JHOVE status vs rendering (lumping 'No' and 'YesWithIssues' rendering classes)"
+    V, p, dof = cramersVCorr(df['jhoveStatus'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
 
-    print("Cramer's V (JHOVE): " + str(cVJhove) + " (p=" + str(("{:.5f}".format(round(pJhove, 5)))) + ")")
-    print("Cramer's V (Vera Errors): " + str(cVVeraErrors) + " (p=" + str(("{:.5f}".format(round(pVeraErrors, 5)))) + ")")
-    print("Cramer's V (Vera Warnings): " + str(cVVeraWarnings) + " (p=" + str(("{:.5f}".format(round(pVeraWarnings, 5)))) + ")")
+    desc = "VeraPDF parse errors vs rendering (lumping 'No' and 'YesWithIssues' rendering classes)"
+    V, p, dof = cramersVCorr(df['veraParseErrors'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
+
+    desc = "VeraPDF parse warnings vs rendering (lumping 'No' and 'YesWithIssues' rendering classes)"
+    V, p, dof = cramersVCorr(df['veraLogWarnings'], df['rendersInAcrobat'])
+    row = pd.Series([desc, V, p, dof], index=['desc', 'V', 'p', 'dof'])
+    dfV = dfV.append(row, ignore_index=True)
+
+    dfVmd = dfToMarkdown(dfV)
+    with open("statistics.md", 'w') as f:
+        f.write(dfVmd)
+
 
 if __name__ == "__main__":
     main()
