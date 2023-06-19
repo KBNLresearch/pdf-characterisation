@@ -3,6 +3,12 @@
 """
 Script creates contingency tables for comparison between JHOVE/VeraPDF output
 and observed groundtruth for Lindlar-Tunnat-Wilson data set.
+
+Python requirements:
+
+- Pandas (https://pypi.org/project/pandas/)
+- Tabulate https://pypi.org/project/tabulate/)
+
 """
 
 import os
@@ -55,7 +61,12 @@ def main():
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown'], 'Not well-formed')
 
     # Simple contingency tables
-    
+
+    # JHOVE vs VeraPDF metrics
+    contTabJHOVEVeraErrors = pd.crosstab(index=df['jhoveStatus'], columns=df['veraParseErrors'], margins=True)
+    contTabJHOVEVeraWarnings = pd.crosstab(index=df['jhoveStatus'], columns=df['veraLogWarnings'], margins=True)
+
+    # JHOVE/ VeraPDF metrics vs rendering
     contTabJHOVE = pd.crosstab(index=df['rendersInAcrobat'], columns=df['jhoveStatus'], margins=True)
     contTabVeraParseErrors = pd.crosstab(index=df['rendersInAcrobat'], columns=df['veraParseErrors'], margins=True)
     contTabVeraWarnings = pd.crosstab(index=df['rendersInAcrobat'], columns=df['veraLogWarnings'], margins=True)
@@ -64,6 +75,12 @@ def main():
     jhove_index = ['Not well-formed', 'Well-Formed, but not valid', 'Well-Formed and valid', 'All']
     vera_index = [True, False, 'All']
     render_index = ['No', 'YesWithIssues', 'Yes', 'All']
+
+    contTabJHOVEVeraErrors = contTabJHOVEVeraErrors.reindex(jhove_index)
+    contTabJHOVEVeraErrors = contTabJHOVEVeraErrors.reindex(columns=vera_index)
+
+    contTabJHOVEVeraWarnings = contTabJHOVEVeraWarnings.reindex(jhove_index)
+    contTabJHOVEVeraWarnings = contTabJHOVEVeraWarnings.reindex(columns=vera_index)
 
     contTabJHOVE = contTabJHOVE.reindex(render_index)
     contTabJHOVE = contTabJHOVE.reindex(columns=jhove_index)
@@ -74,10 +91,17 @@ def main():
     contTabVeraWarnings = contTabVeraWarnings.reindex(render_index)
     contTabVeraWarnings = contTabVeraWarnings.reindex(columns=vera_index)
 
+    contTabJHOVEVeraErrorsMd = dfToMarkdown(contTabJHOVEVeraErrors)
+    contTabJHOVEVeraWarningsMd = dfToMarkdown(contTabJHOVEVeraWarnings)
+    contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings)
     contTabJHOVEMd = dfToMarkdown(contTabJHOVE)
     contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors)
     contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings)
-    
+
+    with open("jhove-vera-parserr.md", 'w') as f:
+        f.write(contTabJHOVEVeraErrorsMd)
+    with open("jhove-vera-warn.md", 'w') as f:
+        f.write(contTabJHOVEVeraWarningsMd)
     with open("jhove-rendering.md", 'w') as f:
         f.write(contTabJHOVEMd)
     with open("vera-parserr-rendering.md", 'w') as f:

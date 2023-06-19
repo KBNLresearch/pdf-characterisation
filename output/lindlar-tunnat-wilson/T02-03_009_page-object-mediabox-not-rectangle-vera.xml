@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-03_009_page-object-mediabox-not-rectangle.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686234538896" finish="1686234538929">00:00:00.033</duration>
+        <duration start="1687186904915" finish="1687186904946">00:00:00.031</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetXRefSection(...)can not locate xref table</exceptionMessage>
       </taskResult>
-      <duration start="1686234538896" finish="1686234538929">00:00:00.033</duration>
+      <duration start="1687186904915" finish="1687186904946">00:00:00.031</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-03_009_page-object-mediabox-not-rectangle.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686234538863" finish="1686234538961">00:00:00.098</duration>
+    <duration start="1687186904883" finish="1687186904973">00:00:00.090</duration>
   </batchSummary>
 </report>

@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T01_003_header-no-minor-version.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686234525913" finish="1686234525948">00:00:00.035</duration>
+        <duration start="1687186891750" finish="1687186891790">00:00:00.040</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: Pages not found</exceptionMessage>
       </taskResult>
-      <duration start="1686234525913" finish="1686234525948">00:00:00.035</duration>
+      <duration start="1687186891750" finish="1687186891790">00:00:00.040</duration>
       <logs logsCount="2">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T01_003_header-no-minor-version.pdf doesn't appear to be a valid PDF.</logMessage>
         <logMessage occurrences="1" level="WARNING">No version found, set to 1.4 as default.</logMessage>
@@ -25,6 +25,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686234525883" finish="1686234525981">00:00:00.098</duration>
+    <duration start="1687186891713" finish="1687186891812">00:00:00.099</duration>
   </batchSummary>
 </report>

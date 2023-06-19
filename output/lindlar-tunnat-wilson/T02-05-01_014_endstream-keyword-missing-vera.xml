@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-05-01_014_endstream-keyword-missing.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686234596261" finish="1686234596294">00:00:00.033</duration>
+        <duration start="1687186959744" finish="1687186959785">00:00:00.041</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetXRefSection(...)can not locate xref table</exceptionMessage>
       </taskResult>
-      <duration start="1686234596261" finish="1686234596294">00:00:00.033</duration>
+      <duration start="1687186959744" finish="1687186959785">00:00:00.041</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T02-05-01_014_endstream-keyword-missing.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686234596229" finish="1686234596325">00:00:00.096</duration>
+    <duration start="1687186959713" finish="1687186959807">00:00:00.094</duration>
   </batchSummary>
 </report>

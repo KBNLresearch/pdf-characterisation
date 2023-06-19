@@ -13,12 +13,12 @@ from tabulate import tabulate
 This script runs both JHOVE and VeraPDF on all files with a .pdf extension,
 and then extracts information that allows for a comparison between JHOVE
 validation status and VeraPDF parse errors and logged warnings. Results are
-summarised in Markdown formatted tables.
+summarised in CSV file that can be further analyzed with script
+jhove-verapdf-validation-analyze.py.
 
 Python requirements:
 
 - Pandas (https://pypi.org/project/pandas/)
-- Tabulate https://pypi.org/project/tabulate/)
 
 Other requirements:
 
@@ -164,12 +164,6 @@ def getVeraPDFResults(fileIn):
     return parseErrors, logWarnings
 
 
-def dfToMarkdown(dataframe, headers='keys'):
-    """Convert Pandas Data Frame to Markdown table with optionally custom headers"""
-    mdOut = dataframe.pipe(tabulate, headers=headers, tablefmt='pipe')
-    return mdOut
-
-
 def main():
     """Main processing loop"""
 
@@ -236,39 +230,6 @@ def main():
 
     # Convert dictionary to dataframe
     df = pd.DataFrame(dataDict)
-
-    # Create contingency tables
-    contTabParseErrors = pd.crosstab(index=df['jhoveStatus'], columns=df['veraParseErrors'], margins=True)
-    contTabWarnings = pd.crosstab(index=df['jhoveStatus'], columns=df['veraLogWarnings'], margins=True)
-
-    # Change order of JHOVE/VeraPDF output values so we go from "worst" to "best"
-    jhove_index = ['Not well-formed', 'Well-Formed, but not valid', 'Well-Formed and valid', 'All']
-    vera_index = [True, False, 'All']
-
-    contTabParseErrors = contTabParseErrors.reindex(jhove_index)
-    contTabParseErrors = contTabParseErrors.reindex(columns=vera_index)
-
-    contTabWarnings = contTabWarnings.reindex(jhove_index)
-    contTabWarnings = contTabWarnings.reindex(columns=vera_index)
-
-    # Convert to Markdown
-    dataMD = dfToMarkdown(df)
-    contTabParseErrorsMd = dfToMarkdown(contTabParseErrors, headers=['JHOVE status', 'VeraPDF parse errors', 'No VeraPDF parse errors', 'All'])
-    contTabWarningsMd = dfToMarkdown(contTabWarnings, headers=['JHOVE status', 'VeraPDF warnings', 'No VeraPDF warnings', 'All'])
-
-    # Write Markdown tables to files
-    fData = os.path.join(dirOut, "data.md")
-    fContTabParseErrors = os.path.join(dirOut, "cont-jhove-parserr.md")
-    fcontTabWarnings = os.path.join(dirOut, "cont-jhove-warn.md")
-
-    with open(fData, 'w') as f:
-        f.write(dataMD)
-
-    with open(fContTabParseErrors, 'w') as f:
-        f.write(contTabParseErrorsMd)
-
-    with open(fcontTabWarnings, 'w') as f:
-        f.write(contTabWarningsMd)
 
      # Write all data to a CSV file
     csvOut = os.path.join(dirOut, "data.csv")

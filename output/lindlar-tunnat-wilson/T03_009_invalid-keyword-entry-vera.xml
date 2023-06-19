@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T03_009_invalid-keyword-entry.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686234518407" finish="1686234518445">00:00:00.038</duration>
+        <duration start="1687186883081" finish="1687186883121">00:00:00.040</duration>
         <exceptionMessage>Exception: Caught unexpected exception during parsing caused by exception: PDPageTreeBranch::UpdateFromObject()unknown type of page tree node</exceptionMessage>
       </taskResult>
-      <duration start="1686234518407" finish="1686234518445">00:00:00.038</duration>
+      <duration start="1687186883081" finish="1687186883121">00:00:00.040</duration>
       <logs logsCount="2">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T03_009_invalid-keyword-entry.pdf doesn't appear to be a valid PDF.</logMessage>
         <logMessage occurrences="1" level="WARNING">Incorrect end of line in cross-reference table.</logMessage>
@@ -25,6 +25,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686234518375" finish="1686234518477">00:00:00.102</duration>
+    <duration start="1687186883048" finish="1687186883142">00:00:00.094</duration>
   </batchSummary>
 </report>

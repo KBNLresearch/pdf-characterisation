@@ -11,10 +11,10 @@
         <name>/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T04_013_trailer-root-invalid-indirect-reference.pdf</name>
       </item>
       <taskResult type="PARSE" isExecuted="true" isSuccess="false">
-        <duration start="1686234603302" finish="1686234603334">00:00:00.032</duration>
+        <duration start="1687186966323" finish="1687186966357">00:00:00.034</duration>
         <exceptionMessage>Exception: Couldn't parse stream caused by exception: PDFParser::GetDictionary()invalid pdf dictonary</exceptionMessage>
       </taskResult>
-      <duration start="1686234603302" finish="1686234603334">00:00:00.032</duration>
+      <duration start="1687186966323" finish="1687186966357">00:00:00.034</duration>
       <logs logsCount="1">
         <logMessage occurrences="1" level="WARNING">/home/johan/kb/pdf-risks/jhove-validation-errors/test-corpus-lindlar/data/dataset/Test_Corpus/T04_013_trailer-root-invalid-indirect-reference.pdf doesn't appear to be a valid PDF.</logMessage>
       </logs>
@@ -24,6 +24,6 @@
     <validationReports compliant="0" nonCompliant="0" failedJobs="0">0</validationReports>
     <featureReports failedJobs="1">1</featureReports>
     <repairReports failedJobs="0">0</repairReports>
-    <duration start="1686234603270" finish="1686234603364">00:00:00.094</duration>
+    <duration start="1687186966287" finish="1687186966385">00:00:00.098</duration>
   </batchSummary>
 </report>
