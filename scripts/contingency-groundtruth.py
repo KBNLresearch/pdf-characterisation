@@ -1,5 +1,10 @@
 #! /usr/bin/env python3
 
+"""
+Script creates contingency tables for comparison between JHOVE/VeraPDF output
+and observed groundtruth for Lindlar-Tunnat-Wilson data set.
+"""
+
 import os
 import sys
 import argparse
@@ -9,55 +14,12 @@ import numpy as np
 from scipy import stats
 from tabulate import tabulate
 
-"""
-Script creates contingency tables for comparison between JHOVE/VeraPDF output
-and observed groundtruth for Lindlar-Tunnat-Wilson data set.
-"""
 
 def dfToMarkdown(dataframe, headers='keys'):
     """Convert Data Frame to Markdown table with optionally custom headers"""
     mdOut = dataframe.pipe(tabulate, headers=headers, tablefmt='pipe')
     return mdOut
 
-
-def cramersVCorr(var1, var2):
-    """
-    Prints the degrees of freedom, effect size thresholds, and Cramer's V value.
-    
-    Adapted from:
-
-    https://towardsdatascience.com/contingency-tables-chi-squared-and-cramers-v-ada4f93ec3fd
-
-    """
-
-    cross_tabs = pd.crosstab(var1, var2)
-
-    # effect size data frame for cramer's v function
-    data = np.array([[1, .1, .3, .5],
-       [2, .07, .21, .35],
-       [3, .06, .17, .29],
-       [4, .05,.15,.25],
-       [5, .04, .13, .22]])
-    
-    sizes = pd.DataFrame(data, columns=['Degrees of Freedom', 'Small Effect', 'Medium Effect', 'Large Effect']) 
-    
-    # getting the chi sq. stat
-    chi2 = stats.chi2_contingency(cross_tabs)[0]
-    
-    # calculating the total number of observations
-    n = cross_tabs.sum().sum()
-    # getting the degrees of freedom
-    dof = min(cross_tabs.shape)-1
-    # calculating cramer's v
-    v = np.sqrt(chi2/(n*dof))
-    
-    """
-    # printing results
-    print(f'V = {v}')
-    print(f'Cramer\'s V Degrees of Freedom = {dof}')
-    print(f'\nEffect Size Thresholds\n{sizes}\n')
-    """
-    return v, dof
 
 def cramersVCorr(var1, var2):
 
@@ -77,7 +39,10 @@ def cramersVCorr(var1, var2):
     V = np.sqrt(phi2corr / min( (kcorr-1), (rcorr-1)))
     return V, p
 
+
 def main():
+    """ Main function"""
+
     scriptPath = os.path.split(os.path.realpath(__file__))[0]
     repoRoot = os.path.dirname(scriptPath)
     print(repoRoot)
@@ -90,11 +55,9 @@ def main():
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown'], 'Not well-formed')
 
     # Simple contingency tables
-    #contTabJHOVE = pd.crosstab(index=df['jhoveStatus'], columns=df['rendersInAcrobat'], margins=True, normalize='index')
+    
     contTabJHOVE = pd.crosstab(index=df['rendersInAcrobat'], columns=df['jhoveStatus'], margins=True)
-    #contTabVeraParseErrors = pd.crosstab(index=df['veraParseErrors'], columns=df['rendersInAcrobat'], margins=True, normalize='index')
     contTabVeraParseErrors = pd.crosstab(index=df['rendersInAcrobat'], columns=df['veraParseErrors'], margins=True)
-    #contTabVeraWarnings = pd.crosstab(index=df['veraLogWarnings'], columns=df['rendersInAcrobat'], margins=True, normalize='index')
     contTabVeraWarnings = pd.crosstab(index=df['rendersInAcrobat'], columns=df['veraLogWarnings'], margins=True)
 
     # Change order of JHOVE/VeraPDF and rendering metrics so we go from "worst" to "best"
@@ -102,29 +65,17 @@ def main():
     vera_index = [True, False, 'All']
     render_index = ['No', 'YesWithIssues', 'Yes', 'All']
 
-    #contTabJHOVE = contTabJHOVE.reindex(jhove_index)
-    #contTabJHOVE = contTabJHOVE.reindex(columns=render_index)
-
     contTabJHOVE = contTabJHOVE.reindex(render_index)
     contTabJHOVE = contTabJHOVE.reindex(columns=jhove_index)
-
-    #contTabVeraParseErrors = contTabVeraParseErrors.reindex(vera_index)
-    #contTabVeraParseErrors = contTabVeraParseErrors.reindex(columns=render_index)
 
     contTabVeraParseErrors = contTabVeraParseErrors.reindex(render_index)
     contTabVeraParseErrors = contTabVeraParseErrors.reindex(columns=vera_index)
 
-    #contTabVeraWarnings = contTabVeraWarnings.reindex(vera_index)
-    #contTabVeraWarnings = contTabVeraWarnings.reindex(columns=render_index)
-
     contTabVeraWarnings = contTabVeraWarnings.reindex(render_index)
     contTabVeraWarnings = contTabVeraWarnings.reindex(columns=vera_index)
 
-    #contTabJHOVEMd = dfToMarkdown(contTabJHOVE, headers=['JHOVE status', 'Does not render', 'Renders with issues', 'Renders normally', 'All'])
     contTabJHOVEMd = dfToMarkdown(contTabJHOVE)
-    #contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors, headers=['Results in VeraPDF parse errors', 'Does not render', 'Renders with issues', 'Renders normally', 'All'])
     contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors)
-    #contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings, headers=['Results in VeraPDF warnings', 'Does not render', 'Renders with issues', 'Renders normally', 'All'])
     contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings)
     
     with open("jhove-rendering.md", 'w') as f:
