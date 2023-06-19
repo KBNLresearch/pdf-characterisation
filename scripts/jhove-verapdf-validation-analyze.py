@@ -60,7 +60,9 @@ def main():
     # Replace JHOVE "Unknown" value with 'Not well-formed' (only 1 record)
     df['jhoveStatus'] = df['jhoveStatus'].replace(['Unknown'], 'Not well-formed')
 
-    # Simple contingency tables
+    ## ***********************************************************************
+    ## Simple contingency tables
+    ## ***********************************************************************
 
     # JHOVE vs VeraPDF metrics
     contTabJHOVEVeraErrors = pd.crosstab(index=df['jhoveStatus'], columns=df['veraParseErrors'], margins=True)
@@ -98,15 +100,15 @@ def main():
     contTabVeraParseErrorsMd = dfToMarkdown(contTabVeraParseErrors)
     contTabVeraWarningsMd = dfToMarkdown(contTabVeraWarnings)
 
-    with open("jhove-vera-parserr.md", 'w') as f:
+    with open("jhove-vera-parserr.md", 'w', encoding='utf-8') as f:
         f.write(contTabJHOVEVeraErrorsMd)
-    with open("jhove-vera-warn.md", 'w') as f:
+    with open("jhove-vera-warn.md", 'w', encoding='utf-8') as f:
         f.write(contTabJHOVEVeraWarningsMd)
-    with open("jhove-rendering.md", 'w') as f:
+    with open("jhove-rendering.md", 'w', encoding='utf-8') as f:
         f.write(contTabJHOVEMd)
-    with open("vera-parserr-rendering.md", 'w') as f:
+    with open("vera-parserr-rendering.md", 'w', encoding='utf-8') as f:
         f.write(contTabVeraParseErrorsMd)
-    with open("vera-warn-rendering.md", 'w') as f:
+    with open("vera-warn-rendering.md", 'w', encoding='utf-8') as f:
         f.write(contTabVeraWarningsMd)
 
     # Express associations between JHOVE / VeraPDF metrics and with rendering outcomes using 
@@ -262,7 +264,7 @@ def main():
     dfV = dfV.append(row, ignore_index=True)
 
     dfVmd = dfToMarkdown(dfV)
-    with open("statistics.md", 'w') as f:
+    with open("statistics.md", 'w', encoding='utf-8') as f:
         f.write(dfVmd)
 
 
